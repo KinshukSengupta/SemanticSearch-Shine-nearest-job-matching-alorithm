@@ -232,7 +232,7 @@ def allocatedriver():
             for i in xrange(len(CustomerNumberList)):
                 try:
                     Text = 'Dear Customer, Your BookingID %s is notconfirmed as no drivers are available at present.Sorry for the inconvenience'%(BookingID[i])
-                    SMSAPI='http://kservices.knowlarity.com/ksms/send?'
+                    SMSAPI='http://abc.com/ksms/send?'
                     params = {'mobile_number':CustomerNumberList[i],'message':Text,'sender_id':'*****sender_id******','sms_type':'x'}
                     resp = urllib.urlopen(SMSAPI+urllib.urlencode(params))
                     data = resp.read() 
@@ -255,7 +255,7 @@ def allocatedriver():
             #...Send SMS to Driver
             try:
                 Text = 'Dear Driver, Your BookingID %s is confirmed and below are the customer details and address , Customer Mobile:%s ,PickUp Address: %s ,DropAddress:%s ,PickupTime: %s '%(BookingID[i],CustomerNumberList[i],PickUpAddress[i],DropLocation[i],PickupDateTime[i])
-                SMSAPI='http://kservices.knowlarity.com/ksms/send?'
+                SMSAPI='http://abc.com/ksms/send?'
                 params = {'mobile_number':GetConfirmedDriverNumber,'message':Text,'sender_id':'*****sender_id******','sms_type':'x'}
                 resp = urllib.urlopen(SMSAPI+urllib.urlencode(params))
                 data = resp.read() 
@@ -268,7 +268,7 @@ def allocatedriver():
                 #...Send SMS to Customer
                 try:
                     Text = 'Dear Customer, Your BookingID %s is Confirmed and below are the driver details, Driver Name : %s,Driver Mobile : %s ,CAB Number : %s ,PickupTime: %s '%(BookingID[i],GetDriverName,GetConfirmedDriverNumber,GetCabNumber,PickupDateTime[i])
-                    SMSAPI='http://kservices.knowlarity.com/ksms/send?'
+                    SMSAPI='http://abc.com/ksms/send?'
                     params = {'mobile_number':CustomerNumberList[i],'message':Text,'sender_id':'*****sender_id******','sms_type':'x'}
                     resp = urllib.urlopen(SMSAPI+urllib.urlencode(params))
                     data = resp.read() 
