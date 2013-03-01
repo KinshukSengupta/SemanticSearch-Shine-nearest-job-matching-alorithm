@@ -1,0 +1,295 @@
+#! /usr/bin/python
+import MySQLdb
+import sys
+import os
+import urllib,urllib2
+from datetime import *
+from xml.etree import ElementTree as ET
+from xml.dom.minidom import parseString
+QuickCallAPI = "http://www.abc.in/api/voice/quickCall/?"
+CreateOrderApi = "http://www.pqr.in/api/voice/createOrder/?"
+AddCallsToOrderApi = "http://www.hij.in/api/voice/addCallsToOrder/?"
+def dispatch():
+    '''
+        Cron Script for handling cab service business which includes calling to requested drivers for a particular booking
+        ID from the database and fetchall the drivers available in the requested area code/location code and then getting the 
+        list of location url and name and fire calls.
+
+        Second Script is decision ma
+    '''
+    ulist = []
+    ulist2 = []
+    #............DB Connection Creation...............................
+    
+    try:
+        db = MySQLdb.connect(host = '******your host***********' , user ='**user****',passwd ='****password******', db = '***dbname***')    
+        cur = db.cursor()
+    except Exception, e:
+        error ='error in db connection'
+        raise e
+    #............Get BookingID Count and ID's using BookingStatus = pending......................
+    
+    try:
+        query = "select concat(group_concat(BookingID SEPARATOR ',')) as BookID,concat(group_concat(Pickup_LocationID SEPARATOR ',')) as PickID,concat(group_concat(Drop_LocationID SEPARATOR ',')) as DropID,concat(group_concat(Pickup_DateTime SEPARATOR ',')) as Pickup_DateTime from cabserviceivrs_booking where Trigger_DateTime < now() and BookingStatus='pending'"
+        cur.execute(query)
+        GetAllBookingID = cur.fetchall()
+        for rows in GetAllBookingID:
+            BookingIDpending =  rows[0]
+            PID =  rows[1]
+            DropID = rows[2]
+            PickupDateTime = rows[3]
+        
+        Pickuplocationindex = PID.split(",")
+        print Pickuplocationindex
+        BookingID = BookingIDpending.split(",")
+        print BookingID
+        DropLocationindex = DropID.split(",")
+        print DropLocationindex
+        PickupTime = PickupDateTime.split(",")
+    
+        print 'BookingPendingIDs:'+ BookingIDpending
+        print 'Pickuplocationindex :' + PID
+        print 'Droplocationindex'+ DropID
+        print 'PickupTime'+ PickupDateTime
+    except Exception, e:
+        raise e
+        print 'Exception at a'
+        
+    if PID == None:
+            print 'No Booking ID Found'
+            allocatedriver()
+
+    #.............Get pickup Location url...............................................................
+    
+    for i in xrange(len(Pickuplocationindex)):
+        try:
+            query = "select concat(group_concat(Location_Sound SEPARATOR ',')) as Location_Sound from cabserviceivrs_location where id=" + Pickuplocationindex[i]
+            cur.execute(query)
+            GetPickupLocationSound = cur.fetchall()
+            for rows in GetPickupLocationSound:
+                Pickuplocationurl =  rows[0]
+            PickuplocationURL = Pickuplocationurl.split(",")
+            print Pickuplocationurl
+
+            query = "select concat(group_concat(Location_Sound SEPARATOR ',')) as Location_Sound from cabserviceivrs_location where id=" + DropLocationindex[i]
+            cur.execute(query)
+            GetDropLocationSound = cur.fetchall()
+            for rows in GetDropLocationSound:
+                Droplocationurl =  rows[0]
+            DroplocationURL = Droplocationurl.split(",")
+            print Droplocationurl
+        except Exception, e:
+            raise e
+            print 'Exception at b'
+
+    #.............Get all the location code corresponding to Locationindex......................................
+        try:
+            query = "select concat(group_concat(Location_Code SEPARATOR ',')) as Location_Code from cabserviceivrs_location where id="+Pickuplocationindex[i]
+            cur.execute(query)
+            GetLocationCode = cur.fetchall()
+            for rows in GetLocationCode:
+                LocationCode_Numbers =  rows[0]
+            Location_Code = LocationCode_Numbers.split(",")
+            print Location_Code
+        except Exception, e:
+            raise e
+            print 'Exception at c'
+
+    #...........Get Order ID by calling CreateOrderApi............
+
+    OrderIDParams = {'username':'cabserviceivrs','password':'123456','ivr_id':'800060220','format':'xml','num_tries':'1','retry_time':'5'}
+    resp = urllib2.urlopen(CreateOrderApi+urllib.urlencode(OrderIDParams), timeout=30)
+    data = resp.read()
+    dom = parseString(data)
+    xmlTag = dom.getElementsByTagName('order_id')[0].toxml()
+    OrderID = xmlTag.replace('<order_id>','').replace('</order_id>','')
+    print 'Call Order ID:'+ OrderID
+
+    #...........Update Booking table..............................
+    
+    for i in xrange(len(BookingID)):
+        query = "update cabserviceivrs_booking SET BookingStatus='inprogress' where BookingID="+BookingID[i]
+        cur.execute(query)
+
+    #...........Fetch all the driver's number......................
+    for i in xrange(len(Pickuplocationindex)):
+        try:
+            query = "select concat(group_concat(DriverID SEPARATOR ',')) as DriverID  from cabserviceivrs_driver where Current_Status='Available' and Current_Location="+Location_Code[i]
+            cur.execute(query)
+            GetDrivers = cur.fetchall()
+            for rows in GetDrivers:
+                DriverNumbers =  rows[0]
+            print 'DriverCode:' + DriverNumbers
+            DriverNumber = DriverNumbers.split(",")
+        except Exception,e:
+            print e
+            print 'Exception at d'
+
+    #.............Fire Calls using Addcalls to Order API............
+    for i in xrange(len(BookingID)):
+        for j in xrange(len(DriverNumber)):
+            try:
+                BookingHour = PickupTime[i].split(" ")[1].split(":")[0]
+                print BookingHour
+                BookingMinute = PickupTime[i].split(" ")[1].split(":")[1]
+                print BookingMinute
+                numbers = "%s,%s,%s,%s,%s,%s" %(DriverNumber[j],PickuplocationURL[i],DroplocationURL[i],BookingHour[i],BookingMinute[i],BookingID[i])
+                params = {'username':'cabserviceivrs','password':'123456','ivr_id':'800058116','order_id':OrderID,'format':'xml','phone_book':numbers}
+                resp = urllib2.urlopen(AddCallsToOrderApi+urllib.urlencode(params), timeout=30)
+                calleriddata = resp.read()
+                print numbers
+            except Exception as e:
+                print e
+                print 'Exception at e'
+                 
+        
+    cur.close()
+    db.commit()
+    db.close() 
+
+def allocatedriver():
+
+    progresslist = []
+    customerlist = []
+    driverlist = []
+    PickupLocationAddresslist = []
+    DropLocationAddressList  = []
+
+    #.............Creating DB Connection................................
+    try:
+        db = MySQLdb.connect(host = '******your host***********' , user ='**user****',passwd ='****password******', db = '***dbname***')    
+        cur = db.cursor()
+    except Exception, e:
+        error ='error in db connection'
+        raise e
+    RequestTime = datetime.now() - timedelta(minutes=5)
+    RequestTime = str(RequestTime)
+    print RequestTime
+
+    #.............Get BookingID Count....................................
+
+    try:
+        query = "select count(BookingID) as count from cabserviceivrs_booking where Trigger_DateTime <"+"'"+ RequestTime +"'"+" and BookingStatus='inprogress'"
+        cur.execute(query)
+        GetProgressResult = cur.fetchall()
+        for rows in GetProgressResult:
+            ProgressBooking_RowCount = rows[0]
+
+        query = "select concat(group_concat(BookingID SEPARATOR ',')) as BookID,concat(group_concat(CustomerNumber SEPARATOR ',')) as CustomerNumber,concat(group_concat(PickupAddress SEPARATOR ',')) as PickupLocationDescription,concat(group_concat(Drop_Location_Description SEPARATOR ',')) as DropLocationDescription,concat(group_concat(Pickup_DateTime SEPARATOR ',')) as PickupDateTime  from cabserviceivrs_booking where Trigger_DateTime <"+"'"+ RequestTime +"'"+" and BookingStatus='inprogress'"
+        cur.execute(query)
+        GetallinprogressBookingID = cur.fetchall()
+        for rows in GetallinprogressBookingID:
+            BookingIDinprogress =  rows[0]
+            CustomerNumbers = rows[1]
+            PickupLocationAddress = rows[2]
+            DropLocationAddress = rows[3]
+            PickupDateTime = rows[4]
+
+        BookingID = BookingIDinprogress.split(",")
+        CustomerNumberList = CustomerNumbers.split(",")
+        PickUpAddress = PickupLocationAddress.split(",")
+        DropLocation  = DropLocationAddress.split(",")
+        PickupDateTime = PickupDateTime.split(",")
+    except Exception, e:
+        print e    
+        print 'Exception 1'
+
+    
+    #..........Get list of drivers confirmed a particular BookingID and send sms to customer and driver accordingly..............
+
+    for i in xrange(len(BookingID)):
+        try:
+            query = "select concat(group_concat(DriverID SEPARATOR ',')) as DriverID from cabserviceivrs_driver_booking_request where Status='Available' and BookingID=" + BookingID[i]
+            cur.execute(query)
+            GetDriversNumber = cur.fetchall()
+            for rows in GetDriversNumber:
+                DriverNumbers =  rows[0]
+            GetDriverList = DriverNumbers.split(",")
+            print 'DriverNumbers='+ DriverNumbers
+            
+            #......Deside using cabserviceivrs_driver table for longest waiting driver using DriverNumber fetched from booking_request table....
+            query = "select DriverID,Name,Cab_Number from cabserviceivrs_driver where DriverID in ("+DriverNumbers+")" +" order by Location_UpdateTime ASC Limit 1" 
+            cur.execute(query)
+            print query
+            ConfirmedDriver = cur.fetchall()
+            for rows in ConfirmedDriver:
+                GetConfirmedDriverNumber = rows[0]
+                GetDriverName = rows[1]
+                GetCabNumber = rows[2]
+            driverlist.append(GetConfirmedDriverNumber)
+            driverlistcount = len(GetDriverList)   
+        except Exception, e:
+            print e
+            print 'Exception 2'
+            GetConfirmedDriverNumber = 'None'
+        
+        #..............Update booking table to failed and sms to customer......................
+
+        if GetConfirmedDriverNumber == 'None':
+            query = "update cabserviceivrs_booking SET BookingStatus='fail' where BookingID=" + BookingID[i]
+            cur.execute(query)
+            print 'No Driver Found'
+            for i in xrange(len(CustomerNumberList)):
+                try:
+                    Text = 'Dear Customer, Your BookingID %s is notconfirmed as no drivers are available at present.Sorry for the inconvenience'%(BookingID[i])
+                    SMSAPI='http://kservices.knowlarity.com/ksms/send?'
+                    params = {'mobile_number':CustomerNumberList[i],'message':Text,'sender_id':'*****sender_id******','sms_type':'x'}
+                    resp = urllib.urlopen(SMSAPI+urllib.urlencode(params))
+                    data = resp.read() 
+                    print params
+                except Exception as e:
+                    print e
+                    print 'Exception 4'
+                
+        else:
+            try:
+                updatequery = "update cabserviceivrs_booking SET BookingStatus='confirm',DriverID="+"'"+ GetConfirmedDriverNumber +"'"+ " where BookingID="+ BookingID[i]
+                print updatequery
+                cur.execute(updatequery)
+                print 'Driver Found Updated BookingID to Sucess'
+            except Exception, e:
+                print e
+                print 'Exception 5'
+              
+        #..........Loop to Send SMS to every Driver and Customer for a particular booking..........
+            #...Send SMS to Driver
+            try:
+                Text = 'Dear Driver, Your BookingID %s is confirmed and below are the customer details and address , Customer Mobile:%s ,PickUp Address: %s ,DropAddress:%s ,PickupTime: %s '%(BookingID[i],CustomerNumberList[i],PickUpAddress[i],DropLocation[i],PickupDateTime[i])
+                SMSAPI='http://kservices.knowlarity.com/ksms/send?'
+                params = {'mobile_number':GetConfirmedDriverNumber,'message':Text,'sender_id':'*****sender_id******','sms_type':'x'}
+                resp = urllib.urlopen(SMSAPI+urllib.urlencode(params))
+                data = resp.read() 
+                print params
+            except Exception as e:
+                print e
+                print 'Exception 6'
+
+            for k in xrange(len(CustomerNumberList)):
+                #...Send SMS to Customer
+                try:
+                    Text = 'Dear Customer, Your BookingID %s is Confirmed and below are the driver details, Driver Name : %s,Driver Mobile : %s ,CAB Number : %s ,PickupTime: %s '%(BookingID[i],GetDriverName,GetConfirmedDriverNumber,GetCabNumber,PickupDateTime[i])
+                    SMSAPI='http://kservices.knowlarity.com/ksms/send?'
+                    params = {'mobile_number':CustomerNumberList[i],'message':Text,'sender_id':'*****sender_id******','sms_type':'x'}
+                    resp = urllib.urlopen(SMSAPI+urllib.urlencode(params))
+                    data = resp.read() 
+                    print params
+                except Exception as e:
+                    print e
+                    print 'Exception 7'
+     
+      
+    
+    cur.close()
+    db.commit()
+    db.close()
+
+
+if __name__ == '__main__':
+    
+    try:
+        dispatch()
+        allocatedriver()
+    except Exception, e:
+        allocatedriver()
+
+    
