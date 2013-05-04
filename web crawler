@@ -1,0 +1,84 @@
+'''
+Author : Kinshuk Sengupta
+Type: web Crawler for crawling a complete website navigating each url and parsing Store Item Name and Price in Database
+
+'''
+import MySQLdb
+import urllib, json
+from math import ceil
+import urllib
+import StringIO
+from datetime import datetime
+import re
+
+#################################################################################
+# Fuction to execute mysql/sql queries for better db performance #
+
+def execute(dbquery):
+    try:
+        db = dbconnection()
+        cur = db.cursor()
+        cur.execute(dbquery)
+    except Exception,e:
+        raise e
+    finally:
+        cur.close()
+        db.commit()
+        db.close()
+    return 'Successfully Inserted Data'
+
+#################################################################################
+#  Generic Function to create database connectivity with mysql remote server #
+
+def dbconnection():
+    try:
+        return MySQLdb.connect(host = 'xxx' , user = 'yyy',passwd = 'zzz', db = 'vvv')
+    except Exception, e:
+        return 'Error Unable to connect to MySQL Server'
+
+#################################################################################
+# Main Function Call #
+
+def main_method():
+    '''
+        Final main method is called for result processing.
+    '''
+    url= 'https://metlifestore.com/'
+    data = urllib.urlopen(url)
+    dataresp = data.read()
+    ulist  = []
+    ItemNameulist  = []
+    ItemPriceulist = []
+    urls = re.findall(r'href=[\'"]?([^\'" >]+)', dataresp)
+    a= ', '.join(urls)
+    a= a.split(",")
+    print 'Please wait crawler is crawling site(https://metlifestore.com/) and will show crawled web items accordingly...'
+    for i in xrange(int(len(a))):
+        if a[i].find("index.php") >=1:
+            urldata = urllib.urlopen(a[i])
+            urldataresp = urldata.read()
+            ItemCount = urldataresp.count('<div class="categoryItemTitle">')
+            if ItemCount > 0:
+                for j in range(1,ItemCount+1):
+                    DataArray = urldataresp.split('<div class="categoryItemTitle">')[j].replace('\n','').replace('\t','')
+                    ItemsName = DataArray.split('">')[1].split('</a>')[0]
+
+                    ItemsPrice = DataArray.split('">')[2].split(' each')[0]
+                    ItemNameulist.append(ItemsName)
+                    ItemPriceulist.append(ItemsPrice)
+
+                #..............Making DB Enteries.............
+                try:
+                    for k in xrange(int(len(ItemNameulist))):
+                        dbquery = "insert into crawler_test(link,ItemName,ItemPrice) values('%s','%s','%s')"%(url,ItemNameulist[k].replace("'",""),ItemPriceulist[k])
+                        print 'Crawled...%s for url %s'%(ItemNameulist[k],a[i])
+                        execute(dbquery)
+                    print 'Found %s items for this link'%(ItemCount)
+                except Exception, e:
+                    raise e
+                print '.............................Url Crawling Complete.........................................\n'
+              
+        else:
+            continue
+if __name__ == "__main__":
+    main_method()
