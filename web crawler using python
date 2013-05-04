@@ -43,7 +43,7 @@ def main_method():
     '''
         Final main method is called for result processing.
     '''
-    url= 'https://metlifestore.com/'
+    url= 'https://abcstore.com/'
     data = urllib.urlopen(url)
     dataresp = data.read()
     ulist  = []
@@ -52,7 +52,7 @@ def main_method():
     urls = re.findall(r'href=[\'"]?([^\'" >]+)', dataresp)
     a= ', '.join(urls)
     a= a.split(",")
-    print 'Please wait crawler is crawling site(https://metlifestore.com/) and will show crawled web items accordingly...'
+    print 'Please wait crawler is crawling site(https://abcstore.com/) and will show crawled web items accordingly...'
     for i in xrange(int(len(a))):
         if a[i].find("index.php") >=1:
             urldata = urllib.urlopen(a[i])
