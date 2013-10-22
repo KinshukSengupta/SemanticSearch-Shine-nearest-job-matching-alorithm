@@ -1,0 +1,161 @@
+import re
+import mechanize
+import StringIO
+from datetime import datetime
+import sys,os
+import httplib,urllib,urllib2
+from bs4 import BeautifulSoup
+import json
+import csv
+import os,sys
+import smtplib, os
+from email.mime.multipart import MIMEMultipart
+from email.mime.base import MIMEBase
+from email.mime.text import MIMEText
+from email.utils import COMMASPACE, formatdate
+from email import encoders
+
+def send_mail():
+
+    msg = MIMEMultipart()
+    msg['From'] = 'hivexxx@gmx.com'
+    msg['To'] = 'abc@gmail.com'
+    msg['Date'] = formatdate(localtime = True)
+    msg['Subject'] = 'AUtomated Email of CSV Data cralwed,Hi Pranoy i am not in office look at this file'
+
+    msg.attach( MIMEText("/home/kinshuk/comp.csv") )
+    part = MIMEBase('application', "octet-stream")
+    f = "/home/kinshuk/comp.csv"
+    part.set_payload(open(f,"rb").read() )
+    encoders.encode_base64(part)
+    part.add_header('Content-Disposition', 'attachment; filename="{0}"'.format(os.path.basename(f)))
+    msg.attach(part)
+
+    smtp = smtplib.SMTP('mail.gmx.com')
+    smtp.login('hivexxxx@gmx.com', 'xxxx')
+    smtp.sendmail('hive1@gmx.com','abc@gmail.com', msg.as_string())
+    smtp.quit()
+
+
+def main():
+    br = mechanize.Browser()
+    br.set_handle_robots(False)
+    br.set_handle_refresh(False)
+    br.addheaders = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
+    link = 'https://app.compete.com/login/'
+    response  = br.open(link)
+    response1 = br.response()
+    br.form = list(br.forms())[0]
+    br.form["l_email"] = 'ksg.kinshuk@shop2host.com'
+    br.form["l_password"] = '123456'
+    response = br.submit()
+    tags = ['unq_vis','page_views','visits','crank','avg_stay','visit_per','page_visits','attn','d_reach','d_attn']
+    link_list = ["navyfederal.org","generationamerica.org","familycircle.com","lhj.com","parents.com","diabetes.org","nra.org","amway.com","nysut.org","ducks.org","afge.org","elks.org","pta.org","mooseintl.org","xcelenergy.com","uspa.org","heart.org","sacu.org","frankcrum.com","ncsfa.com","amtrak.com","remax.com","usatriathlon.org","amta.org.au","newyorkjets.com","metlife.co.uk","coastal24.com","denverwoodmen.org","ama-assn.org","awb.com.au","nhsca.com","oregoncommunitycu.org","alumni.buffalo.edu","americanboating.org","ncoa.org","metlife.com","amberwatchfoundation.org","harborcu.com","njfcu.org","iflyamerica.org","worldtravelers.org","usba.com","supremecouncil.org","scfederal.org","affinity.com","metlife.com","usphs.gov","scottishrite.org","betterinvesting.org","ccri.edu","raytheon.com","nvhotels.com","frea.org","wccaa.org","naacp.org","ppfa.com","nationalgrange.org","ucu.org","familycircle.com","clcillinois.edu","rpen.org","maa.org","pittcc.edu","wisconsinnurses.org","wildlifefoundationofflorida.com","promisekeepers.org","ubsi.com","usps.org","acutx.org","arrl.org","slcc.edu","osia.org","racefansonlytv.com","craunf.org","wmc-retrorefund.com","sharethenetwork.com","macu.com","sheetmetallocal38.org","mercyhurst.edu","aspirefcu.org","tbacu.org","aas.org","afs.org.in","amvets.org","oleosegorduras.org.br","ena.org","massbay.edu","buckscounty.org"]
+    try:
+	   
+	    	    
+	    for links in link_list:
+		itemlist = [links]
+	    	attlist = ['url']	
+		siteurl = 'https://app.compete.com/website/'+links
+		response2 = br.open(siteurl)
+		data = response2.read()
+		f = open("/home/kinshuk/a.txt", 'a')
+		f.write(data)
+		
+		if data.find("No data found") <1:
+			
+			print siteurl
+			try:
+				data_1 = data.split("//Accordion Initialization")
+				data_1_1 = data_1[1].split("var traffic_tab")[0]
+				data_normalised = data_1_1.replace("var traffic = new siteprofile.MetricCollection([","").replace("}, {",",").replace("loyalty = new siteprofile.MetricCollection([","").replace("daily = new siteprofile.MetricCollection([","").replace("])","").replace(" ","").replace("};","}").replace("},","}")
+				data_normalised_sp = data_normalised.split("\n")
+			except:
+				print 'No Information for : '
+				print siteurl
+			valid_norm_index = [1,2,3]
+			ind = 0
+			try:
+				for items in valid_norm_index:
+				    txt =  data_normalised_sp[items].replace("{","").replace("}","")
+				    tag_ind = ind/12
+				    txt_sp_c = txt.split('":')
+				    attlist.append(tags[tag_ind] + "_"+txt_sp_c[0])
+				    for i in xrange(1,len(txt_sp_c)-1):
+				    	ind += 1
+				    	tag_ind = ind/12
+				    	att = txt_sp_c[i].split(',"')[1]
+				    	att = tags[tag_ind] + "_" + att
+				    	val = txt_sp_c[i].split(',"')[0]
+				    	attlist.append(att)
+				    	itemlist.append(val)
+				    itemlist.append(txt_sp_c[i+1])
+			
+	
+				data_2 = data.split("data for search referrals table")[1]
+				data_2_0 = data_2.split("data for incoming traffic table")[0]
+				data_2_0_sp = data_2_0.split("model: metric_model,")
+				age_sp = data_2_0_sp[1].split("[")[1].split("]")[0]
+				age_sp_2 = age_sp.split("},")
+			except:
+				print 'No Information for : '
+			try:
+				for i in xrange(len(age_sp_2)):
+					txt = age_sp_2[i]
+					txt_sp = txt.split('":')
+					age_cat = "Age_"+txt_sp[1].split(",")[0]
+					for j in xrange(1,len(txt_sp)-1):
+						att = age_cat + "_" +txt_sp[j].split(",")[1]
+						attlist.append(att)
+						val = txt_sp[j+1].split(",")[0]
+						itemlist.append(val)
+			
+				income_sp = data_2_0_sp[2].split("[")[1].split("]")[0]
+				income_sp_2 = income_sp.split("},")
+			except:
+				print 'No Information for : '
+			try:
+
+				for i in xrange(len(income_sp_2)):
+					txt = income_sp_2[i]
+					txt_sp = txt.split('":')
+					income_cat = "Age_"+txt_sp[len(txt_sp)-1]
+					att = income_cat + "_" + txt_sp[0]##first attribute
+					attlist.append(att)
+					for j in xrange(1,len(txt_sp)-2):
+						att = income_cat + "_" +txt_sp[j].split(",")[1]
+						attlist.append(att)
+						val = txt_sp[j].split(",")[0]
+						itemlist.append(val)
+					itemlist.append(txt_sp[j+1].split(",")[0])
+			
+				gender_sp = data_2_0_sp[3].split("[")[1].split("]")[0]
+				gender_sp_2 = gender_sp.split("},")
+			except:
+				print 'No Information for : '
+			try:
+				for i in xrange(len(gender_sp_2)):
+					txt = gender_sp_2[i]
+					txt_sp = txt.split('":')
+					gender_cat = "Gender_"+txt_sp[1].split(",")[0]
+					for j in xrange(1,len(txt_sp)-1):
+						att = gender_cat + "_" +txt_sp[j].split(",")[1]
+						attlist.append(att)
+						val = txt_sp[j+1].split(",")[0]
+						itemlist.append(val)
+			except:
+				print 'No Information for : '
+		myfile = open("/home/kinshuk/comp.csv", 'a')
+		wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
+		wr.writerow(attlist)
+		wr.writerow(itemlist)
+            
+   	
+    except:
+        print 'No Information for : '
+
+	
+if __name__ =="__main__":
+    print main()
+    send_mail()
