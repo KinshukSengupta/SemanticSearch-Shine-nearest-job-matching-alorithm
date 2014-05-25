@@ -1,0 +1,7666 @@
+(lp1
+S'abc india ltd'
+p2
+aS'abc paper ltd'
+p3
+aS'abg shipyard ltd'
+p4
+aS'abl biotechnologies ltd'
+p5
+aS'abm knowledgeware ltd'
+p6
+aS'acc limited'
+p7
+aS'ace india ltd'
+p8
+aS'ace software exports ltd'
+p9
+aS'aci infocom ltd'
+p10
+aS'adf foods ltd'
+p11
+aS'ai champdany inds ltd'
+p12
+aS'aia engineering ltd'
+p13
+aS'aj brothers ltd'
+p14
+aS'ak capital services ltd'
+p15
+aS'akl soft &amp; infosys (india) ltd'
+p16
+aS'amd industries ltd'
+p17
+aS'ang auto ltd'
+p18
+aS'ans ltd'
+p19
+aS'apm industries ltd'
+p20
+aS'apw president systems ltd'
+p21
+aS'asm technologies ltd'
+p22
+aS'atn international ltd'
+p23
+aS'atv projects india ltd'
+p24
+aS'av cottex ltd'
+p25
+aS'avt natural products ltd'
+p26
+aS'axis-it&amp;t ltd'
+p27
+aS'aadi industries ltd'
+p28
+aS'aarey drugs &amp; pharmaceuticals ltd'
+p29
+aS'aarti drugs ltd'
+p30
+aS'aarti industries ltd'
+p31
+aS'aarvee denims &amp; exports ltd'
+p32
+aS'aasheesh securities ltd'
+p33
+aS'aaswa trading &amp; exports ltd'
+p34
+aS'abacus computers ltd'
+p35
+aS'aban offshore ltd'
+p36
+aS'abbott india limited'
+p37
+aS'abee info-consumables ltd'
+p38
+aS'abhinav capital services ltd'
+p39
+aS'abhishek corporation ltd'
+p40
+aS'abirami financial services (india) ltd'
+p41
+aS'accel frontline ltd'
+p42
+aS'accel transmatic ltd'
+p43
+aS'accentia technologies ltd'
+p44
+aS'accenture'
+p45
+aS'accurate transformers ltd'
+p46
+aS'acil cotton inds ltd'
+p47
+aS'acknit knitting ltd'
+p48
+aS'ackruti city ltd'
+p49
+aS'acrow india ltd'
+p50
+aS'acrysil ltd'
+p51
+aS'action construction equipment ltd'
+p52
+aS'action financial services (india) ltd'
+p53
+aS'ad-manum finance ltd'
+p54
+aS'adam comsof ltd'
+p55
+aS'adani enterprises ltd'
+p56
+aS'adani power ltd'
+p57
+aS'adarsh plant protect ltd'
+p58
+aS'add-life pharma ltd'
+p59
+aS'addi industries ltd'
+p60
+aS'adhunik metaliks ltd'
+p61
+aS'adinath bio-lab ltd'
+p62
+aS'adinath exim resources ltd'
+p63
+aS'adinath textiles ltd'
+p64
+aS'aditya birla chemicals (india) ltd'
+p65
+aS'aditya birla money limited'
+p66
+aS'aditya birla nuvo ltd'
+p67
+aS'aditya ispat ltd'
+p68
+aS'ador fontech ltd'
+p69
+aS'ador multiproducts ltd'
+p70
+aS'ador welding ltd'
+p71
+aS'advance powerinfra tech ltd'
+p72
+aS'advanced micronic devices ltd'
+p73
+aS'advani hotels &amp; resorts (india) ltd'
+p74
+aS'advanta india ltd'
+p75
+aS'advent computer services ltd'
+p76
+aS'aegis logistics ltd'
+p77
+aS'aeonian investments company ltd'
+p78
+aS'aftek ltd'
+p79
+aS'agarwal industrial corporation ltd'
+p80
+aS'agio paper &amp; industries ltd'
+p81
+aS'agro dutch inds ltd'
+p82
+aS'agro tech foods ltd'
+p83
+aS'ahlcon parenterals (india) ltd'
+p84
+aS'ahluwalia contracts (india) ltd'
+p85
+aS'ahmedabad steelcraft ltd'
+p86
+aS'ahmednagar forgings ltd'
+p87
+aS'aimco pesticides ltd'
+p88
+aS'air india ltd'
+p89
+aS'aishwarya telecom ltd'
+p90
+aS'ajanta pharma ltd'
+p91
+aS'ajanta soya ltd'
+p92
+aS'ajcon global services ltd'
+p93
+aS'ajel infotech ltd'
+p94
+aS'ajmera realty &amp; infra india ltd'
+p95
+aS'ajwa fun world &amp; resort ltd'
+p96
+aS'akanksha finvest ltd'
+p97
+aS'akar tools ltd'
+p98
+aS'aksh optifibre ltd'
+p99
+aS'aksharchem (india) ltd'
+p100
+aS'alacrity housing ltd'
+p101
+aS'albert david ltd'
+p102
+aS'albright &amp; wilson chemicals india ltd'
+p103
+aS'alchemist corporation ltd'
+p104
+aS'alchemist ltd'
+p105
+aS'alchemist realty ltd'
+p106
+aS'alembic ltd'
+p107
+aS'alfa ica (india) ltd'
+p108
+aS'alfa laval (india) limited'
+p109
+aS'alfa transformers ltd'
+p110
+aS'alfavision overseas (india) ltd'
+p111
+aS'alfred herbert (india) ltd'
+p112
+aS'alka india ltd'
+p113
+aS'alka securities ltd'
+p114
+aS'alkali metals ltd'
+p115
+aS'alkyl amines chemicals ltd'
+p116
+aS'allahabad bank ltd'
+p117
+aS'allied computers international (asia) ltd'
+p118
+aS'allied digital services ltd'
+p119
+aS'allsec technologies ltd'
+p120
+aS'allsoft corporation ltd'
+p121
+aS'almondz capital &amp; mngt services ltd'
+p122
+aS'almondz global securities ltd'
+p123
+aS'alok industries limited'
+p124
+aS'alpa laboratories ltd'
+p125
+aS'alpha graphic india ltd'
+p126
+aS'alpha hi-tech fuel ltd'
+p127
+aS'alphageo (india) ltd'
+p128
+aS'alpine capital services ltd'
+p129
+aS'alpine housing devp corpn ltd'
+p130
+aS'alps bpo services ltd'
+p131
+aS'alps industries ltd'
+p132
+aS'alstom projects india ltd'
+p133
+aS'alufluoride ltd'
+p134
+aS'alumeco india extrusion ltd'
+p135
+aS'amal ltd'
+p136
+aS'amani trading &amp; exports ltd'
+p137
+aS'amar remedies ltd'
+p138
+aS'amara raja batteries ltd'
+p139
+aS'ambala cements ltd'
+p140
+aS'ambalal sarabhai enterprises ltd'
+p141
+aS'ambica agarbathies &amp; aroma inds ltd'
+p142
+aS'ambika cotton mills ltd'
+p143
+aS'ambuja cements limited'
+p144
+aS'amco india ltd'
+p145
+aS'amforge industries ltd'
+p146
+aS'amines &amp; plasticizers ltd'
+p147
+aS'amit international ltd'
+p148
+aS'amit securities ltd'
+p149
+aS'amradeep industries ltd'
+p150
+aS'amrapali industries ltd'
+p151
+aS'amraworld agrico ltd'
+p152
+aS'amrit banaspati company ltd'
+p153
+aS'amrit corp ltd'
+p154
+aS'amrutanjan health care ltd'
+p155
+aS'amtek auto ltd'
+p156
+aS'amtek india ltd'
+p157
+aS'amulya leasing &amp; finance ltd'
+p158
+aS'anand credit ltd'
+p159
+aS'anant raj inds ltd'
+p160
+aS'ancent software international ltd'
+p161
+aS'andhra bank ltd'
+p162
+aS'andhra cements ltd'
+p163
+aS'andhra petrochemicals ltd'
+p164
+aS'andhra pradesh paper mills limited'
+p165
+aS'andhra sugars ltd'
+p166
+aS'andrew yule &amp; company ltd'
+p167
+aS'anik industries ltd'
+p168
+aS'anil products ltd'
+p169
+aS'anil special steel inds ltd'
+p170
+aS'anjani finance ltd'
+p171
+aS'anjani synthetics ltd'
+p172
+aS'anka india ltd'
+p173
+aS'ankit metal &amp; power ltd'
+p174
+aS'ankur drugs &amp; pharma ltd'
+p175
+aS'ankush finstock ltd'
+p176
+aS'anna infrastructures ltd'
+p177
+aS'ansal buildwell ltd'
+p178
+aS'ansal housing &amp; construction limited'
+p179
+aS'ansal properties &amp; infrastructure ltd'
+p180
+aS'anshuni commercials ltd'
+p181
+aS'antarctica ltd'
+p182
+aS"anu's laboratories ltd"
+p183
+aS'anugraha jewellers ltd'
+p184
+aS'anuh pharma ltd'
+p185
+aS'anukaran commercial enterprises ltd'
+p186
+aS'apar industries ltd'
+p187
+aS'apcotex industries ltd'
+p188
+aS'apeejay tea ltd'
+p189
+aS'apex intertech ltd'
+p190
+aS'apis india ltd'
+p191
+aS'aplab ltd'
+p192
+aS'apollo finvest (india) ltd'
+p193
+aS'apollo hospitals enterprise ltd'
+p194
+aS'apollo tyres limited'
+p195
+aS'apple credit corpn ltd'
+p196
+aS'apple finance ltd'
+p197
+aS'apt packaging ltd'
+p198
+aS'aptech ltd'
+p199
+aS'aramusk infrastructure investments ltd'
+p200
+aS'aravali securities &amp; finance ltd'
+p201
+aS'arcee industries ltd'
+p202
+aS'archana software ltd'
+p203
+aS'archidply industries ltd'
+p204
+aS'arcies ltd'
+p205
+aS'arcotech ltd'
+p206
+aS'arcuttipore tea company ltd'
+p207
+aS'areva t &amp; d india ltd'
+p208
+aS'arex industries ltd'
+p209
+aS'aries agro ltd'
+p210
+aS'arihant avenues &amp; credit ltd'
+p211
+aS'arihant capital markets ltd'
+p212
+aS'arihant foundations &amp; housing ltd'
+p213
+aS"arihant's securities ltd"
+p214
+aS'aristocrat luggage ltd'
+p215
+aS'arms paper ltd'
+p216
+aS'aro granite inds ltd'
+p217
+aS'aroni commercials ltd'
+p218
+aS'arrow coated products ltd'
+p219
+aS'arrow textiles ltd'
+p220
+aS'arshiya international ltd'
+p221
+aS'artefact projects ltd'
+p222
+aS'artillegence bio-innovations ltd'
+p223
+aS'aruna hotels ltd'
+p224
+aS'arunoday mills ltd'
+p225
+aS'arvind  ltd'
+p226
+aS'arvind chemicals ltd'
+p227
+aS'arvind international ltd'
+p228
+aS'arvind mills limited'
+p229
+aS'arvind products ltd'
+p230
+aS'arvind remedies ltd'
+p231
+aS'aryaman financial services ltd'
+p232
+aS'asahi fibres ltd'
+p233
+aS'asahi india glass ltd'
+p234
+aS'asahi infrastructure &amp; projects ltd'
+p235
+aS'asahi songwon colors ltd'
+p236
+aS'ascent exim (india) ltd'
+p237
+aS'ashapura minechem ltd'
+p238
+aS'ashco niulab industries ltd'
+p239
+aS'ashiana agro inds ltd'
+p240
+aS'ashiana housing ltd'
+p241
+aS'ashiana ispat ltd'
+p242
+aS'ashim investment company ltd'
+p243
+aS'ashima ltd'
+p244
+aS'ashirwad capital ltd'
+p245
+aS'ashirwad steels &amp; inds ltd'
+p246
+aS'ashish polyplast ltd'
+p247
+aS'ashnoor textile mills ltd'
+p248
+aS'ashok alco-chem ltd'
+p249
+aS'ashok leyland limited'
+p250
+aS'ashram onlinecom ltd'
+p251
+aS'asia h r technologies ltd'
+p252
+aS'asian bearing ltd'
+p253
+aS'asian electronics ltd'
+p254
+aS'asian films production &amp; distribution ltd'
+p255
+aS'asian granito india ltd'
+p256
+aS'asian hotels ltd'
+p257
+aS'asian independent network ltd'
+p258
+aS'asian oilfield services ltd'
+p259
+aS'asian paints ltd'
+p260
+aS'asian star company ltd'
+p261
+aS'asian tea &amp; exports ltd'
+p262
+aS'asit c mehta financial services ltd'
+p263
+aS'assam company india ltd'
+p264
+aS'associated alcohols &amp; breweries ltd'
+p265
+aS'associated ceramics ltd'
+p266
+aS'associated stone inds (kotah) ltd'
+p267
+aS'astra microwave products ltd'
+p268
+aS'astral poly technik ltd'
+p269
+aS'astrazeneca pharma india ltd'
+p270
+aS'astro bio systems ltd'
+p271
+aS'asya infrastructure &amp; tourism corporation ltd'
+p272
+aS'atco corporation ltd'
+p273
+aS'atcom technologies ltd'
+p274
+aS'atharv enterprises ltd'
+p275
+aS'athena financial services ltd'
+p276
+aS'atlanta ltd'
+p277
+aS'atlas copco (india) limited'
+p278
+aS'atlas cycles (haryana) ltd'
+p279
+aS'atul auto ltd'
+p280
+aS'atul ltd'
+p281
+aS'aunde faze three ltd'
+p282
+aS'aurangabad paper mills ltd'
+p283
+aS'aurionpro solutions ltd'
+p284
+aS'auro laboratories ltd'
+p285
+aS'aurobindo pharma ltd'
+p286
+aS'auroma coke ltd'
+p287
+aS'ausom enterprises ltd'
+p288
+aS'austral coke and projects ltd'
+p289
+aS'auto pins (india) ltd'
+p290
+aS'autoline industries ltd'
+p291
+aS'autolite (india) ltd'
+p292
+aS'automobile corpn of goa ltd'
+p293
+aS'automotive axles ltd'
+p294
+aS'automotive stampings &amp; assemblies ltd'
+p295
+aS'autoriders finance ltd'
+p296
+aS'available finance ltd'
+p297
+aS'avance technologies ltd'
+p298
+aS'avantel ltd'
+p299
+aS'avanti feeds ltd'
+p300
+aS'avaya globalconnect ltd'
+p301
+aS'aventis pharma limited'
+p302
+aS'avery india ltd'
+p303
+aS'aviva industries ltd'
+p304
+aS'avon corporation ltd'
+p305
+aS'avon mercantile ltd'
+p306
+aS'avon organics ltd'
+p307
+aS'axel polymers ltd'
+p308
+aS'axis bank ltd'
+p309
+aS'axis capital markets (india) ltd'
+p310
+aS'axon infotech ltd'
+p311
+aS'axtel industries ltd'
+p312
+aS'ayoki merchantile ltd'
+p313
+aS'aztecsoft ltd'
+p314
+aS'b nanji enterprises ltd'
+p315
+aS'b&amp;a ltd'
+p316
+aS'b&amp;b realty ltd'
+p317
+aS'b2b software technologies ltd'
+p318
+aS'bcc fuba india ltd'
+p319
+aS'bcl forgings ltd'
+p320
+aS'bcl industries &amp; infrastructures ltd'
+p321
+aS'bdh industries ltd'
+p322
+aS'beml limited'
+p323
+aS'bf utilities ltd'
+p324
+aS'bgil films &amp; technologies ltd'
+p325
+aS'bgr energy systems ltd'
+p326
+aS'bits ltd'
+p327
+aS'bkv industries ltd'
+p328
+aS'bl kashyap &amp; sons ltd'
+p329
+aS'blb ltd'
+p330
+aS'bn rathi securities ltd'
+p331
+aS'bnk capital markets ltd'
+p332
+aS'bnr udyog ltd'
+p333
+aS'boc india ltd'
+p334
+aS'bpl engineering ltd'
+p335
+aS'bpl ltd'
+p336
+aS'bsel infrastructure realty ltd'
+p337
+aS'bsl ltd'
+p338
+aS'baba arts ltd'
+p339
+aS'bacil pharma ltd'
+p340
+aS'baffin engineering projects ltd'
+p341
+aS'bafna pharmaceuticals ltd'
+p342
+aS'bafna spinning mills &amp; exports ltd'
+p343
+aS'bag films'
+p344
+aS'bagadia colourchem ltd'
+p345
+aS'baid leasing &amp; finance company ltd'
+p346
+aS'bajaj auto finance ltd'
+p347
+aS'bajaj auto ltd'
+p348
+aS'bajaj electricals limited'
+p349
+aS'bajaj global ltd'
+p350
+aS'bajaj healthcare limited'
+p351
+aS'bajaj hindusthan ltd'
+p352
+aS'bajaj hindusthan sugar &amp; inds ltd'
+p353
+aS'bajaj holdings &amp; investment ltd'
+p354
+aS'bajaj steel inds ltd'
+p355
+aS'bajrang finance ltd'
+p356
+aS'bakelite hylam ltd'
+p357
+aS'bal pharma ltd'
+p358
+aS'bala techno synthetics ltd'
+p359
+aS'balaji amines ltd'
+p360
+aS'balaji distilleries ltd'
+p361
+aS'balaji galvanising inds ltd'
+p362
+aS'balaji hotels &amp; enterprises ltd'
+p363
+aS'balaji industrial corporation ltd'
+p364
+aS'balaji telefilms'
+p365
+aS'balasore alloys ltd'
+p366
+aS'balkrishna industries ltd'
+p367
+aS'ballarpur industries limited'
+p368
+aS'balmer lawrie &amp; company ltd'
+p369
+aS'balmer lawrie invsts ltd'
+p370
+aS'balmer lawrie-van leer ltd'
+p371
+aS'balrampur chini mills ltd'
+p372
+aS'balurghat technologies ltd'
+p373
+aS'bambino agro inds ltd'
+p374
+aS'bampsl securities ltd'
+p375
+aS'banaras beads ltd'
+p376
+aS'banco products (india) ltd'
+p377
+aS'bang overseas ltd'
+p378
+aS'bank of india ltd'
+p379
+aS'bank of baroda'
+p380
+aS'bank of maharashtra'
+p381
+aS'bank of rajasthan ltd'
+p382
+aS'bannari amman spinning mills ltd'
+p383
+aS'bannari amman sugars ltd'
+p384
+aS'bansisons tea inds ltd'
+p385
+aS'barak valley cements ltd'
+p386
+aS'baroda rayon corpn ltd'
+p387
+aS'baron infotech ltd'
+p388
+aS'bartronics india ltd'
+p389
+aS'basant agro tech (india) ltd'
+p390
+aS'basf india limited'
+p391
+aS'basil infrastructure projects ltd'
+p392
+aS'bata india ltd'
+p393
+aS'bathina technologies (india) ltd'
+p394
+aS'bayer cropscience limited'
+p395
+aS'beckons industries ltd'
+p396
+aS'bee electronic machines ltd'
+p397
+aS'beeyu overseas ltd'
+p398
+aS'belapur industries ltd'
+p399
+aS'bell agromachina ltd'
+p400
+aS'bell ceramics ltd'
+p401
+aS'bellary steels &amp; alloys ltd'
+p402
+aS'bemco hydraulics ltd'
+p403
+aS'benares hotels ltd'
+p404
+aS'bengal &amp; assam co ltd'
+p405
+aS'bengal tea &amp; fabrics ltd'
+p406
+aS'berger paints india ltd'
+p407
+aS'bervin investment &amp; leasing ltd'
+p408
+aS'beryl drugs ltd'
+p409
+aS'best &amp; crompton engineering ltd'
+p410
+aS'best eastern hotels ltd'
+p411
+aS'beta-kappa investments ltd'
+p412
+aS'betala global securities ltd'
+p413
+aS'bhagawati oxygen ltd'
+p414
+aS'bhageria de-chem ltd'
+p415
+aS'bhagiradha chemicals &amp; inds ltd'
+p416
+aS'bhagwandas metals ltd'
+p417
+aS'bhagwati autocast ltd'
+p418
+aS'bhagwati banquets &amp; hotels ltd'
+p419
+aS'bhagyanagar india ltd'
+p420
+aS'bhagyanagar wood plast ltd'
+p421
+aS'bhagyashree leasing &amp; finance ltd'
+p422
+aS'bhagyodaya infrastructure development ltd'
+p423
+aS'bhandari consultancy &amp; finance ltd'
+p424
+aS'bhandari hosiery exports ltd'
+p425
+aS'bhandari udhyog ltd'
+p426
+aS'bhansali engineering polymers ltd'
+p427
+aS'bharat bhushan share &amp; commodity brokers ltd'
+p428
+aS'bharat electronics ltd'
+p429
+aS'bharat fertiliser inds ltd'
+p430
+aS'bharat forge limited'
+p431
+aS'bharat gears ltd'
+p432
+aS'bharat heavy electricals limited'
+p433
+aS'bharat hotels ltd'
+p434
+aS'bharat immunologicals &amp; biologicals corpn ltd'
+p435
+aS'bharat petroleum corporation ltd'
+p436
+aS'bharat rasayan ltd'
+p437
+aS'bharat seats ltd'
+p438
+aS'bharati shipyard ltd'
+p439
+aS'bharti airtel'
+p440
+aS'bhartiya international ltd'
+p441
+aS'bhatia industries &amp; infrastructure ltd'
+p442
+aS'bheema cements ltd'
+p443
+aS'bhilwara spinners ltd'
+p444
+aS'bhilwara tex-fin ltd'
+p445
+aS'bholanath international ltd'
+p446
+aS'bhoomi infrastructures corporation ltd'
+p447
+aS'bhor industries ltd'
+p448
+aS'bhoruka aluminium ltd'
+p449
+aS'bhoruka steel &amp; services ltd'
+p450
+aS'bhuruka gases ltd'
+p451
+aS'bhushan steel ltd'
+p452
+aS'bhuvan tripura inds ltd'
+p453
+aS'bhuwalka steel inds ltd'
+p454
+aS'bihar sponge iron ltd'
+p455
+aS'bihar tubes ltd'
+p456
+aS'bijlee textiles ltd'
+p457
+aS'bilcare ltd'
+p458
+aS'bilpower ltd'
+p459
+aS'bimetal bearings ltd'
+p460
+aS'binani cement ltd'
+p461
+aS'binani industries ltd'
+p462
+aS'binayak tex processors ltd'
+p463
+aS'binny ltd'
+p464
+aS'bio green inds ltd'
+p465
+aS'bio whitegold farms ltd'
+p466
+aS'biocon limited'
+p467
+aS'biofil chemicals &amp; pharmaceuticals ltd'
+p468
+aS'biopac india corpn ltd'
+p469
+aS'biowin pharma (india) ltd'
+p470
+aS'birla capital and financial services ltd'
+p471
+aS'birla corporation limited'
+p472
+aS'birla cotsyn (india) ltd'
+p473
+aS'birla ericsson optical ltd'
+p474
+aS'birla power solutions ltd'
+p475
+aS'birla shloka edutech ltd'
+p476
+aS'bisil plast ltd'
+p477
+aS'black rose inds ltd'
+p478
+aS'bliss gvs pharma ltd'
+p479
+aS'bloom dekor ltd'
+p480
+aS'bloom industries ltd'
+p481
+aS'blossom industries ltd'
+p482
+aS'blue bird (india) ltd'
+p483
+aS'blue blends finance ltd'
+p484
+aS'blue chip india ltd'
+p485
+aS'blue chip tex inds ltd'
+p486
+aS'blue coast hotels  ltd'
+p487
+aS'blue dart express ltd'
+p488
+aS'blue star infotech ltd'
+p489
+aS'blue star limited'
+p490
+aS'bobshell electrodes ltd'
+p491
+aS'bodal chemicals ltd'
+p492
+aS'bombay burmah trdg corpn ltd'
+p493
+aS'bombay paints ltd'
+p494
+aS'bombay rayon fashions limited'
+p495
+aS'bombay swadeshi stores ltd'
+p496
+aS'bombay talkies ltd'
+p497
+aS'bongaigaon refinery &amp; petrochemicals ltd'
+p498
+aS'borax morarji ltd'
+p499
+aS'borosil glass works ltd'
+p500
+aS'bosch chassis systems india ltd'
+p501
+aS'bosch limited'
+p502
+aS'bosch rexroth (india) ltd'
+p503
+aS'brabourne enterprises ltd'
+p504
+aS'brahmanand himghar ltd'
+p505
+aS'brahmaputra infraproject ltd'
+p506
+aS'brakes auto (india) ltd'
+p507
+aS'brand realty services ltd'
+p508
+aS'brandhouse retails ltd'
+p509
+aS'brawn pharmaceuticals ltd'
+p510
+aS'brels infotech ltd'
+p511
+aS'brescon corporate advisors ltd'
+p512
+aS'bridge securities ltd'
+p513
+aS'brigade enterprises ltd'
+p514
+aS'bright brothers ltd'
+p515
+aS'brijlaxmi leasing &amp; finance ltd'
+p516
+aS'brilliant securities ltd'
+p517
+aS'britannia'
+p518
+aS'britannia industries ltd'
+p519
+aS'broadcast initiatives ltd'
+p520
+aS'brushman (india) ltd'
+p521
+aS'bubna stock broking services ltd'
+p522
+aS'burnpur cement ltd'
+p523
+aS'c&amp;c constructions ltd'
+p524
+aS'cat technologies ltd'
+p525
+aS'ccap ltd'
+p526
+aS'ccl international ltd'
+p527
+aS'ccl products (india) ltd'
+p528
+aS'ccs infotech ltd'
+p529
+aS'cesc ltd'
+p530
+aS'cfl capital financial services ltd'
+p531
+aS'cg impex ltd'
+p532
+aS'cg vak software ltd'
+p533
+aS'chd developers ltd'
+p534
+aS'chi investments ltd'
+p535
+aS'chl ltd'
+p536
+aS'cj gelatine products ltd'
+p537
+aS'cmc ltd'
+p538
+aS'cmi ltd'
+p539
+aS'cmifpe ltd'
+p540
+aS'cms finvest ltd'
+p541
+aS'cni research ltd'
+p542
+aS'crisil ltd'
+p543
+aS'css technergy ltd'
+p544
+aS'ct cotton yarn ltd'
+p545
+aS'ctil ltd'
+p546
+aS'ctr manufacturing inds ltd'
+p547
+aS'cable corporation of india ltd'
+p548
+aS'cadila healthcare limited'
+p549
+aS'cairn india ltd'
+p550
+aS'calcom vision ltd'
+p551
+aS'california software company ltd'
+p552
+aS'cals refineries ltd'
+p553
+aS'cambridge solutions ltd'
+p554
+aS'cambridge technology enterprises ltd'
+p555
+aS'camex ltd'
+p556
+aS'camlin fine chemicals ltd'
+p557
+aS'camlin ltd'
+p558
+aS'camphor &amp; allied products ltd'
+p559
+aS'camson bio technologies ltd'
+p560
+aS'can fin homes ltd'
+p561
+aS'cana glass ltd'
+p562
+aS'canara bank ltd'
+p563
+aS'canon'
+p564
+aS'capital trust ltd'
+p565
+aS'caplin point laboratories ltd'
+p566
+aS'capman financials ltd'
+p567
+aS'capricorn systems global solutions ltd'
+p568
+aS'caprihans india ltd'
+p569
+aS'carborundum universal ltd'
+p570
+aS'carnation industries ltd'
+p571
+aS'carol info services ltd'
+p572
+aS'castrol india limited'
+p573
+aS'castron technologies ltd'
+p574
+aS'cauvery software engineering systems ltd'
+p575
+aS'ceat limited'
+p576
+aS'ceejay finance ltd'
+p577
+aS'ceekay daikin ltd'
+p578
+aS'ceenik exports (india) ltd'
+p579
+aS'ceeta industries ltd'
+p580
+aS'celebrity fashions ltd'
+p581
+aS'celestial labs ltd'
+p582
+aS'cenlub industries ltd'
+p583
+aS'centenial surgical suture ltd'
+p584
+aS'central bank of india'
+p585
+aS'central provinces railways company ltd'
+p586
+aS'centrum capital ltd'
+p587
+aS'centum electronics ltd'
+p588
+aS'centurion bank of punjab ltd'
+p589
+aS'century enka limited'
+p590
+aS'century extrusions ltd'
+p591
+aS'century plyboards (india) ltd'
+p592
+aS'century textiles &amp; industries ltd'
+p593
+aS'cepham milk specialities limited'
+p594
+aS'cera sanitaryware ltd'
+p595
+aS'cerebra integrated technologies ltd'
+p596
+aS'chakkilam infotech ltd'
+p597
+aS'chaman lal setia exports ltd'
+p598
+aS'chambal fertilisers &amp; chemicals ltd'
+p599
+aS'chandni textiles ltd'
+p600
+aS'chandra prabhu intl ltd'
+p601
+aS'channel guide india ltd'
+p602
+aS'charms industries ltd'
+p603
+aS'chartered capital &amp; investment ltd'
+p604
+aS'chartered carriers ltd'
+p605
+aS'chembond chemicals ltd'
+p606
+aS'chemcel biotech ltd'
+p607
+aS'chemfab alkalis ltd'
+p608
+aS'chemplast sanmar ltd'
+p609
+aS'chennai meenakshi multispeciality hospital ltd'
+p610
+aS'chennai petroleum corporation ltd'
+p611
+aS'chettinad cement corporation limited'
+p612
+aS'cheviot company ltd'
+p613
+aS'chhabra spinners ltd'
+p614
+aS'chhattisgarh industries ltd'
+p615
+aS'choice international ltd'
+p616
+aS'chokhani international ltd'
+p617
+aS'chokhani securities ltd'
+p618
+aS'choksi imaging ltd'
+p619
+aS'choksi laboratories ltd'
+p620
+aS'cholamandalam dbs finance ltd'
+p621
+aS'chordia food products ltd'
+p622
+aS'chromatic india ltd'
+p623
+aS'ciba india ltd'
+p624
+aS'cil securities ltd'
+p625
+aS'cimmco birla ltd'
+p626
+aS'cindrella financial services ltd'
+p627
+aS'cindrella hotels ltd'
+p628
+aS'cinemax india ltd'
+p629
+aS'cinerad communications ltd'
+p630
+aS'cinevistaas ltd'
+p631
+aS'cipla ltd'
+p632
+aS'circuit systems (india) ltd'
+p633
+aS'citadel realty &amp; developers ltd'
+p634
+aS'citi port financial services ltd'
+p635
+aS'citurgia biochemicals ltd'
+p636
+aS'city union bank ltd'
+p637
+aS'clariant chemicals (india) ltd'
+p638
+aS'clarisis organics ltd'
+p639
+aS'clarus finance &amp; securities ltd'
+p640
+aS'classic biotech &amp; exports ltd'
+p641
+aS'classic diamonds (india) ltd'
+p642
+aS'clio infotech ltd'
+p643
+aS'clutch auto ltd'
+p644
+aS'coastal roadways ltd'
+p645
+aS'cochin minerals &amp; rutile ltd'
+p646
+aS'colgate-palmolive (india) ltd'
+p647
+aS'colinz laboratories ltd'
+p648
+aS'color chips (india) ltd'
+p649
+aS'comfort intech ltd'
+p650
+aS'compact disc india ltd'
+p651
+aS'compuage infocom ltd'
+p652
+aS'compucom software ltd'
+p653
+aS'compudyne winfosystems ltd'
+p654
+aS'compulink systems ltd'
+p655
+aS'computech international ltd'
+p656
+aS'computer point ltd'
+p657
+aS'computerskill ltd'
+p658
+aS'conart engineers ltd'
+p659
+aS'concurrent (india) infrastructure ltd'
+p660
+aS'confidence petroleum india ltd'
+p661
+aS'consolidated construction consortium ltd'
+p662
+aS'consolidated fibres &amp; chemicals ltd'
+p663
+aS'consolidated finvest &amp; holdings ltd'
+p664
+aS'consolidated securities ltd'
+p665
+aS'consortex karl doelitzsch (india) ltd'
+p666
+aS'container corpn of india ltd'
+p667
+aS'contil india ltd'
+p668
+aS'continental controls ltd'
+p669
+aS'continental petroleums ltd'
+p670
+aS'control print ltd'
+p671
+aS'coral india finance &amp; housing ltd'
+p672
+aS'coral laboratories ltd'
+p673
+aS'coral newsprints ltd'
+p674
+aS'cords cable inds ltd'
+p675
+aS'core healthcare ltd'
+p676
+aS'core projects &amp; technologies ltd'
+p677
+aS'coromandel international ltd'
+p678
+aS'corporation bank'
+p679
+aS'cosboard industries ltd'
+p680
+aS'cosco (india) ltd'
+p681
+aS'cosmo ferrites ltd'
+p682
+aS'cosmo films ltd'
+p683
+aS'country club (india) ltd'
+p684
+aS"country condo's ltd"
+p685
+aS'coventry coil-o-matic (haryana) ltd'
+p686
+aS'cranes software international ltd'
+p687
+aS'cravatex ltd'
+p688
+aS'crazy infotech ltd'
+p689
+aS'creative eye ltd'
+p690
+aS'credence sound &amp; vision ltd'
+p691
+aS'cressanda solutions ltd'
+p692
+aS'crest animation studios ltd'
+p693
+aS'crew bos products ltd'
+p694
+aS'crompton greaves limited'
+p695
+aS'cross country hotels ltd'
+p696
+aS'crystal software solutions ltd'
+p697
+aS'cubex tubings ltd'
+p698
+aS'cubical financial services ltd'
+p699
+aS'cummins india limited'
+p700
+aS'cupid ltd'
+p701
+aS'cupid trades &amp; finance ltd'
+p702
+aS'cybele industries ltd'
+p703
+aS'cyber media (india) ltd'
+p704
+aS'cybermate infotek ltd'
+p705
+aS'cyberscape multimedia ltd'
+p706
+aS'cyberspace ltd'
+p707
+aS'cybertech systems &amp; software ltd'
+p708
+aS'd&amp;h welding electrodes (india) ltd'
+p709
+aS'db (international) stock brokers ltd'
+p710
+aS'dcm financial services ltd'
+p711
+aS'dcm ltd'
+p712
+aS'dcm shriram inds ltd'
+p713
+aS'dcw ltd'
+p714
+aS'dfl infrastructure finance ltd'
+p715
+aS'dfm foods ltd'
+p716
+aS'dgp securities ltd'
+p717
+aS'dhp india ltd'
+p718
+aS'dic india ltd'
+p719
+aS'dil ltd'
+p720
+aS'djs stock &amp; shares ltd'
+p721
+aS'dlf limited'
+p722
+aS'dmc international ltd'
+p723
+aS'dpsc ltd'
+p724
+aS'ds kulkarni developers ltd'
+p725
+aS'dsp merrill lynch ltd'
+p726
+aS'dsq software ltd'
+p727
+aS'dabur india ltd'
+p728
+aS'daewoo motors india ltd'
+p729
+aS'dagger-forst tools ltd'
+p730
+aS'dai-ichi karkaria ltd'
+p731
+aS'daikaffil chemicals india ltd'
+p732
+aS'dainik jagran'
+p733
+aS'dalal street investments ltd'
+p734
+aS'dalmia cement (bharat) limited'
+p735
+aS'danlaw technologies ltd'
+p736
+aS'darshan oils ltd'
+p737
+aS'database finance ltd'
+p738
+aS'datamatics global services ltd'
+p739
+aS'datanet systems ltd'
+p740
+aS'datasoft application software (india) ltd'
+p741
+aS'datasoft application software ltd'
+p742
+aS'daulat securities ltd'
+p743
+aS'dazzel confindive ltd'
+p744
+aS'de nora india ltd'
+p745
+aS'deccan bearings ltd'
+p746
+aS'deccan cements ltd'
+p747
+aS'deccan chronicle holdings ltd'
+p748
+aS'deccan gold mines ltd'
+p749
+aS'deco-mica ltd'
+p750
+aS'decolight ceramics ltd'
+p751
+aS'deep industries ltd'
+p752
+aS'deepak fertilisers &amp; petrochemicals corpn ltd'
+p753
+aS'deepak nitrite ltd'
+p754
+aS'deepak spinners ltd'
+p755
+aS'dell international'
+p756
+aS'delta corp ltd'
+p757
+aS'delta magnets ltd'
+p758
+aS'delton cables ltd'
+p759
+aS'dena bank ltd'
+p760
+aS'denison hydraulics india ltd'
+p761
+aS'denso india ltd'
+p762
+aS'dera paints &amp; chemicals ltd'
+p763
+aS'development credit bank ltd'
+p764
+aS'devika proteins ltd'
+p765
+aS'devki leasing &amp; finance ltd'
+p766
+aS'dewan housing finance corporation ltd'
+p767
+aS'dhampur sugar mills ltd'
+p768
+aS'dhampure specialty sugars ltd'
+p769
+aS'dhanalakshmi bank ltd'
+p770
+aS'dhanashree electronics ltd'
+p771
+aS'dhanlaxmi cotex ltd'
+p772
+aS'dhanprayog investments company ltd'
+p773
+aS'dhanuka agritech ltd'
+p774
+aS'dhanus technologies ltd'
+p775
+aS'dhanvantri jeevan rekha ltd'
+p776
+aS'dhar textile mills ltd'
+p777
+aS'dharamsi morarji chemical company ltd'
+p778
+aS'dharani finance ltd'
+p779
+aS'dharani sugars &amp; chemicals ltd'
+p780
+aS'dhoot industrial finance ltd'
+p781
+aS'dhoot industries ltd'
+p782
+aS'dhruv estates ltd'
+p783
+aS'dhruva capital services ltd'
+p784
+aS'dhunseri tea &amp; inds ltd'
+p785
+aS'diamant investment &amp; finance ltd'
+p786
+aS'diamines &amp; chemicals ltd'
+p787
+aS'diana tea company ltd'
+p788
+aS'digital multiforms ltd'
+p789
+aS'dinesh allorga ltd'
+p790
+aS'disa india ltd'
+p791
+aS'dish t v india ltd'
+p792
+aS'dishman pharmaceuticals &amp; chemicals ltd'
+p793
+aS"divi's laboratories ltd"
+p794
+aS'divyashakti granites ltd'
+p795
+aS'doctors biotech india ltd'
+p796
+aS'dolat investments ltd'
+p797
+aS'dollex industries ltd'
+p798
+aS'dolphin medical services ltd'
+p799
+aS'dolphin offshore enterprises (india) ltd'
+p800
+aS'donear industries ltd'
+p801
+aS"dr agarwal's eye hospital ltd"
+p802
+aS"dr reddy's laboratories limited"
+p803
+aS'dredging corpn of india ltd'
+p804
+aS'dujodwala paper chemicals ltd'
+p805
+aS'dujodwala products ltd'
+p806
+aS'duke offshore ltd'
+p807
+aS'dutron polymers ltd'
+p808
+aS'dwarikesh sugar inds ltd'
+p809
+aS'dynacons systems &amp; solutions ltd'
+p810
+aS'dynamatic technologies ltd'
+p811
+aS'dynamic industries ltd'
+p812
+aS'dynamic portfolio management &amp; services ltd'
+p813
+aS'dynemic products ltd'
+p814
+aS'ecom infotech (india) ltd'
+p815
+aS'estar infotech ltd'
+p816
+aS'ece industries ltd'
+p817
+aS'eid-parry (india) ltd'
+p818
+aS'eih associated hotels ltd'
+p819
+aS'eih ltd'
+p820
+aS'el forge ltd'
+p821
+aS'epc industrie ltd'
+p822
+aS'epic enzymes pharmaceuticals &amp; indl chemicals'
+p823
+aS'erp soft systems ltd'
+p824
+aS'etc networks ltd'
+p825
+aS'exl servicecom (india) pvt ltd'
+p826
+aS'eastcoast steel ltd'
+p827
+aS'eastern gases ltd'
+p828
+aS'eastern silk inds ltd'
+p829
+aS'eastern sugar &amp; inds ltd'
+p830
+aS'eastern treads ltd'
+p831
+aS'easun reyrolle ltd'
+p832
+aS'easy fincorp ltd'
+p833
+aS'ecoboard industries ltd'
+p834
+aS'ecoplast ltd'
+p835
+aS'edelweiss capital ltd'
+p836
+aS'edserv softsystems ltd'
+p837
+aS'educomp solutions ltd'
+p838
+aS'eicher ltd'
+p839
+aS'eicher motors limited'
+p840
+aS'eider infotech ltd'
+p841
+aS'eimco elecon (india) ltd'
+p842
+aS'elango industries ltd'
+p843
+aS'elantas beck india ltd'
+p844
+aS'elbee services ltd'
+p845
+aS'eldeco housing &amp; inds ltd'
+p846
+aS'elder health care ltd'
+p847
+aS'elder pharmaceuticals ltd'
+p848
+aS'elder projects ltd'
+p849
+aS'elecon engineering company limited'
+p850
+aS'electrosteel castings ltd'
+p851
+aS'electrotherm (india) limited'
+p852
+aS'electrotherm (india) ltd'
+p853
+aS'elegant floriculture &amp; agrotech (india) ltd'
+p854
+aS'elegant marbles &amp; grani inds ltd'
+p855
+aS'elgi industrial products ltd'
+p856
+aS'ellenbarrie industrial gases ltd'
+p857
+aS'ellora paper mills ltd'
+p858
+aS'elnet technologies ltd'
+p859
+aS'elpro packaging ltd'
+p860
+aS'emami ltd'
+p861
+aS'emedcom technologies ltd'
+p862
+aS'emgee cables &amp; communications ltd'
+p863
+aS'emkay global financial services ltd'
+p864
+aS'emmessar biotech &amp; nutrition ltd'
+p865
+aS'emmsons international ltd'
+p866
+aS'empee distilleries ltd'
+p867
+aS'empee sugars &amp; chemicals ltd'
+p868
+aS'empire industries ltd'
+p869
+aS'enchante jewellery ltd'
+p870
+aS'encore software ltd'
+p871
+aS'energy development company ltd'
+p872
+aS'energy products (india) ltd'
+p873
+aS'engineers india limited'
+p874
+aS'english indian clays ltd'
+p875
+aS'enkay texofood inds ltd'
+p876
+aS'enkei castalloy ltd'
+p877
+aS'ennore coke ltd'
+p878
+aS'enrich industries ltd'
+p879
+aS'ensa steel inds ltd'
+p880
+aS'enso secutrack ltd'
+p881
+aS'entegra ltd'
+p882
+aS'enterprise intelligent systems ltd'
+p883
+aS'enterprise international ltd'
+p884
+aS'entertainment network (india) ltd'
+p885
+aS'envair electrodyne ltd'
+p886
+aS'eonour technologies ltd'
+p887
+aS'epic energy ltd'
+p888
+aS'epsom properties ltd'
+p889
+aS'era e-zone india ltd'
+p890
+aS'era infra engg ltd'
+p891
+aS'ericsson'
+p892
+aS'esab india ltd'
+p893
+aS'escorts finance ltd'
+p894
+aS'escorts limited'
+p895
+aS"eskay k'n'it (india) ltd"
+p896
+aS'ess dee aluminium ltd'
+p897
+aS'essar oil limited'
+p898
+aS'essar shipping ports &amp; logistics ltd'
+p899
+aS'essar steel limited'
+p900
+aS'essel propack ltd'
+p901
+aS'esskay telecom ltd'
+p902
+aS'ester industries ltd'
+p903
+aS'euro ceramics ltd'
+p904
+aS'euro finmart ltd'
+p905
+aS'euro leder fashion ltd'
+p906
+aS'european software alliances ltd'
+p907
+aS'eveready industries (india) ltd'
+p908
+aS'everest industries ltd'
+p909
+aS'everest kanto cylinder ltd'
+p910
+aS'everest organics ltd'
+p911
+aS'everlon synthetics ltd'
+p912
+aS'everonn education ltd'
+p913
+aS'evinix accessories ltd'
+p914
+aS'excel crop care ltd'
+p915
+aS'excel glasses ltd'
+p916
+aS'excel industries ltd'
+p917
+aS'excel infoways ltd'
+p918
+aS'exide industries ltd'
+p919
+aS'explicit finance ltd'
+p920
+aS'expo gas containers ltd'
+p921
+aS'export import bank of india'
+p922
+aS'ez commerce trade technologies ltd'
+p923
+aS'fag bearings india ltd'
+p924
+aS'fcs software solutions ltd'
+p925
+aS'fdc ltd'
+p926
+aS'fe india ltd'
+p927
+aS'fgp ltd'
+p928
+aS'fabindia'
+p929
+aS'fact enterprise ltd'
+p930
+aS'fairdeal filaments ltd'
+p931
+aS'falcon tyres ltd'
+p932
+aS'fame india ltd'
+p933
+aS'farmax india ltd'
+p934
+aS'fast track entertainment ltd'
+p935
+aS'faze three ltd'
+p936
+aS'fedders lloyd corporation ltd'
+p937
+aS'federal bank ltd'
+p938
+aS'federal-mogul goetze (india) ltd'
+p939
+aS'fem care pharma ltd'
+p940
+aS'fenoplast ltd'
+p941
+aS'ferro alloys corporation ltd'
+p942
+aS'fertilisers &amp; chemicals travancore ltd'
+p943
+aS'fiberweb (india) ltd'
+p944
+aS'ficon lease &amp; finance ltd'
+p945
+aS'fics consultancy services ltd'
+p946
+aS'fiem industries ltd'
+p947
+aS'filaments india ltd'
+p948
+aS'filatex fashions ltd'
+p949
+aS'filatex india ltd'
+p950
+aS'filmcity media ltd'
+p951
+aS'financial technologies (india) ltd'
+p952
+aS'finaventure capital ltd'
+p953
+aS'fine-line circuits ltd'
+p954
+aS'finolex cables limited'
+p955
+aS'finolex cables ltd'
+p956
+aS'finolex industries ltd'
+p957
+aS'fintech communication ltd'
+p958
+aS'first custodian fund (india) ltd'
+p959
+aS'first leasing company of india ltd'
+p960
+aS'first winner industries ltd'
+p961
+aS'firstobject technologies ltd'
+p962
+aS'firstsource solutions ltd'
+p963
+aS'fischer chemic ltd'
+p964
+aS'flawless diamond (india) ltd'
+p965
+aS'flex foods ltd'
+p966
+aS'foods &amp; inns ltd'
+p967
+aS'forbes &amp; company ltd'
+p968
+aS'force motors ltd'
+p969
+aS'fortis healthcare ltd'
+p970
+aS'fortune financial services (india) ltd'
+p971
+aS'foseco india ltd'
+p972
+aS'foundry fuel products ltd'
+p973
+aS'four soft ltd'
+p974
+aS'fourth generation information systems ltd'
+p975
+aS'fresenius kabi oncology ltd'
+p976
+aS'freshtrop fruits ltd'
+p977
+aS'frontier information technologies ltd'
+p978
+aS'frontier leasing &amp; finance ltd'
+p979
+aS'frontline corporation ltd'
+p980
+aS'fulford (india) ltd'
+p981
+aS'funworld &amp; tourism devp ltd'
+p982
+aS'futura polyesters ltd'
+p983
+aS'future capital holdings ltd'
+p984
+aS'futuristic offshore services &amp; chemical ltd'
+p985
+aS'futuristic securities ltd'
+p986
+aS'g-tech info training ltd'
+p987
+aS'gail (india) limited'
+p988
+aS'gccl infrastructure &amp; projects ltd'
+p989
+aS'gdl leasing &amp; finance ltd'
+p990
+aS'ge capital transportation financial services ltd'
+p991
+aS'ge money india'
+p992
+aS'gei industrial systems ltd'
+p993
+aS'gg automotive gears ltd'
+p994
+aS'gg dandekar machine works ltd'
+p995
+aS'ghcl ltd'
+p996
+aS'gi engineering solutions ltd'
+p997
+aS'gic housing finance ltd'
+p998
+aS'gk consultants ltd'
+p999
+aS'gkw ltd'
+p1000
+aS'gm breweries ltd'
+p1001
+aS'gmm pfaudler ltd'
+p1002
+aS'gmr enterprises'
+p1003
+aS'gmr ferro alloys &amp; industries ltd'
+p1004
+aS'gmr industries ltd'
+p1005
+aS'gmr infrastructure ltd'
+p1006
+aS'gr cables ltd'
+p1007
+aS'grm overseas ltd'
+p1008
+aS'gs auto international ltd'
+p1009
+aS'gsal (india) ltd'
+p1010
+aS'gsb finance ltd'
+p1011
+aS'gsl securities ltd'
+p1012
+aS'gss america infotech ltd'
+p1013
+aS'gtcl mobile-com technology ltd'
+p1014
+aS'gtl infrastructure ltd'
+p1015
+aS'gtl ltd'
+p1016
+aS'gtn industries ltd'
+p1017
+aS'gtn textiles ltd'
+p1018
+aS'gv films ltd'
+p1019
+aS'gvk power &amp; infrastructure ltd'
+p1020
+aS'gabriel india ltd'
+p1021
+aS'gagan gases ltd'
+p1022
+aS'gajra bevel gears ltd'
+p1023
+aS'galada power &amp; telecommunication ltd'
+p1024
+aS'galaxy entertainment corpn ltd'
+p1025
+aS'gallantt metal ltd'
+p1026
+aS'galore prints inds ltd'
+p1027
+aS'gamma infoway exalt ltd'
+p1028
+aS'gammon india limited'
+p1029
+aS'gammon infrastructure projects ltd'
+p1030
+aS'gandhi special tubes ltd'
+p1031
+aS'gandhimathi appliances ltd'
+p1032
+aS'gandhinagar hotels ltd'
+p1033
+aS'gandhinagar leasing &amp; finance ltd'
+p1034
+aS'ganesh benzoplast ltd'
+p1035
+aS'ganesh housing corpn ltd'
+p1036
+aS'ganesh polytex ltd'
+p1037
+aS'gangotri iron &amp; steel company ltd'
+p1038
+aS'garden silk mills limited'
+p1039
+aS'garg furnace ltd'
+p1040
+aS'garlon polyfab inds ltd'
+p1041
+aS'garnet construction ltd'
+p1042
+aS'garnet international ltd'
+p1043
+aS'garware marine inds ltd'
+p1044
+aS'garware offshore services ltd'
+p1045
+aS'garware polyester ltd'
+p1046
+aS'garware synthetics ltd'
+p1047
+aS'garware-wall ropes ltd'
+p1048
+aS'gateway distriparks ltd'
+p1049
+aS'gayatri bioorganics ltd'
+p1050
+aS'gayatri projects ltd'
+p1051
+aS'gayatri sugars ltd'
+p1052
+aS'gee gee granites ltd'
+p1053
+aS'geefcee finance ltd'
+p1054
+aS'gemini communications ltd'
+p1055
+aS'gemstone investments ltd'
+p1056
+aS'genesys international corporation ltd'
+p1057
+aS'gennex laboratories ltd'
+p1058
+aS'genpact india pvt ltd'
+p1059
+aS'genus commu-trade ltd'
+p1060
+aS'genus power infrastructures ltd'
+p1061
+aS'geodesic ltd'
+p1062
+aS'geojit bnp paribas financial services ltd'
+p1063
+aS'geometric ltd'
+p1064
+aS'gillanders arbuthnot &amp; company ltd'
+p1065
+aS'gillette india limited'
+p1066
+aS'gini silk mills ltd'
+p1067
+aS'ginni filaments ltd'
+p1068
+aS'giriraj print plast ltd'
+p1069
+aS'gitanjali gems ltd'
+p1070
+aS'givo ltd'
+p1071
+aS'glance finance ltd'
+p1072
+aS'glaxosmithkline consumer healthcare ltd'
+p1073
+aS'glaxosmithkline pharmaceuticals limited'
+p1074
+aS'glenmark pharmaceuticals limited'
+p1075
+aS'glittek granites ltd'
+p1076
+aS'global boards ltd'
+p1077
+aS'global capital markets ltd'
+p1078
+aS'global films &amp; broadcasting ltd'
+p1079
+aS'global finance &amp; securities ltd'
+p1080
+aS'global infrastructure &amp; technologies ltd'
+p1081
+aS'global stone india ltd'
+p1082
+aS'global vectra helicorp ltd'
+p1083
+aS'globe stocks &amp; securities ltd'
+p1084
+aS'globsyn infotech ltd'
+p1085
+aS'globus corporation ltd'
+p1086
+aS'globus spirits ltd'
+p1087
+aS'glodyne technoserve ltd'
+p1088
+aS'glory polyfilms ltd'
+p1089
+aS'gloster jute mills ltd'
+p1090
+aS'goa carbon ltd'
+p1091
+aS'godavari drugs ltd'
+p1092
+aS'godavari fertilisers &amp; chemicals ltd'
+p1093
+aS'godawari power &amp; ispat ltd'
+p1094
+aS'godfrey phillips india limited'
+p1095
+aS'godrej consumer products limited'
+p1096
+aS'godrej industries ltd'
+p1097
+aS'godrej properties limited'
+p1098
+aS'gogia capital services ltd'
+p1099
+aS'gokak textiles ltd'
+p1100
+aS'gokaldas exports limited'
+p1101
+aS'gokul refoils and solvent ltd'
+p1102
+aS'gold rock investments ltd'
+p1103
+aS'goldcrest finance (india) ltd'
+p1104
+aS'golden carpets ltd'
+p1105
+aS'golden laminates ltd'
+p1106
+aS'golden legand leasing &amp; finance ltd'
+p1107
+aS'golden securities ltd'
+p1108
+aS'golden tobacco ltd'
+p1109
+aS'goldiam international ltd'
+p1110
+aS'goldman sachs'
+p1111
+aS'goldstone infratech ltd'
+p1112
+aS'goldstone technologies ltd'
+p1113
+aS'golechha global finance ltd'
+p1114
+aS'golkunda diamonds &amp; jewellery ltd'
+p1115
+aS'gomti finlease (india) ltd'
+p1116
+aS'gontermann-peipers (india) ltd'
+p1117
+aS'good luck steel tubes ltd'
+p1118
+aS'good value markeing company ltd'
+p1119
+aS'goodricke group ltd'
+p1120
+aS'goodyear india limited'
+p1121
+aS'gopal iron &amp; steels company (gujarat) ltd'
+p1122
+aS'gopala polyplast ltd'
+p1123
+aS'gorani industries ltd'
+p1124
+aS'gothi plascon (india) ltd'
+p1125
+aS'govind rubber ltd'
+p1126
+aS'gowra leasing &amp; finance ltd'
+p1127
+aS'goyal associates ltd'
+p1128
+aS'grabal alok impex ltd'
+p1129
+aS'graham firth steel products (india) ltd'
+p1130
+aS'grand foundry ltd'
+p1131
+aS'granules india ltd'
+p1132
+aS'graphite india ltd'
+p1133
+aS'grasim industries limited'
+p1134
+aS'gratex industries ltd'
+p1135
+aS'grauer &amp; weil (india) ltd'
+p1136
+aS'graviss hospitality ltd'
+p1137
+aS'gravity (india) ltd'
+p1138
+aS'great eastern shipping company ltd'
+p1139
+aS'great offshore ltd'
+p1140
+aS'greaves cotton limited'
+p1141
+aS'greenply industries ltd'
+p1142
+aS'gremach infrastructure equipments &amp; projects l'
+p1143
+aS'griffin chemicals ltd'
+p1144
+aS'grindwell norton ltd'
+p1145
+aS'gruh finance ltd'
+p1146
+aS'gufic biosciences ltd'
+p1147
+aS'gujarat alkalies &amp; chemicals ltd'
+p1148
+aS'gujarat ambuja exports ltd'
+p1149
+aS'gujarat apollo inds ltd'
+p1150
+aS'gujarat aqua inds ltd'
+p1151
+aS'gujarat arth ltd'
+p1152
+aS'gujarat borosil ltd'
+p1153
+aS'gujarat capital ventures ltd'
+p1154
+aS'gujarat carbon &amp; inds ltd'
+p1155
+aS'gujarat cotex ltd'
+p1156
+aS'gujarat craft inds ltd'
+p1157
+aS'gujarat credit corpn ltd'
+p1158
+aS'gujarat fluorochemicals ltd'
+p1159
+aS'gujarat foils ltd'
+p1160
+aS'gujarat gas company ltd'
+p1161
+aS'gujarat hotels ltd'
+p1162
+aS'gujarat industries power company ltd'
+p1163
+aS'gujarat inject (kerala) ltd'
+p1164
+aS'gujarat intrux ltd'
+p1165
+aS'gujarat investa ltd'
+p1166
+aS'gujarat jhm hotels ltd'
+p1167
+aS'gujarat lease financing ltd'
+p1168
+aS'gujarat mineral devp corpn ltd'
+p1169
+aS'gujarat nre coke ltd'
+p1170
+aS'gujarat narmada flyash company ltd'
+p1171
+aS'gujarat narmada valley fertilizers company ltd'
+p1172
+aS'gujarat optical communication ltd'
+p1173
+aS'gujarat poly-avx electronics ltd'
+p1174
+aS'gujarat reclaim &amp; rubber products ltd'
+p1175
+aS'gujarat sidhee cement ltd'
+p1176
+aS'gujarat state fertilizers &amp; chemicals ltd'
+p1177
+aS'gujarat state financial corpn ltd'
+p1178
+aS'gujarat state petronet ltd'
+p1179
+aS'gujarat telephone cables ltd'
+p1180
+aS'gujarat terce laboratories ltd'
+p1181
+aS'gujarat wedge wire screens ltd'
+p1182
+aS'gulf oil corpn ltd'
+p1183
+aS'gulshan chemfill ltd'
+p1184
+aS'gulshan polyols ltd'
+p1185
+aS'gulshan sugars &amp; chemicals ltd'
+p1186
+aS'gupta synthetics ltd'
+p1187
+aS'gwalior chemical inds ltd'
+p1188
+aS'gyan developers &amp; builders ltd'
+p1189
+aS'hb estate developers ltd'
+p1190
+aS'hb leasing &amp; finance company ltd'
+p1191
+aS'hb portfolio ltd'
+p1192
+aS'hb stockholdings ltd'
+p1193
+aS'hbl power systems ltd'
+p1194
+aS'hcl comnet'
+p1195
+aS'hcl infosystems ltd'
+p1196
+aS'hcl technologies ltd'
+p1197
+aS'hdfc bank ltd'
+p1198
+aS'heg ltd'
+p1199
+aS'hfcl infotel ltd'
+p1200
+aS'hk finechem ltd'
+p1201
+aS'hmt ltd'
+p1202
+aS'hov services ltd'
+p1203
+aS'hs india ltd'
+p1204
+aS'hsbc investdirect (india) ltd'
+p1205
+aS'hsil ltd'
+p1206
+aS'ht media ltd'
+p1207
+aS'haldyn glass gujarat ltd'
+p1208
+aS'halonix ltd'
+p1209
+aS'hanil era textiles ltd'
+p1210
+aS'hanjer fibres ltd'
+p1211
+aS'hanuman tea company ltd'
+p1212
+aS'hanung toys &amp; textiles ltd'
+p1213
+aS'harbor network systems ltd'
+p1214
+aS'hardcastle &amp; waud mfg company ltd'
+p1215
+aS'haria exports ltd'
+p1216
+aS'harig crankshafts ltd'
+p1217
+aS'harita seating systems ltd'
+p1218
+aS'hariyana ship breakers ltd'
+p1219
+aS'harleystreet pharmaceuticals ltd'
+p1220
+aS'harringtons industries ltd'
+p1221
+aS'harrisons malayalam ltd'
+p1222
+aS'harvic management services (india) ltd'
+p1223
+aS'haryana capfin ltd'
+p1224
+aS'haryana leather chemicals ltd'
+p1225
+aS'haryana sheet glass ltd'
+p1226
+aS'haryana texprints (overseas) ltd'
+p1227
+aS'hasti finance ltd'
+p1228
+aS'hathway bhawani cabletel &amp; datacom ltd'
+p1229
+aS'hatsun agro products ltd'
+p1230
+aS'havells india ltd'
+p1231
+aS'hawkins cookers ltd'
+p1232
+aS'hazoor multi projects ltd'
+p1233
+aS'heidelberg cement india ltd'
+p1234
+aS'helios &amp; matheson information technology ltd'
+p1235
+aS'hella india lighting ltd'
+p1236
+aS'henkel india ltd'
+p1237
+aS'hercules hoists ltd'
+p1238
+aS'heritage foods (india) ltd'
+p1239
+aS'hero honda motors limited'
+p1240
+aS'hester biosciences ltd'
+p1241
+aS'hewlett packard'
+p1242
+aS'hexaware technologies ltd'
+p1243
+aS'highland industries ltd'
+p1244
+aS'hikal ltd'
+p1245
+aS'hillock agro foods (india) ltd'
+p1246
+aS'hilton metal forging ltd'
+p1247
+aS'himachal futuristic communications ltd'
+p1248
+aS'himadri credit &amp; finance ltd'
+p1249
+aS'himalaya granites ltd'
+p1250
+aS'himalya international ltd'
+p1251
+aS'himatsingka seide ltd'
+p1252
+aS'hinafil india ltd'
+p1253
+aS'hind aluminium inds ltd'
+p1254
+aS'hind industries ltd'
+p1255
+aS'hindalco industries ltd'
+p1256
+aS'hindoostan spinning &amp; wvg mills ltd'
+p1257
+aS'hinduja foundries ltd'
+p1258
+aS'hinduja global solutions ltd'
+p1259
+aS'hinduja ventures ltd'
+p1260
+aS'hindustan adhesives ltd'
+p1261
+aS'hindustan bio sciences ltd'
+p1262
+aS'hindustan composites ltd'
+p1263
+aS'hindustan construction company limited'
+p1264
+aS'hindustan continental ltd'
+p1265
+aS'hindustan copper ltd'
+p1266
+aS'hindustan dorr-oliver ltd'
+p1267
+aS'hindustan everest tools ltd'
+p1268
+aS'hindustan hardy spicer ltd'
+p1269
+aS'hindustan motors limited'
+p1270
+aS'hindustan oil exploration company ltd'
+p1271
+aS'hindustan organic chemicals ltd'
+p1272
+aS'hindustan petroleum corporation limited'
+p1273
+aS'hindustan tin works ltd'
+p1274
+aS'hindustan unilever limited'
+p1275
+aS'hindustan zinc ltd'
+p1276
+aS'hindusthan national glass &amp; inds ltd'
+p1277
+aS'hingir rampur coal company ltd'
+p1278
+aS'hipolin ltd'
+p1279
+aS'hiran orgochem ltd'
+p1280
+aS'hisar metal inds ltd'
+p1281
+aS'hit kit global solutions ltd'
+p1282
+aS'hitachi home &amp; life solutions (india) ltd'
+p1283
+aS'hitech plast ltd'
+p1284
+aS'hitechi jewellery inds ltd'
+p1285
+aS'hitkari industries ltd'
+p1286
+aS'hittco tools ltd'
+p1287
+aS'honeywell automation india ltd'
+p1288
+aS'horizon infrastructure ltd'
+p1289
+aS'hotel leela venture ltd'
+p1290
+aS'hotel rugby ltd'
+p1291
+aS'hotline glass ltd'
+p1292
+aS'hotline teletube &amp; components ltd'
+p1293
+aS'house of pearl fashions ltd'
+p1294
+aS'housing development &amp; infrastructure ltd'
+p1295
+aS'housing development finance corporation ltd'
+p1296
+aS'howard hotels ltd'
+p1297
+aS'hybrid financial services ltd'
+p1298
+aS'hyderabad flextech ltd'
+p1299
+aS'hyderabad industries ltd'
+p1300
+aS'hydro s &amp; s inds ltd'
+p1301
+aS'hytone texstyles ltd'
+p1302
+aS'i power solutions india ltd'
+p1303
+aS'iag company ltd'
+p1304
+aS'ib infotech enterprises ltd'
+p1305
+aS'ibm daksh'
+p1306
+aS'ibn 18 broadcast ltd'
+p1307
+aS'icds ltd'
+p1308
+aS'ici india ltd'
+p1309
+aS'icici bank ltd'
+p1310
+aS'icici lombard general insurance company limited'
+p1311
+aS'icra ltd'
+p1312
+aS'icsa-india ltd'
+p1313
+aS'idbi bank ltd'
+p1314
+aS'iec education ltd'
+p1315
+aS'ifb agro inds ltd'
+p1316
+aS'ifb industries ltd'
+p1317
+aS'ifci ltd'
+p1318
+aS'ifgl refractories ltd'
+p1319
+aS'ifl promoters ltd'
+p1320
+aS'ifsl ltd'
+p1321
+aS'ig petrochemicals ltd'
+p1322
+aS'ikf finance ltd'
+p1323
+aS'ikf technologies ltd'
+p1324
+aS'il&amp;fs investmart ltd'
+p1325
+aS'imc finance ltd'
+p1326
+aS'imp powers ltd'
+p1327
+aS'ineos abs (india) ltd'
+p1328
+aS'ing vysya bank ltd'
+p1329
+aS'iol chemicals &amp; pharmaceuticals ltd'
+p1330
+aS'iol netcom ltd'
+p1331
+aS'ip rings ltd'
+p1332
+aS'iq infotech ltd'
+p1333
+aS'irb infrastructure developers ltd'
+p1334
+aS'isl consulting ltd'
+p1335
+aS'ismt ltd'
+p1336
+aS'ist ltd'
+p1337
+aS'it people (india) ltd'
+p1338
+aS'itc limited'
+p1339
+aS'itd cementation india ltd'
+p1340
+aS'iti ltd'
+p1341
+aS'ivp ltd'
+p1342
+aS'ivr prime urban developers ltd'
+p1343
+aS'ivrcl infrastructures &amp; projects ltd'
+p1344
+aS'iccon oil &amp; specialities ltd'
+p1345
+aS'idea cellular ltd'
+p1346
+aS'idea space solutions ltd'
+p1347
+aS'ideal carpets ltd'
+p1348
+aS'igarashi motors india ltd'
+p1349
+aS'igate global solutions ltd'
+p1350
+aS'impex ferro tech ltd'
+p1351
+aS'in house productions ltd'
+p1352
+aS'inani marbles &amp; inds ltd'
+p1353
+aS'inani securities ltd'
+p1354
+aS'inca finlease ltd'
+p1355
+aS'incap financial services ltd'
+p1356
+aS'incap ltd'
+p1357
+aS'incon engineers ltd'
+p1358
+aS'ind bank housing ltd'
+p1359
+aS'ind tra deco ltd'
+p1360
+aS'ind-agiv commerce ltd'
+p1361
+aS'ind-swift laboratories ltd'
+p1362
+aS'ind-swift ltd'
+p1363
+aS'indag rubber ltd'
+p1364
+aS'indage restaurants and leisure ltd'
+p1365
+aS'indbank merchant banking services ltd'
+p1366
+aS'indergiri finance ltd'
+p1367
+aS'indigo'
+p1368
+aS'india cements capital ltd'
+p1369
+aS'india foils ltd'
+p1370
+aS'india gelatine &amp; chemicals ltd'
+p1371
+aS'india glycols ltd'
+p1372
+aS'india home loan ltd'
+p1373
+aS'india infoline ltd'
+p1374
+aS'india international marketing centre ltd'
+p1375
+aS'india lease devp ltd'
+p1376
+aS'india motor parts &amp; accessories ltd'
+p1377
+aS'india nippon electricals ltd'
+p1378
+aS'india polyspin ltd'
+p1379
+aS'india securities ltd'
+p1380
+aS'india steel works ltd'
+p1381
+aS'india tourism devp corpn ltd'
+p1382
+aS'indiabulls financial services ltd'
+p1383
+aS'indiabulls real estate ltd'
+p1384
+aS'indiabulls securities ltd'
+p1385
+aS'indiaco ventures ltd'
+p1386
+aS'indian acrylics ltd'
+p1387
+aS'indian bank'
+p1388
+aS'indian card clothing company ltd'
+p1389
+aS'indian express group'
+p1390
+aS'indian extractions ltd'
+p1391
+aS'indian hotels copany ltd'
+p1392
+aS'indian hume pipe company ltd'
+p1393
+aS'indian infotech &amp; software ltd'
+p1394
+aS'indian link chain mfrs ltd'
+p1395
+aS'indian metals &amp; ferro alloys ltd'
+p1396
+aS'indian oil corporation limited'
+p1397
+aS'indian overseas bank ltd'
+p1398
+aS'indian petrochemicals corpn ltd'
+p1399
+aS'indian sucrose ltd'
+p1400
+aS'indian toners &amp; developers ltd'
+p1401
+aS'indo amines ltd'
+p1402
+aS'indo asian finance ltd'
+p1403
+aS'indo asian fusegear ltd'
+p1404
+aS'indo biotech foods ltd'
+p1405
+aS'indo bonito multinational ltd'
+p1406
+aS'indo borax &amp; chemicals ltd'
+p1407
+aS'indo credit capital ltd'
+p1408
+aS'indo green projects ltd'
+p1409
+aS'indo rama synthetics (india) limited'
+p1410
+aS'indo tech transformers ltd'
+p1411
+aS'indo-asian projects ltd'
+p1412
+aS'indo-city infotech ltd'
+p1413
+aS'indo-pacific software &amp; entertainment ltd'
+p1414
+aS'indoco remedies ltd'
+p1415
+aS'indokem ltd'
+p1416
+aS'indowind energy ltd'
+p1417
+aS'indraprastha gas limited'
+p1418
+aS'indraprastha medical corpn ltd'
+p1419
+aS'indrayani biotech ltd'
+p1420
+aS'indu nissan oxo chemical inds ltd'
+p1421
+aS'inducto steel ltd'
+p1422
+aS'indus fila ltd'
+p1423
+aS'indus networks ltd'
+p1424
+aS'indusind bank ltd'
+p1425
+aS'industrial &amp; prudential investment company ltd'
+p1426
+aS'industrial investment trust ltd'
+p1427
+aS'info edge (india) ltd'
+p1428
+aS'info-drive software ltd'
+p1429
+aS'infomedia 18 ltd'
+p1430
+aS'information technologies (india) ltd'
+p1431
+aS'informed technologies india ltd'
+p1432
+aS'infosys technologies ltd'
+p1433
+aS'tech mahindra'
+p1434
+aS'infotech enterprises ltd'
+p1435
+aS'infotrek syscom ltd'
+p1436
+aS'infra industries ltd'
+p1437
+aS'infrastructure development finance company ltd'
+p1438
+aS'ingersoll-rand (india) limited'
+p1439
+aS'innocorp ltd'
+p1440
+aS'innovative foods ltd'
+p1441
+aS'innovative tech pack ltd'
+p1442
+aS'innovision e-commerce ltd'
+p1443
+aS'inox leisure ltd'
+p1444
+aS'insecticides (india) ltd'
+p1445
+aS'insilco ltd'
+p1446
+aS'intec capital ltd'
+p1447
+aS'integra capital management ltd'
+p1448
+aS'integra hindustan control ltd'
+p1449
+aS'integrated finance company ltd'
+p1450
+aS'integrated financial services ltd'
+p1451
+aS'integrated hitech ltd'
+p1452
+aS'integrated rubian exports ltd'
+p1453
+aS'integrated technologies ltd'
+p1454
+aS'intel technology'
+p1455
+aS'intellivate capital ventures ltd'
+p1456
+aS'intellvisions software ltd'
+p1457
+aS'intense technologies ltd'
+p1458
+aS'intensive air systems ltd'
+p1459
+aS'inter state finance ltd'
+p1460
+aS'inter state oil carrier ltd'
+p1461
+aS'interface financial services ltd'
+p1462
+aS'interfit techno products ltd'
+p1463
+aS'intergrated digital info services ltd'
+p1464
+aS'interlink petroleum ltd'
+p1465
+aS'international combustion (india) ltd'
+p1466
+aS'international conveyors ltd'
+p1467
+aS'international diamond services ltd'
+p1468
+aS'international hometex ltd'
+p1469
+aS'international housing finance corpn ltd'
+p1470
+aS'international securities ltd'
+p1471
+aS'international travel house ltd'
+p1472
+aS'interworld digital ltd'
+p1473
+aS'intra infotech ltd'
+p1474
+aS'investment &amp; precision castings ltd'
+p1475
+aS'invicta meditek ltd'
+p1476
+aS'inwinex pharmaceuticals ltd'
+p1477
+aS'ion exchange (india) ltd'
+p1478
+aS'ipca laboratories ltd'
+p1479
+aS'ishita drugs &amp; inds ltd'
+p1480
+aS'ishwar bhuvan hotels ltd'
+p1481
+aS'ishwarshakti holdings &amp; traders ltd'
+p1482
+aS'ispat industries ltd'
+p1483
+aS'ispat profiles india ltd'
+p1484
+aS'igate'
+p1485
+aS'j c t electronics limited'
+p1486
+aS'j k paper limited'
+p1487
+aS'j kumar infraproject ltd'
+p1488
+aS'j k cement limited'
+p1489
+aS'jb chemicals &amp; pharmaceuticals ltd'
+p1490
+aS'jbf industries ltd'
+p1491
+aS'jbm auto ltd'
+p1492
+aS'jct electronics ltd'
+p1493
+aS'jct limited'
+p1494
+aS'jd orgochem ltd'
+p1495
+aS'jf laboratories ltd'
+p1496
+aS'jhs svendgaard laboratories ltd'
+p1497
+aS'jik industries ltd'
+p1498
+aS'jj exporters ltd'
+p1499
+aS'jj finance corpn ltd'
+p1500
+aS'jk agri genetics ltd'
+p1501
+aS'jk investo trade (india) ltd'
+p1502
+aS'jk lakshmi cement ltd'
+p1503
+aS'jk pharmachem ltd'
+p1504
+aS'jk sugar ltd'
+p1505
+aS'jk synthetics ltd'
+p1506
+aS'jk tyre &amp; industries limited'
+p1507
+aS'jl morison (india) ltd'
+p1508
+aS'jm financial ltd'
+p1509
+aS'jmc projects (india) ltd'
+p1510
+aS'jmd telefilms inds ltd'
+p1511
+aS'jmde packaging &amp; realties ltd'
+p1512
+aS'jpt securities ltd'
+p1513
+aS'jr foods ltd'
+p1514
+aS'jrg securities ltd'
+p1515
+aS'jsl ltd'
+p1516
+aS'jsw steel limited'
+p1517
+aS'jvl agro industries ltd'
+p1518
+aS'jagan lamps ltd'
+p1519
+aS'jagatjit industries ltd'
+p1520
+aS'jagjanani textiles ltd'
+p1521
+aS'jagran prakashan ltd'
+p1522
+aS'jagson airlines ltd'
+p1523
+aS'jagsonpal finance &amp; leasing ltd'
+p1524
+aS'jagsonpal pharmaceuticals ltd'
+p1525
+aS'jai balaji inds ltd'
+p1526
+aS'jai corp ltd'
+p1527
+aS'jai mata glass ltd'
+p1528
+aS'jai parabolic springs ltd'
+p1529
+aS'jaihind projects ltd'
+p1530
+aS'jaihind synthetics ltd'
+p1531
+aS'jain irrigation systems ltd'
+p1532
+aS'jain marble udhyog ltd'
+p1533
+aS'jain studios ltd'
+p1534
+aS'jainco projects (india) ltd'
+p1535
+aS'jainex aamcol ltd'
+p1536
+aS'jaipan industries ltd'
+p1537
+aS'jaiprakash associates limited'
+p1538
+aS'jaiprakash power ventures ltd'
+p1539
+aS'jaisal securities ltd'
+p1540
+aS'jalpac india ltd'
+p1541
+aS'james hotels ltd'
+p1542
+aS'jammu &amp; kashmir bank ltd'
+p1543
+aS'jamna auto inds ltd'
+p1544
+aS'jamshri ranjitsinghji spg &amp; wvg mills compan'
+p1545
+aS'janice textiles ltd'
+p1546
+aS'jarigold textiles mfg &amp; trading company ltd'
+p1547
+aS'jasch industries ltd'
+p1548
+aS'jay bharat maruti ltd'
+p1549
+aS'jay shree tea &amp; inds ltd'
+p1550
+aS'jay ushin ltd'
+p1551
+aS'jayabharat credit ltd'
+p1552
+aS'jayant agro-organics ltd'
+p1553
+aS'jayant mercantile company ltd'
+p1554
+aS'jayaswal neco inds ltd'
+p1555
+aS'jayavant products ltd'
+p1556
+aS'jaybharat textiles &amp; real estate ltd'
+p1557
+aS'jaypee hotels ltd'
+p1558
+aS'jayshree chemicals ltd'
+p1559
+aS'jaysynth dyestuff (india) ltd'
+p1560
+aS'jeet machine tools ltd'
+p1561
+aS'jenburkt pharmaceuticals ltd'
+p1562
+aS'jenson &amp; nicholson (india) ltd'
+p1563
+aS'jenson &amp; nicholson financial services ltd'
+p1564
+aS'jet airways (india) ltd'
+p1565
+aS'jetking infotrain ltd'
+p1566
+aS'jeypore sugar company ltd'
+p1567
+aS'jhagadia copper ltd'
+p1568
+aS'jhaveri credits &amp; capital ltd'
+p1569
+aS'jhaveri flexo india ltd'
+p1570
+aS'jhaveri weldflux ltd'
+p1571
+aS'jindal capital ltd'
+p1572
+aS'jindal cotex ltd'
+p1573
+aS'jindal drilling &amp; inds ltd'
+p1574
+aS'jindal hotels ltd'
+p1575
+aS'jindal photo ltd'
+p1576
+aS'jindal poly films ltd'
+p1577
+aS'jindal saw ltd'
+p1578
+aS'jindal south west holdings ltd'
+p1579
+aS'jindal steel and power limited'
+p1580
+aS'jindal worldwide ltd'
+p1581
+aS'jocil ltd'
+p1582
+aS'jog engineering ltd'
+p1583
+aS'joindre capital services ltd'
+p1584
+aS'jolly board ltd'
+p1585
+aS'joonktollee tea &amp; industries ltd'
+p1586
+aS'jord engineers india ltd'
+p1587
+aS"jost's engineering company ltd"
+p1588
+aS'jubilant organosys ltd'
+p1589
+aS'jumbo bag ltd'
+p1590
+aS'jupiter bioscience ltd'
+p1591
+aS'jupiter industries &amp; leasing ltd'
+p1592
+aS'jyothy laboratories ltd'
+p1593
+aS'jyoti cosetics (exim) ltd'
+p1594
+aS'jyoti ltd'
+p1595
+aS'jyoti overseas ltd'
+p1596
+aS'jyoti resins &amp; adhesives ltd'
+p1597
+aS'jyoti structures ltd'
+p1598
+aS'k dhandapani &amp; company ltd'
+p1599
+aS'k sera sera productions ltd'
+p1600
+aS'kar mobiles ltd'
+p1601
+aS'kbs capital management ltd'
+p1602
+aS'kcl infra projects ltd'
+p1603
+aS'kcp ltd'
+p1604
+aS'kcp sugar &amp; inds corpn ltd'
+p1605
+aS'kddl ltd'
+p1606
+aS'kdl biotech ltd'
+p1607
+aS'kec international ltd'
+p1608
+aS'kew industries ltd'
+p1609
+aS'kg denim ltd'
+p1610
+aS'kg petrochem ltd'
+p1611
+aS'kgn industries ltd'
+p1612
+aS'kic metaliks ltd'
+p1613
+aS'kjmc financial services ltd'
+p1614
+aS'kjmc global market (india) ltd'
+p1615
+aS'klg capital services ltd'
+p1616
+aS'klg systel ltd'
+p1617
+aS'klk electrical ltd'
+p1618
+aS'klrf ltd'
+p1619
+aS'km sugar mills ltd'
+p1620
+aS'kmf builders &amp; developers ltd'
+p1621
+aS'knr construction ltd'
+p1622
+aS'kpit cummins infosystems limited'
+p1623
+aS'kpr mill ltd'
+p1624
+aS'krbl ltd'
+p1625
+aS'ks oils ltd'
+p1626
+aS'ksb pumps ltd'
+p1627
+aS'kse ltd'
+p1628
+aS'ksk energy ventures ltd'
+p1629
+aS'ksl &amp; industries ltd'
+p1630
+aS'ktl industries ltd'
+p1631
+aS'kz leasing &amp; finance ltd'
+p1632
+aS'kaashyap technologies ltd'
+p1633
+aS'kabra extrusiontechnik ltd'
+p1634
+aS'kabsons industries ltd'
+p1635
+aS'kachchh minerals ltd'
+p1636
+aS'kadvani securities ltd'
+p1637
+aS'kailash ficom ltd'
+p1638
+aS'kaira can company ltd'
+p1639
+aS'kaiser press ltd'
+p1640
+aS'kajaria ceramics ltd'
+p1641
+aS'kakatiya cement sugar &amp; industries ltd'
+p1642
+aS'kale consultants ltd'
+p1643
+aS'kaleidoscope films ltd'
+p1644
+aS'kalindee rail nirman (engineers) ltd'
+p1645
+aS'kallam spinning mills ltd'
+p1646
+aS'kalpataru power transmission ltd'
+p1647
+aS'kalpena industries ltd'
+p1648
+aS'kalpena plastiks ltd'
+p1649
+aS'kalptaru papers ltd'
+p1650
+aS'kalyani forge ltd'
+p1651
+aS'kalyani steels limited'
+p1652
+aS'kalyanpur cements ltd'
+p1653
+aS'kamanwala housing construction ltd'
+p1654
+aS'kamar chemicals &amp; inds ltd'
+p1655
+aS'kamat hotels (india) ltd'
+p1656
+aS'kamdhenu ispat ltd'
+p1657
+aS'kampani consultants ltd'
+p1658
+aS'kanani industries ltd'
+p1659
+aS'kanchan international ltd'
+p1660
+aS'kanco enterprises ltd'
+p1661
+aS'kanel oil &amp; export inds ltd'
+p1662
+aS'kanika infrastructure &amp; power ltd'
+p1663
+aS'kanishk steel inds ltd'
+p1664
+aS'kanpur plastipack ltd'
+p1665
+aS'kansai nerolac paints ltd'
+p1666
+aS'kapashi commercial ltd'
+p1667
+aS'kapil cotex ltd'
+p1668
+aS'kappac pharma ltd'
+p1669
+aS'karan woo-sin ltd'
+p1670
+aS'karma ispat ltd'
+p1671
+aS'karnataka bank ltd'
+p1672
+aS'karnavati alfa international ltd'
+p1673
+aS'karur kcp packkagings ltd'
+p1674
+aS'karur vysya bank ltd'
+p1675
+aS'karuturi global ltd'
+p1676
+aS'kashipur sugar mills ltd'
+p1677
+aS'kashyap tele-medicines ltd'
+p1678
+aS'katare spinning mills ltd'
+p1679
+aS'katwa cements ltd'
+p1680
+aS'kaushalya infrastructure development corpn ltd'
+p1681
+aS'kaveri seed company ltd'
+p1682
+aS'kavveri telecom products ltd'
+p1683
+aS'kay power and paper ltd'
+p1684
+aS'kedia chemical inds ltd'
+p1685
+aS'kedia construction company ltd'
+p1686
+aS'kedia infotech ltd'
+p1687
+aS'keltech energies ltd'
+p1688
+aS'kemp &amp; company ltd'
+p1689
+aS'kemrock industries &amp; exports ltd'
+p1690
+aS'ken financial services ltd'
+p1691
+aS'kennametal india ltd'
+p1692
+aS'kerala ayurveda ltd'
+p1693
+aS'kernex microsystems (india) ltd'
+p1694
+aS'kesar enterprises ltd'
+p1695
+aS'kesar petroproducts ltd'
+p1696
+aS'kesoram industries ltd'
+p1697
+aS'kewal kiran clothing ltd'
+p1698
+aS'key corp ltd'
+p1699
+aS'keynote corporate services ltd'
+p1700
+aS'khaitan (india) ltd'
+p1701
+aS'khaitan chemicals &amp; fertilizers ltd'
+p1702
+aS'khaitan electricals ltd'
+p1703
+aS'khandwala securities ltd'
+p1704
+aS'khoday india ltd'
+p1705
+aS'khodiyar industries ltd'
+p1706
+aS'khyati multimedia entertainment ltd'
+p1707
+aS'kiduja india ltd'
+p1708
+aS'kilburn chemicals ltd'
+p1709
+aS'kilburn office automation ltd'
+p1710
+aS'kilitch drugs (india) ltd'
+p1711
+aS'killick nixon ltd'
+p1712
+aS'kilpest india ltd'
+p1713
+aS'kinetic engineering ltd'
+p1714
+aS'kinetic motor company ltd'
+p1715
+aS'kingfisher airlines ltd'
+p1716
+aS'kiran print-pack ltd'
+p1717
+aS'kiri dyes and chemcials ltd'
+p1718
+aS'kirloskar brothers ltd'
+p1719
+aS'kirloskar electric company limited'
+p1720
+aS'kirloskar ferrous inds ltd'
+p1721
+aS'kirloskar investments &amp; finance ltd'
+p1722
+aS'kirloskar multimedia ltd'
+p1723
+aS'kirloskar oil engines ltd'
+p1724
+aS'kirloskar pneumatic company ltd'
+p1725
+aS'kirti finvest ltd'
+p1726
+aS'kisan mouldings ltd'
+p1727
+aS'kitply industries ltd'
+p1728
+aS'knitworth exports ltd'
+p1729
+aS'koffee break pictures ltd'
+p1730
+aS'kohinoor broadcasting corpn ltd'
+p1731
+aS'kohinoor foods ltd'
+p1732
+aS'kolar biotech ltd'
+p1733
+aS'kolte patil developers ltd'
+p1734
+aS'konark synthetic ltd'
+p1735
+aS'konkan tyres ltd'
+p1736
+aS'kopran ltd'
+p1737
+aS'kosian industries ltd'
+p1738
+aS'kotak mahindra bank ltd'
+p1739
+aS'kothari fermentation &amp; biochem ltd'
+p1740
+aS'kothari industrial corpn ltd'
+p1741
+aS'kothari products ltd'
+p1742
+aS'koutons retail india ltd'
+p1743
+aS'kovai medical center &amp; hospital ltd'
+p1744
+aS'krebs biochemicals &amp; inds ltd'
+p1745
+aS'krishna lifestyle technologies ltd'
+p1746
+aS'kriti industries (india) ltd'
+p1747
+aS'krone communications ltd'
+p1748
+aS'krypton industries ltd'
+p1749
+aS'kulkarni power tools ltd'
+p1750
+aS'kumar wire cloth mfg company ltd'
+p1751
+aS'kumbhat financial services ltd'
+p1752
+aS'kunststoffe industries ltd'
+p1753
+aS'kusum iron &amp; steel ltd'
+p1754
+aS'kuvam international fashions ltd'
+p1755
+aS'kwality dairy (india) ltd'
+p1756
+aS'lcc infotech ltd'
+p1757
+aS'lg balakrishnan &amp; bros ltd'
+p1758
+aS'lgb forge ltd'
+p1759
+aS'lgs global ltd'
+p1760
+aS'lic housing finance ltd'
+p1761
+aS'lkp finance ltd'
+p1762
+aS'lml ltd'
+p1763
+aS'ln polyesters ltd'
+p1764
+aS'ls inds ltd'
+p1765
+aS'lt foods ltd'
+p1766
+aS'la opala r g ltd'
+p1767
+aS'lactose (india) ltd'
+p1768
+aS'ladderup finance ltd'
+p1769
+aS'laffans petrochemicals ltd'
+p1770
+aS'lahoti overseas ltd'
+p1771
+aS'lakhani india ltd'
+p1772
+aS'lakshmi electrical control systems ltd'
+p1773
+aS'lakshmi machine works ltd'
+p1774
+aS'lakshmi mills company ltd'
+p1775
+aS'lakshmi precision screws ltd'
+p1776
+aS'lakshmi vilas bank ltd'
+p1777
+aS'lambodhara textiles ltd'
+p1778
+aS'lan eseda inds ltd'
+p1779
+aS'lan eseda industries ltd'
+p1780
+aS'lanco industries ltd'
+p1781
+aS'lanco infratech ltd'
+p1782
+aS'lancor holdings ltd'
+p1783
+aS'landmarc leisure corpn ltd'
+p1784
+aS'landmark property development co ltd'
+p1785
+aS'larsen &amp; toubro limited'
+p1786
+aS'laser diamonds ltd'
+p1787
+aS'laser dot ltd'
+p1788
+aS'lawreshwar polymers ltd'
+p1789
+aS'lead financial services ltd'
+p1790
+aS'ledo tea company ltd'
+p1791
+aS'lee &amp; nee softwares (exports) ltd'
+p1792
+aS'lesha energy resources ltd'
+p1793
+aS'liberty phosphate ltd'
+p1794
+aS'liberty shoes ltd'
+p1795
+aS'libord infotech ltd'
+p1796
+aS'libords securities ltd'
+p1797
+aS'lifestyle'
+p1798
+aS'lime chemicals ltd'
+p1799
+aS'linaks microelectronics ltd'
+p1800
+aS'linc pen &amp; plastics ltd'
+p1801
+aS'lincoln pharmaceuticals ltd'
+p1802
+aS'linear industries ltd'
+p1803
+aS'link house inds ltd'
+p1804
+aS'link pharma chem ltd'
+p1805
+aS'linkson international ltd'
+p1806
+aS'lintas mercantile ltd'
+p1807
+aS'lippi systems ltd'
+p1808
+aS'living room lifestyle ltd'
+p1809
+aS'lloyd electric &amp; engineering ltd'
+p1810
+aS'lloyd rockfibres ltd'
+p1811
+aS'lloyds finance ltd'
+p1812
+aS'lloyds metals &amp; engineers ltd'
+p1813
+aS'lloyds steel inds ltd'
+p1814
+aS'logix microsystems ltd'
+p1815
+aS'lohia securities ltd'
+p1816
+aS'lok housing &amp; constructions ltd'
+p1817
+aS'lokesh machines ltd'
+p1818
+aS'longview tea company ltd'
+p1819
+aS'lords chemicals ltd'
+p1820
+aS'lords chloro alkali ltd'
+p1821
+aS'lotte india corpn ltd'
+p1822
+aS'lotus chocolate company ltd'
+p1823
+aS'lotus eye care hospital ltd'
+p1824
+aS'loyal textile mills ltd'
+p1825
+aS'ludlow jute &amp; specialities ltd'
+p1826
+aS'lumax auto technologies ltd'
+p1827
+aS'lumax automotive systems ltd'
+p1828
+aS'lumax industries ltd'
+p1829
+aS'luminaire technologies ltd'
+p1830
+aS'lupin limited'
+p1831
+aS'lyka labs ltd'
+p1832
+aS'lynx machinery &amp; commercials ltd'
+p1833
+aS'lyons corporate market ltd'
+p1834
+aS'mb parikh finstocks ltd'
+p1835
+aS'mcs ltd'
+p1836
+aS'mh mills &amp; inds ltd'
+p1837
+aS'mic electronics ltd'
+p1838
+aS'mirc electronics ltd'
+p1839
+aS'mk exim (india) ltd'
+p1840
+aS'mm forgings ltd'
+p1841
+aS'mm rubber company ltd'
+p1842
+aS'mmtc ltd'
+p1843
+aS'mp agro inds ltd'
+p1844
+aS'mp oils &amp; fats ltd'
+p1845
+aS'mp telelinks ltd'
+p1846
+aS'mpil corpn ltd'
+p1847
+aS'mps ltd'
+p1848
+aS'mrf limited'
+p1849
+aS'mro - tek ltd'
+p1850
+aS'msk projects (india) ltd'
+p1851
+aS'msl industries ltd'
+p1852
+aS'msp steel &amp; power ltd'
+p1853
+aS'mtz industries ltd'
+p1854
+aS'mtz polyfilms ltd'
+p1855
+aS'mvl industries ltd'
+p1856
+aS'mvl ltd'
+p1857
+aS'mym technologies ltd'
+p1858
+aS'maars software international ltd'
+p1859
+aS'mac charles (india) ltd'
+p1860
+aS'machino plastics ltd'
+p1861
+aS'mack trading company ltd'
+p1862
+aS'madhav marbles &amp; granites ltd'
+p1863
+aS'madhucon projects ltd'
+p1864
+aS'madhur capital &amp; finance ltd'
+p1865
+aS'madhur industries ltd'
+p1866
+aS'madhusudan industries ltd'
+p1867
+aS'madhusudan securities ltd'
+p1868
+aS'madhyadesh papers ltd'
+p1869
+aS'madras aluminium company ltd'
+p1870
+aS'madras cements limited'
+p1871
+aS'madras fertilizers ltd'
+p1872
+aS'maestros mediline systems ltd'
+p1873
+aS'mafatlal industries ltd'
+p1874
+aS'magicut tools ltd'
+p1875
+aS'magma fincorp ltd'
+p1876
+aS'magna electro castings ltd'
+p1877
+aS'magna industries &amp; exports ltd'
+p1878
+aS'magnum ltd'
+p1879
+aS'magnum ventures ltd'
+p1880
+aS'maha rashtra apex corpn ltd'
+p1881
+aS'mahaan foods ltd'
+p1882
+aS'mahalaxmi rubtech ltd'
+p1883
+aS'mahalaxmi seamless ltd'
+p1884
+aS'mahan industries ltd'
+p1885
+aS'mahanagar telephone nigam ltd'
+p1886
+aS'mahanivesh (india) ltd'
+p1887
+aS'maharaja shree umaid mills ltd'
+p1888
+aS'maharashtra elektrosmelt ltd'
+p1889
+aS'maharashtra overseas ltd'
+p1890
+aS'maharashtra polybutenes ltd'
+p1891
+aS'maharashtra scooters ltd'
+p1892
+aS'maharashtra seamless ltd'
+p1893
+aS'mahasagar travels ltd'
+p1894
+aS'mahendra petrochemicals ltd'
+p1895
+aS'mahindra &amp; mahindra financial services ltd'
+p1896
+aS'mahindra &amp; mahindra limited'
+p1897
+aS'mahindra composites ltd'
+p1898
+aS'mahindra forgings ltd'
+p1899
+aS'mahindra holidays &amp; resorts india ltd'
+p1900
+aS'mahindra satyam ltd'
+p1901
+aS'maikaal fibres ltd'
+p1902
+aS'maithan alloys ltd'
+p1903
+aS'majestic auto ltd'
+p1904
+aS'makers laboratories ltd'
+p1905
+aS'malabar trading company ltd'
+p1906
+aS'malanpur steel ltd'
+p1907
+aS'malar hospitals ltd'
+p1908
+aS'malu paper mills ltd'
+p1909
+aS'malwa cotton spg mills ltd'
+p1910
+aS'man aluminium ltd'
+p1911
+aS'man industries (india) ltd'
+p1912
+aS'manaksia ltd'
+p1913
+aS'manali petrochemical ltd'
+p1914
+aS'manappuram general finance &amp; leasing ltd'
+p1915
+aS'mangalam cement ltd'
+p1916
+aS'mangalam drugs &amp; organics ltd'
+p1917
+aS'mangalam timber products ltd'
+p1918
+aS'mangalam ventures ltd'
+p1919
+aS'mangalore chemicals &amp; fertilizers ltd'
+p1920
+aS'mangalore refinery &amp; petrochemicals ltd'
+p1921
+aS'mangalya soft-tech ltd'
+p1922
+aS'manipal finance corpn ltd'
+p1923
+aS'manjeera constructions ltd'
+p1924
+aS'manjushree technopack ltd'
+p1925
+aS'manor floatel ltd'
+p1926
+aS'mansi finance (chennai) ltd'
+p1927
+aS'manugraph india ltd'
+p1928
+aS'maple infraprojects ltd'
+p1929
+aS'marathon nextgen realty ltd'
+p1930
+aS'marathwada refractories ltd'
+p1931
+aS'mardia extrusions ltd'
+p1932
+aS'mardia samyoung capillary tubes company ltd'
+p1933
+aS'marg ltd'
+p1934
+aS'marg projects &amp; infrastructure ltd'
+p1935
+aS'marico ltd'
+p1936
+aS'maris spinners ltd'
+p1937
+aS'market creators ltd'
+p1938
+aS'marksans pharma ltd'
+p1939
+aS'marmagoa steel ltd'
+p1940
+aS'marsons ltd'
+p1941
+aS'martin burn ltd'
+p1942
+aS'maruti infrastructure ltd'
+p1943
+aS'maruti securities ltd'
+p1944
+aS'maruti suzuki india ltd'
+p1945
+aS'marvel capital &amp; finance (india) ltd'
+p1946
+aS'marvel industries ltd'
+p1947
+aS'mascon global ltd'
+p1948
+aS'mastek ltd'
+p1949
+aS'master chemicals ltd'
+p1950
+aS'master trust ltd'
+p1951
+aS'mather &amp; platt fire systems ltd'
+p1952
+aS'mather &amp; platt pumps ltd'
+p1953
+aS'mathew easow research securities ltd'
+p1954
+aS'matra realty ltd'
+p1955
+aS'matrix laboratories limited'
+p1956
+aS'mavi industries ltd'
+p1957
+aS'mawana sugars ltd'
+p1958
+aS'mawana sugars ltd merged'
+p1959
+aS'max india ltd'
+p1960
+aS'maximaa systems ltd'
+p1961
+aS'maxwell industries ltd'
+p1962
+aS'maytas infra ltd'
+p1963
+aS'mayur leather products ltd'
+p1964
+aS'mayur uniquoters ltd'
+p1965
+aS'mazda ltd'
+p1966
+aS"mcdonald's india"
+p1967
+aS'mckinsey &amp; company'
+p1968
+aS'mcdowell holdings ltd'
+p1969
+aS'mcleod russel india ltd'
+p1970
+aS'mcnally bharat engg company ltd'
+p1971
+aS'medi-caps ltd'
+p1972
+aS'media matrix worldwide ltd'
+p1973
+aS'medicamen biotech ltd'
+p1974
+aS'medinova diagnostic services ltd'
+p1975
+aS'mefcom capital markets ltd'
+p1976
+aS'mega corporation ltd'
+p1977
+aS'mega fin (india) ltd'
+p1978
+aS'megasoft ltd'
+p1979
+aS'meghmani organics ltd'
+p1980
+aS'mehta housing finance ltd'
+p1981
+aS'mehta integrated finance ltd'
+p1982
+aS'mehta securities ltd'
+p1983
+aS'melstar information technology ltd'
+p1984
+aS'menon pistons ltd'
+p1985
+aS'mercator lines ltd'
+p1986
+aS'merck ltd'
+p1987
+aS'metal coatings (india) ltd'
+p1988
+aS'metalman industries ltd'
+p1989
+aS'metrochem industries ltd'
+p1990
+aS'mewar polytex ltd'
+p1991
+aS'micro forge (india) ltd'
+p1992
+aS'micro inks ltd'
+p1993
+aS'micro technologies (india) ltd'
+p1994
+aS'microse india ltd'
+p1995
+aS'mid east portfolio management ltd'
+p1996
+aS'mid india inds ltd'
+p1997
+aS'mid-day multimedia'
+p1998
+aS'midas pharmasec ltd'
+p1999
+aS'mideast portfolio management ltd'
+p2000
+aS'midland plastics ltd'
+p2001
+aS'midpoint software &amp; electro systems ltd'
+p2002
+aS'mihijam vanaspati ltd'
+p2003
+aS'milestone global ltd'
+p2004
+aS'milkfood ltd'
+p2005
+aS'millennium cybertech ltd'
+p2006
+aS'milton plastics ltd'
+p2007
+aS'minal engineering ltd'
+p2008
+aS'minaxi textiles ltd'
+p2009
+aS'minda industries ltd'
+p2010
+aS'mindteck (india) ltd'
+p2011
+aS'mindtree ltd'
+p2012
+aS'mini diamonds (india) ltd'
+p2013
+aS'minolta finance ltd'
+p2014
+aS'mirch technologies ltd'
+p2015
+aS'mirza international ltd'
+p2016
+aS'mobile tele communications ltd'
+p2017
+aS'modern dairies ltd'
+p2018
+aS'modern india ltd'
+p2019
+aS'modern shares &amp; stock brokers ltd'
+p2020
+aS'modern steels ltd'
+p2021
+aS'modi hoover international ltd'
+p2022
+aS'modi naturals ltd'
+p2023
+aS'modi rubber ltd'
+p2024
+aS'modison metals ltd'
+p2025
+aS'moh ltd'
+p2026
+aS'mohan meakin ltd'
+p2027
+aS'mohit paper mills ltd'
+p2028
+aS'mold-tek technologies ltd'
+p2029
+aS'moldtek plastics ltd'
+p2030
+aS'monalisa infotech ltd'
+p2031
+aS'moneshi agro industries ltd'
+p2032
+aS'money masters financial services ltd'
+p2033
+aS'monica electronics ltd'
+p2034
+aS'monnet industries ltd'
+p2035
+aS'monnet ispat &amp; energy ltd'
+p2036
+aS'monnet sugar ltd'
+p2037
+aS'monotona securities ltd'
+p2038
+aS'monotype india ltd'
+p2039
+aS'monsanto india ltd'
+p2040
+aS'moonbeam industries ltd'
+p2041
+aS'moongipa capital finance ltd'
+p2042
+aS'morarjee textiles ltd'
+p2043
+aS'morarka finance ltd'
+p2044
+aS'morepen laboratories ltd'
+p2045
+aS'morgan industries ltd'
+p2046
+aS'morgan stanley'
+p2047
+aS'morgan ventures ltd'
+p2048
+aS'morganite crucible (india) ltd'
+p2049
+aS'moschip semiconductor technology ltd'
+p2050
+aS'moser baer india ltd'
+p2051
+aS'motherson sumi systems ltd'
+p2052
+aS'motilal oswal financial services ltd'
+p2053
+aS'motor &amp; general finance ltd'
+p2054
+aS'motorola'
+p2055
+aS'mount everest mineral water ltd'
+p2056
+aS'mounteverest trading &amp; invst ltd'
+p2057
+aS'moving picture company (india) ltd'
+p2058
+aS'mphasis'
+p2059
+aS'mphasis ltd'
+p2060
+aS'mrugesh trading ltd'
+p2061
+aS'mudit finlease ltd'
+p2062
+aS'mudra lifestyle ltd'
+p2063
+aS'mukand engineers ltd'
+p2064
+aS'mukand ltd'
+p2065
+aS'mukat pipes ltd'
+p2066
+aS'mukesh babu financial services ltd'
+p2067
+aS'mukesh steels ltd'
+p2068
+aS'mukesh strips ltd'
+p2069
+aS'mukta arts ltd'
+p2070
+aS'mukunda industrial finance ltd'
+p2071
+aS'muller &amp; phipps (india) ltd'
+p2072
+aS'multi-arc india ltd'
+p2073
+aS'multibase india ltd'
+p2074
+aS'multiplus holdings ltd'
+p2075
+aS'mundra port &amp; special economic zone ltd'
+p2076
+aS'munjal auto inds ltd'
+p2077
+aS'munjal showa ltd'
+p2078
+aS'munoth capital markets ltd'
+p2079
+aS'munoth communication ltd'
+p2080
+aS'munoth financial services ltd'
+p2081
+aS'murli industries limited'
+p2082
+aS'murudeshwar ceramics ltd'
+p2083
+aS'muskan ferro silicons ltd'
+p2084
+aS'muthoot capital services ltd'
+p2085
+aS'my fair lady ltd'
+p2086
+aS'mysore paper mills ltd'
+p2087
+aS'mysore petro chemicals ltd'
+p2088
+aS'nb footwear ltd'
+p2089
+aS'ncc finance ltd'
+p2090
+aS'ncj international ltd'
+p2091
+aS'ncl industries ltd'
+p2092
+aS'ncl research &amp; financial services ltd'
+p2093
+aS'nd metal inds ltd'
+p2094
+aS'nda securities ltd'
+p2095
+aS'nepc agro foods ltd'
+p2096
+aS'nepc india ltd'
+p2097
+aS'ng industries ltd'
+p2098
+aS'ngl fine-chem ltd'
+p2099
+aS'nhpc ltd'
+p2100
+aS'niit ltd'
+p2101
+aS'niit technologies ltd'
+p2102
+aS'nk industries ltd'
+p2103
+aS'nmdc ltd'
+p2104
+aS'npr finance ltd'
+p2105
+aS'nr agarwal inds ltd'
+p2106
+aS'nr international ltd'
+p2107
+aS'nrb bearings ltd'
+p2108
+aS'ntpc limited'
+p2109
+aS'nachmo knitex ltd'
+p2110
+aS'nagarjuna agri tech ltd'
+p2111
+aS'nagarjuna agrichem ltd'
+p2112
+aS'nagarjuna construction company ltd'
+p2113
+aS'nagarjuna fertilizers &amp; chemicals ltd'
+p2114
+aS'nagarjuna institute of software technology ltd'
+p2115
+aS'nagpur power ltd'
+p2116
+aS'nagreeka capital &amp; infrastructure ltd'
+p2117
+aS'nahar capital financial services ltd'
+p2118
+aS'nahar industrial enterprises ltd'
+p2119
+aS'nahar poly films ltd'
+p2120
+aS'nahar spinning mills ltd'
+p2121
+aS'nalin lease finance ltd'
+p2122
+aS'nalwa sons invsts ltd'
+p2123
+aS'namaste exports ltd'
+p2124
+aS'namtech electronic devices ltd'
+p2125
+aS'nandan exim ltd'
+p2126
+aS'narbada gems and jewellery ltd'
+p2127
+aS'narendra properties ltd'
+p2128
+aS'narmada gelatines ltd'
+p2129
+aS'natco pharma ltd'
+p2130
+aS'nath pulp &amp; paper mills ltd'
+p2131
+aS'nath seeds ltd'
+p2132
+aS'national aluminium company ltd'
+p2133
+aS'national fertilizers ltd'
+p2134
+aS'national flask inds ltd'
+p2135
+aS'national general inds ltd'
+p2136
+aS'national oxygen ltd'
+p2137
+aS'national peroxide ltd'
+p2138
+aS'national plastic inds ltd'
+p2139
+aS'national plastic technologies ltd'
+p2140
+aS'national steel &amp; agro inds ltd'
+p2141
+aS'national wind &amp; power corpn ltd'
+p2142
+aS'natraj financial &amp; services ltd'
+p2143
+aS'natraj proteins ltd'
+p2144
+aS'natura hue chem ltd'
+p2145
+aS'natural capsules ltd'
+p2146
+aS'nava bharat ventures ltd'
+p2147
+aS'navin fluorine intl ltd'
+p2148
+aS'navkar builders ltd'
+p2149
+aS'navneet publications (india) ltd'
+p2150
+aS'nectar lifesciences ltd'
+p2151
+aS'neelamalai agro inds ltd'
+p2152
+aS'neelkanth rockminerals ltd'
+p2153
+aS'neelkanth technologies ltd'
+p2154
+aS'neha international ltd'
+p2155
+aS'nelcast ltd'
+p2156
+aS'nelco ltd'
+p2157
+aS'neo corp intl ltd'
+p2158
+aS'neogem india ltd'
+p2159
+aS'nesco ltd'
+p2160
+aS'nestle india ltd'
+p2161
+aS'net 4 india ltd'
+p2162
+aS'netvision web technologies ltd'
+p2163
+aS'netflier finco ltd'
+p2164
+aS'netlink solutions (india) limited'
+p2165
+aS'nettlinx ltd'
+p2166
+aS'netvista information technology ltd'
+p2167
+aS'network 18 media &amp; investment ltd'
+p2168
+aS'network ltd'
+p2169
+aS'networth stock broking ltd'
+p2170
+aS'neuland laboratories ltd'
+p2171
+aS'new delhi television (ndtv)'
+p2172
+aS'nexxoft infotel ltd'
+p2173
+aS'neyveli lignite corpn ltd'
+p2174
+aS'nicco corpn ltd'
+p2175
+aS'nicco parks &amp; resorts ltd'
+p2176
+aS'nicco uco alliance credit ltd'
+p2177
+aS'nidhi granites ltd'
+p2178
+aS'nihar info global limited'
+p2179
+aS'nijjer agro foods ltd'
+p2180
+aS'nikki global finance ltd'
+p2181
+aS'nila infrastructures ltd'
+p2182
+aS'nile ltd'
+p2183
+aS'nilkamal ltd'
+p2184
+aS'nimbus foods industries ltd'
+p2185
+aS'niraj cement structurals ltd'
+p2186
+aS'nirav commercials ltd'
+p2187
+aS'nirlon ltd'
+p2188
+aS'nirma ltd'
+p2189
+aS'nirman cements ltd'
+p2190
+aS'niryat-sam apparels (india) ltd'
+p2191
+aS'nissan copper ltd'
+p2192
+aS'nitco ltd'
+p2193
+aS'nitin alloys global ltd'
+p2194
+aS'nitin fire protection inds ltd'
+p2195
+aS'nitin spinners ltd'
+p2196
+aS'nitta gelatin india ltd'
+p2197
+aS'nivedita mercantile &amp; financing ltd'
+p2198
+aS'nivi trading ltd'
+p2199
+aS'niyati industries ltd'
+p2200
+aS'nocil ltd'
+p2201
+aS'noel agritech ltd'
+p2202
+aS'noida medicare centre ltd'
+p2203
+aS'noida toll bridge company ltd'
+p2204
+aS'nokia india'
+p2205
+aS'nokia siemens networks'
+p2206
+aS'norben tea &amp; exports ltd'
+p2207
+aS'northgate technologies ltd'
+p2208
+aS'nouveau multimedia ltd'
+p2209
+aS'nova petrochemicals ltd'
+p2210
+aS'nova steels india ltd'
+p2211
+aS'novagold petro-resources ltd'
+p2212
+aS'novartis india limited'
+p2213
+aS'novopan industries ltd'
+p2214
+aS'nu tek india ltd'
+p2215
+aS'nu-tech corporate services ltd'
+p2216
+aS'nucent estates ltd'
+p2217
+aS'nuchem ltd'
+p2218
+aS'nucleus software exports ltd'
+p2219
+aS'numech emballage ltd'
+p2220
+aS'numeric power systems ltd'
+p2221
+aS'numero uno projects ltd'
+p2222
+aS'nutech global ltd'
+p2223
+aS'nutraplus products (india) ltd'
+p2224
+aS'ocl india ltd'
+p2225
+aS'ocl iron and steel ltd'
+p2226
+aS'ok play india ltd'
+p2227
+aS'org informatics ltd'
+p2228
+aS'oasis finvest ltd'
+p2229
+aS'oasis media matrix ltd'
+p2230
+aS'oasis securities ltd'
+p2231
+aS'ocean infrastructure ltd'
+p2232
+aS'octant interactive technologies ltd'
+p2233
+aS'octav investments ltd'
+p2234
+aS'odyssey corporation ltd'
+p2235
+aS'odyssey technologies ltd'
+p2236
+aS'odyssey video communications ltd'
+p2237
+aS'oil country tubular ltd'
+p2238
+aS'oil india limited'
+p2239
+aS'oil and natural gas corporation limited'
+p2240
+aS'olympia capitals ltd'
+p2241
+aS'olympic oil inds ltd'
+p2242
+aS'om metals infraprojects ltd'
+p2243
+aS'omax autos ltd'
+p2244
+aS'omaxe limited'
+p2245
+aS'omega ag-seeds (punjab) ltd'
+p2246
+aS'omega interactive technologies ltd'
+p2247
+aS'omkar overseas ltd'
+p2248
+aS'omkar pharmachem ltd'
+p2249
+aS'omni dye-chem exports ltd'
+p2250
+aS'omnitech info solutions ltd'
+p2251
+aS'omnitex industries (india) ltd'
+p2252
+aS'onmobile global ltd'
+p2253
+aS'ontrack systems ltd'
+p2254
+aS'onward technologies ltd'
+p2255
+aS'optel tecommunications ltd'
+p2256
+aS'opto circuits (india) ltd'
+p2257
+aS'oracle financial services software ltd'
+p2258
+aS'orbit corporation ltd'
+p2259
+aS'orbit exports ltd'
+p2260
+aS'orchid chemicals &amp; pharmaceuticals limited'
+p2261
+aS'oregon commercials ltd'
+p2262
+aS'organic coatings ltd'
+p2263
+aS'oricon enterprises ltd'
+p2264
+aS'orient abrasives ltd'
+p2265
+aS'orient beverages ltd'
+p2266
+aS'orient ceramics &amp; inds ltd'
+p2267
+aS'orient information technology ltd'
+p2268
+aS'orient paper &amp; inds ltd'
+p2269
+aS'orient press ltd'
+p2270
+aS'oriental bank of commerce'
+p2271
+aS'oriental carbon &amp; chemicals ltd'
+p2272
+aS'oriental hotels ltd'
+p2273
+aS'oriental trimex ltd'
+p2274
+aS'oriental veneer products ltd'
+p2275
+aS'orind exports ltd'
+p2276
+aS'orissa minerals development co ltd'
+p2277
+aS'orissa sponge iron &amp; steel ltd'
+p2278
+aS'ortin laboratories ltd'
+p2279
+aS'oscar global ltd'
+p2280
+aS'oscar investments ltd'
+p2281
+aS'oswal agro mills ltd'
+p2282
+aS'oswal chemicals &amp; fertilizers ltd'
+p2283
+aS'oswal spinning &amp; wvg mills ltd'
+p2284
+aS'oswal yarns ltd'
+p2285
+aS'otco international ltd'
+p2286
+aS'oudh sugar mills ltd'
+p2287
+aS'outlook group'
+p2288
+aS'oxford industries ltd'
+p2289
+aS'pae ltd'
+p2290
+aS'pba infrastructure ltd'
+p2291
+aS'pbm polytex ltd'
+p2292
+aS'pcs technology ltd'
+p2293
+aS'pfl infotech ltd'
+p2294
+aS'pg foils ltd'
+p2295
+aS'ph capital ltd'
+p2296
+aS'ph trading ltd'
+p2297
+aS'phil corporation ltd'
+p2298
+aS'pi drugs &amp; pharmaceuticals ltd'
+p2299
+aS'pi industries ltd'
+p2300
+aS'pm telelinks ltd'
+p2301
+aS'pnb gilts ltd'
+p2302
+aS'psi data systems ltd'
+p2303
+aS'psl ltd'
+p2304
+aS'ptc india ltd'
+p2305
+aS'ptl enterprises ltd'
+p2306
+aS'pvp ventures ltd'
+p2307
+aS'pvr ltd'
+p2308
+aS'pace textiles ltd'
+p2309
+aS'pacific cotspin ltd'
+p2310
+aS'pacific industries ltd'
+p2311
+aS'padam cotton yarns ltd'
+p2312
+aS'padmalaya telefilms ltd'
+p2313
+aS'page industries ltd'
+p2314
+aS'pal credit &amp; capital ltd'
+p2315
+aS'palsoft infosystems ltd'
+p2316
+aS'pan electronics (india) ltd'
+p2317
+aS'pan india corporation ltd'
+p2318
+aS'pan india resort &amp; land devp ltd'
+p2319
+aS'panacea biotec limited'
+p2320
+aS'panama petrochem ltd'
+p2321
+aS'panasonic a v c networks india company ltd'
+p2322
+aS'panasonic carbon india company ltd'
+p2323
+aS'panasonic home appliances india company ltd'
+p2324
+aS'panchmahal steel ltd'
+p2325
+aS'panchsheel organics ltd'
+p2326
+aS'panjon ltd'
+p2327
+aS'pankaj polymers ltd'
+p2328
+aS'panoramic universal ltd'
+p2329
+aS'pantaloon retail (india) ltd'
+p2330
+aS'panther industrial products ltd'
+p2331
+aS'panyam cements &amp; mineral inds ltd'
+p2332
+aS'paper products ltd'
+p2333
+aS'paraan ltd'
+p2334
+aS'paragon finance ltd'
+p2335
+aS'paramount communications ltd'
+p2336
+aS'parekh aluminex ltd'
+p2337
+aS'parekh distributors ltd'
+p2338
+aS'parekh platinum ltd'
+p2339
+aS'parenteral drugs (india) ltd'
+p2340
+aS'parichay investments ltd'
+p2341
+aS'parker agrochem exports ltd'
+p2342
+aS'parle software ltd'
+p2343
+aS'parry agro inds ltd'
+p2344
+aS'parsharti investment ltd'
+p2345
+aS'parsoli corporation ltd'
+p2346
+aS'parsvnath developers limited'
+p2347
+aS'passari cellulose ltd'
+p2348
+aS'pasupati acrylon ltd'
+p2349
+aS'pasupati fabrics ltd'
+p2350
+aS'pasupati fincap ltd'
+p2351
+aS'pasupati spinning &amp; wvg mills ltd'
+p2352
+aS'patel engineering ltd'
+p2353
+aS'patel integrated logistics ltd'
+p2354
+aS'patels airtemp (india) ltd'
+p2355
+aS'patni computer systems ltd'
+p2356
+aS'patspin india ltd'
+p2357
+aS'paushak ltd'
+p2358
+aS'peacock industries ltd'
+p2359
+aS'pearl engineering polymers ltd'
+p2360
+aS'pearl polymers ltd'
+p2361
+aS'pee cee cosma sope ltd'
+p2362
+aS'peeti securities ltd'
+p2363
+aS'peninsula land ltd'
+p2364
+aS'pennar aluminium company ltd'
+p2365
+aS'pennar aqua exports ltd'
+p2366
+aS'pennar industries ltd'
+p2367
+aS'pentagon global solutions ltd'
+p2368
+aS'pentamedia graphics ltd'
+p2369
+aS'pentasoft technologies ltd'
+p2370
+aS'perfect circle india ltd'
+p2371
+aS'perfectpac ltd'
+p2372
+aS'pet plastics ltd'
+p2373
+aS'petron engineering construction ltd'
+p2374
+aS'petronet lng ltd'
+p2375
+aS'pfizer limited'
+p2376
+aS'phaarmasia ltd'
+p2377
+aS'pharmaids pharmaceuticals ltd'
+p2378
+aS'philips'
+p2379
+aS'phillips carbon black ltd'
+p2380
+aS'phoenix international ltd'
+p2381
+aS'phoenix mills ltd'
+p2382
+aS'photon capital advisors ltd'
+p2383
+aS'photoquip (india) ltd'
+p2384
+aS'phyto chem (india) ltd'
+p2385
+aS'piccadily agro inds ltd'
+p2386
+aS'piccadily sugar &amp; allied inds ltd'
+p2387
+aS'pidilite industries limited'
+p2388
+aS'pioneer agro extracts ltd'
+p2389
+aS'pioneer distilleries ltd'
+p2390
+aS'pioneer embroideries ltd'
+p2391
+aS'pioneer investcorp ltd'
+p2392
+aS'pipavav shipyard ltd'
+p2393
+aS'piramal glass ltd'
+p2394
+aS'piramal healthcare ltd'
+p2395
+aS'piramal life sciences ltd'
+p2396
+aS'pitambar coated papers ltd'
+p2397
+aS'pithampur poly products ltd'
+p2398
+aS'pithampur steels ltd'
+p2399
+aS'pitti laminations ltd'
+p2400
+aS'pix transmissions ltd'
+p2401
+aS'plastiblends india ltd'
+p2402
+aS'platinum corporation ltd'
+p2403
+aS'plethico pharmaceuticals ltd'
+p2404
+aS'pochiraju industries ltd'
+p2405
+aS'poddar developers ltd'
+p2406
+aS'poddar pigments ltd'
+p2407
+aS'pokarna ltd'
+p2408
+aS'polar industries ltd'
+p2409
+aS'polar pharma india ltd'
+p2410
+aS'polaris software lab ltd'
+p2411
+aS'polo hotels ltd'
+p2412
+aS'polson ltd'
+p2413
+aS'poly medicure ltd'
+p2414
+aS'polychem ltd'
+p2415
+aS'polycon international ltd'
+p2416
+aS'polygenta technologies ltd'
+p2417
+aS'polylink polymers (india) ltd'
+p2418
+aS'polymechplast machines ltd'
+p2419
+aS'polyplex corporation ltd'
+p2420
+aS'polypro fibrils (india) ltd'
+p2421
+aS'polyspin exports ltd'
+p2422
+aS'polytex india ltd'
+p2423
+aS'pondy oxides ltd'
+p2424
+aS'ponni sugars (erode) ltd'
+p2425
+aS'pooja entertainment &amp; films ltd'
+p2426
+aS'poona dal &amp; oil inds ltd'
+p2427
+aS'popular estate management ltd'
+p2428
+aS'porwal auto components ltd'
+p2429
+aS'power finance corpn ltd'
+p2430
+aS'power grid corpn of india ltd'
+p2431
+aS'powersoft global solutions ltd'
+p2432
+aS'prabhav industries ltd'
+p2433
+aS'pradeep metals ltd'
+p2434
+aS'prag bosimi synthetics ltd'
+p2435
+aS'prajay engineers syndicate ltd'
+p2436
+aS'prakash industries ltd'
+p2437
+aS'prakash woollen mills ltd'
+p2438
+aS'pranavaditya spinning mills ltd'
+p2439
+aS'pratibha industries ltd'
+p2440
+aS'pratik panels ltd'
+p2441
+aS'pratiksha chemicals ltd'
+p2442
+aS'precision containeurs ltd'
+p2443
+aS'precision electronics ltd'
+p2444
+aS'precision fastners ltd'
+p2445
+aS'precision pipes &amp; profiles co ltd'
+p2446
+aS'precision wires india ltd'
+p2447
+aS'precot meridian ltd'
+p2448
+aS'premco global ltd'
+p2449
+aS'premier energy &amp;  infrastructure ltd'
+p2450
+aS'premier explosives ltd'
+p2451
+aS'premier ltd'
+p2452
+aS'premium capital market &amp; investment ltd'
+p2453
+aS'prerna infrabuild ltd'
+p2454
+aS'pressure sensitive systems (india) ltd'
+p2455
+aS'pricewaterhousecoopers pvt ltd'
+p2456
+aS'pricol ltd'
+p2457
+aS'prima plastics ltd'
+p2458
+aS'prime focus ltd'
+p2459
+aS'prime industries ltd'
+p2460
+aS'prime property devp corpn ltd'
+p2461
+aS'prime securities ltd'
+p2462
+aS'principal pharmaceuticals &amp; chemicals ltd'
+p2463
+aS'prism cement ltd'
+p2464
+aS'prism informatics ltd'
+p2465
+aS'prithvi information solutions ltd'
+p2466
+aS'prithvi softech ltd'
+p2467
+aS'pritish nandy communications ltd'
+p2468
+aS'priya ltd'
+p2469
+aS'procal electronics india ltd'
+p2470
+aS'procter &amp; gamble hygiene and health care limit'
+p2471
+aS'progressive extractions &amp; exports ltd'
+p2472
+aS'promact plastics ltd'
+p2473
+aS'protchem industries (india) ltd'
+p2474
+aS'proto developers &amp; technologies ltd'
+p2475
+aS'provogue (india) ltd'
+p2476
+aS'prraneta industries ltd'
+p2477
+aS'prudential sugar corpn ltd'
+p2478
+aS'pudumjee agro inds ltd'
+p2479
+aS'pudumjee pulp &amp; paper mills ltd'
+p2480
+aS'puneet resins ltd'
+p2481
+aS'punit commercials ltd'
+p2482
+aS'punj lloyd limited'
+p2483
+aS'punjab alkalies &amp; chemicals ltd'
+p2484
+aS'punjab chemicals &amp; crop protection ltd'
+p2485
+aS'punjab communications ltd'
+p2486
+aS'punjab national bank'
+p2487
+aS'punjab tractors ltd'
+p2488
+aS'punjab woolcombers ltd'
+p2489
+aS'puravankara projects limited'
+p2490
+aS'pyramid saimira theatre ltd'
+p2491
+aS'qpro infotech ltd'
+p2492
+aS'qualcomm india'
+p2493
+aS'quintegra solutions ltd'
+p2494
+aS'r systems'
+p2495
+aS'rdb industries ltd'
+p2496
+aS'rei six ten retail ltd'
+p2497
+aS'rfl international ltd'
+p2498
+aS'rlf ltd'
+p2499
+aS'rm mohite textiles ltd'
+p2500
+aS'rpg cables ltd'
+p2501
+aS'rpg life sciences ltd'
+p2502
+aS'rpg transmission ltd'
+p2503
+aS'rr financial consultants ltd'
+p2504
+aS'rr securities ltd'
+p2505
+aS'rs corporation ltd'
+p2506
+aS'rs software (india) ltd'
+p2507
+aS'rswm ltd'
+p2508
+aS'rt exports ltd'
+p2509
+aS'rtcl ltd'
+p2510
+aS'rts power corpn ltd'
+p2511
+aS'raajratna metal industries ltd'
+p2512
+aS'raasi enterprises ltd'
+p2513
+aS'radaan mediaworks india ltd'
+p2514
+aS'radha madhav corpn ltd'
+p2515
+aS'radhe developers (india) ltd'
+p2516
+aS'radiant rotogravure ltd'
+p2517
+aS'radico khaitan limited'
+p2518
+aS'raghav industries ltd'
+p2519
+aS'raghunath international ltd'
+p2520
+aS'raghuvir synthetics ltd'
+p2521
+aS'rai saheb rekhchand mohota spg &amp; wvg mills l'
+p2522
+aS'rain calcining ltd'
+p2523
+aS'rain commodities ltd'
+p2524
+aS'rainbow denim ltd'
+p2525
+aS'rainbow foundations ltd'
+p2526
+aS'rainbow papers ltd'
+p2527
+aS'raj agro mills ltd'
+p2528
+aS'raj irrigation pipes &amp; fittings ltd'
+p2529
+aS'raj oil mills ltd'
+p2530
+aS'raj packaging inds ltd'
+p2531
+aS'raj rayon ltd'
+p2532
+aS'raj television network ltd'
+p2533
+aS'rajapalayam mills ltd'
+p2534
+aS'rajasthan polyesters ltd'
+p2535
+aS'rajasthan tube mfg company ltd'
+p2536
+aS'rajath finance ltd'
+p2537
+aS'rajdarshan industries ltd'
+p2538
+aS'rajdhani leasing &amp; inds ltd'
+p2539
+aS'rajendra electrical industries ltd'
+p2540
+aS'rajendra mechanical inds ltd'
+p2541
+aS'rajesh exports ltd'
+p2542
+aS'rajesh solvex ltd'
+p2543
+aS'rajeswari foundations ltd'
+p2544
+aS'rajoo engineers ltd'
+p2545
+aS'rajratan global wire ltd'
+p2546
+aS'rajshree sugars &amp; chemicals ltd'
+p2547
+aS'rajvir industries ltd'
+p2548
+aS'rallis india limited'
+p2549
+aS'ram informatics ltd'
+p2550
+aS'ram kaashyap investment ltd'
+p2551
+aS'ram ratna wires ltd'
+p2552
+aS'rama newsprint &amp; papers ltd'
+p2553
+aS'rama paper mills ltd'
+p2554
+aS'rama petrochemicals ltd'
+p2555
+aS'rama phosphates ltd'
+p2556
+aS'rama pulp &amp; papers ltd'
+p2557
+aS'rama vision ltd'
+p2558
+aS'ramkrishna forgings ltd'
+p2559
+aS'ramsarup industries ltd'
+p2560
+aS'ramsons projects ltd'
+p2561
+aS'rana sugars ltd'
+p2562
+aS'ranbaxy laboratories limited'
+p2563
+aS'rander corporation ltd'
+p2564
+aS'rane (madras) ltd'
+p2565
+aS'rane brake linings ltd'
+p2566
+aS'rane engine valve ltd'
+p2567
+aS'rane holdings ltd'
+p2568
+aS'ranjeev alloys ltd'
+p2569
+aS'ranjit securities ltd'
+p2570
+aS'ranklin solutions ltd'
+p2571
+aS'rap media ltd'
+p2572
+aS'rapicut carbides ltd'
+p2573
+aS'ras extrusions ltd'
+p2574
+aS'ras propack lamipack ltd'
+p2575
+aS'ras resorts &amp; apart hotels ltd'
+p2576
+aS'rashel agrotech ltd'
+p2577
+aS'rashtriya chemicals &amp; fertilizers ltd'
+p2578
+aS'rasi electrodes ltd'
+p2579
+aS'rasoi ltd'
+p2580
+aS'rasoya proteins ltd'
+p2581
+aS'ratan glitter inds ltd'
+p2582
+aS'rathi bars ltd'
+p2583
+aS'rathi graphic technologies ltd'
+p2584
+aS'rathi ispat ltd'
+p2585
+aS'rathi steel &amp; power ltd'
+p2586
+aS'ratnabali capital markets ltd'
+p2587
+aS'ratnamani metals &amp; tubes ltd'
+p2588
+aS'ratni investments company ltd'
+p2589
+aS'rattan vanaspati ltd'
+p2590
+aS'raunaq automotive components ltd'
+p2591
+aS'raunaq finance ltd'
+p2592
+aS'ravalgaon sugar farm ltd'
+p2593
+aS'rayban sun optics india ltd'
+p2594
+aS'raymond limited'
+p2595
+aS'raymond ltd'
+p2596
+aS'real strips ltd'
+p2597
+aS'redex protech ltd'
+p2598
+aS'redington (india) ltd'
+p2599
+aS'refex refrigerants ltd'
+p2600
+aS'refnol resins &amp; chemicals ltd'
+p2601
+aS'regal entertainment &amp; consultants ltd'
+p2602
+aS'regaliaa realty ltd'
+p2603
+aS'regency ceramics ltd'
+p2604
+aS'regency trust ltd'
+p2605
+aS'rei agro ltd'
+p2606
+aS'relaxo footwears ltd'
+p2607
+aS'reliable ventures india ltd'
+p2608
+aS'reliance capital ltd'
+p2609
+aS'reliance chemotex inds ltd'
+p2610
+aS'reliance communications ltd'
+p2611
+aS'reliance industrial infrastructure ltd'
+p2612
+aS'reliance industries limited'
+p2613
+aS'reliance infrastructure ltd'
+p2614
+aS'reliance mediaworks ltd'
+p2615
+aS'reliance natural resources ltd'
+p2616
+aS'reliance petroleum ltd'
+p2617
+aS'reliance power ltd'
+p2618
+aS'reliance retail'
+p2619
+aS'relic technologies ltd'
+p2620
+aS'religare enterprises ltd'
+p2621
+aS'religare technova global solutions ltd'
+p2622
+aS'religare technova ltd'
+p2623
+aS'remi metals gujarat ltd'
+p2624
+aS'remi process plant &amp; machinery ltd'
+p2625
+aS'remi sales &amp; engg ltd'
+p2626
+aS'remi securities ltd'
+p2627
+aS'remsons industries ltd'
+p2628
+aS'renaissance jewellery ltd'
+p2629
+aS'repro india ltd'
+p2630
+aS'residency projects &amp; infratech ltd'
+p2631
+aS'resonance specialties ltd'
+p2632
+aS'responsive industries ltd'
+p2633
+aS'restile ceramics ltd'
+p2634
+aS'resurgere mines and minerals india ltd'
+p2635
+aS'revathi equipment ltd'
+p2636
+aS'rexnord electronics &amp; controls ltd'
+p2637
+aS'riba textiles ltd'
+p2638
+aS'rich capital &amp; financial services ltd'
+p2639
+aS'richa industries ltd'
+p2640
+aS'richirich inventures ltd'
+p2641
+aS'rico auto inds ltd'
+p2642
+aS'ricoh india ltd'
+p2643
+aS'riddhi siddhi gluco biols ltd'
+p2644
+aS'rids securities ltd'
+p2645
+aS'riga sugar company ltd'
+p2646
+aS'rishab financial services ltd'
+p2647
+aS'rishabh digha steel &amp; allied products ltd'
+p2648
+aS'rishabhdev technocable ltd'
+p2649
+aS'rishi laser ltd'
+p2650
+aS'rishi packers ltd'
+p2651
+aS'rishiroop rubber (international) ltd'
+p2652
+aS'ritesh international ltd'
+p2653
+aS'ritesh properties &amp; inds ltd'
+p2654
+aS'riverdale foods ltd'
+p2655
+aS'rock hard petro chemical inds ltd'
+p2656
+aS'rohit ferro-tech ltd'
+p2657
+aS'rollatainers ltd'
+p2658
+aS'rolta india ltd'
+p2659
+aS'roman tarmat ltd'
+p2660
+aS'roopa industries ltd'
+p2661
+aS'rose investments ltd'
+p2662
+aS'rose merc ltd'
+p2663
+aS'rose zinc ltd'
+p2664
+aS'rosekamal textiles ltd'
+p2665
+aS'roselabs finance ltd'
+p2666
+aS'roselabs industries ltd'
+p2667
+aS'rotam commercials ltd'
+p2668
+aS'roto pumps ltd'
+p2669
+aS'royal cushion vinyl products ltd'
+p2670
+aS'royal orchid hotels ltd'
+p2671
+aS'royale manor hotels &amp; inds ltd'
+p2672
+aS'rubber products ltd'
+p2673
+aS'rubfila international ltd'
+p2674
+aS'rubra medicaments ltd'
+p2675
+aS'ruby mills ltd'
+p2676
+aS'ruchi infrastructure ltd'
+p2677
+aS'ruchi soya inds ltd'
+p2678
+aS'ruchi strips &amp; alloys ltd'
+p2679
+aS'ruchira papers ltd'
+p2680
+aS'rungta irrigation ltd'
+p2681
+aS'rural electrification corpn ltd'
+p2682
+aS'ruttonsha international rectifier ltd'
+p2683
+aS's kumars nationwide ltd'
+p2684
+aS's kumars online ltd'
+p2685
+aS's&amp;s power switchgear ltd'
+p2686
+aS's&amp;y mills ltd'
+p2687
+aS'sal steel ltd'
+p2688
+aS'sapient'
+p2689
+aS'sb&amp;t international ltd'
+p2690
+aS'sbec sugar ltd'
+p2691
+aS'sbi home finance ltd'
+p2692
+aS'scil ventures ltd'
+p2693
+aS'sdf industries ltd'
+p2694
+aS'se investments ltd'
+p2695
+aS'sel manufacturing company ltd'
+p2696
+aS'ser industries ltd'
+p2697
+aS'sgn telecoms ltd'
+p2698
+aS'si capital &amp; financial services ltd'
+p2699
+aS'si group-india ltd'
+p2700
+aS'siel financial services ltd'
+p2701
+aS'sip industries ltd'
+p2702
+aS'sj corporation ltd'
+p2703
+aS'skf india limited'
+p2704
+aS'skm egg products export (india) ltd'
+p2705
+aS'skp securities ltd'
+p2706
+aS'sks logistics ltd'
+p2707
+aS'sm dyechem ltd'
+p2708
+aS'smc credits ltd'
+p2709
+aS'smifs capital markets ltd'
+p2710
+aS'sms pharmaceuticals ltd'
+p2711
+aS'smzs chemicals ltd'
+p2712
+aS'snl bearings ltd'
+p2713
+aS'sns textiles ltd'
+p2714
+aS'sp capital financing ltd'
+p2715
+aS'spel semiconductor ltd'
+p2716
+aS'spl industries  ltd'
+p2717
+aS'spl polymers ltd'
+p2718
+aS'sps international ltd'
+p2719
+aS'sql star international ltd'
+p2720
+aS'sr industries ltd'
+p2721
+aS'srei infrastructure finance ltd'
+p2722
+aS'srf polymers ltd'
+p2723
+aS'srhhl industries ltd'
+p2724
+aS'srm energy lt'
+p2725
+aS'ss forgings &amp; engg ltd'
+p2726
+aS'ss organics ltd'
+p2727
+aS'ssf ltd'
+p2728
+aS'sspdl ltd'
+p2729
+aS'sti india ltd'
+p2730
+aS'sti products india ltd'
+p2731
+aS'stl global ltd'
+p2732
+aS'sv electricals ltd'
+p2733
+aS'svc superchem ltd'
+p2734
+aS'saag r r infra ltd'
+p2735
+aS'saamya biotech (india) ltd'
+p2736
+aS'saarc net ltd'
+p2737
+aS'sabero organics gujarat ltd'
+p2738
+aS'saboo sodium chloro ltd'
+p2739
+aS'sacheta metals ltd'
+p2740
+aS'sadbhav engineering ltd'
+p2741
+aS'sadhana nitro chem ltd'
+p2742
+aS'safari industries (india) ltd'
+p2743
+aS'sagar cements ltd'
+p2744
+aS'sah petroleums ltd'
+p2745
+aS'sahara housingfina corpn ltd'
+p2746
+aS'sahara one media &amp; entertainment ltd'
+p2747
+aS'sahyadri industries ltd'
+p2748
+aS'sai service station ltd'
+p2749
+aS'sainik finance &amp; inds ltd'
+p2750
+aS'saint-gobain sekurit india ltd'
+p2751
+aS'saksoft ltd'
+p2752
+aS'sakthi finance ltd'
+p2753
+aS'sakthi sugars ltd'
+p2754
+aS'sakuma exports ltd'
+p2755
+aS'salguti industries ltd'
+p2756
+aS'salona cotspin ltd'
+p2757
+aS'salora finance ltd'
+p2758
+aS'salora international ltd'
+p2759
+aS'sam industries ltd'
+p2760
+aS'sambhaav media ltd'
+p2761
+aS'samkrg pistons &amp; rings ltd'
+p2762
+aS'sampre nutritions ltd'
+p2763
+aS'samrat pharmachem ltd'
+p2764
+aS'samtel color limited'
+p2765
+aS'samtel india ltd'
+p2766
+aS'samyak international ltd'
+p2767
+aS'sanchay finvest ltd'
+p2768
+aS'sanco trans ltd'
+p2769
+aS'sand plast  (india) ltd'
+p2770
+aS'sandesh ltd'
+p2771
+aS'sandu pharmaceuticals ltd'
+p2772
+aS'sandur manganese &amp; iron ores ltd'
+p2773
+aS'sangal papers ltd'
+p2774
+aS'sangam (india) ltd'
+p2775
+aS'sangam health care products ltd'
+p2776
+aS'sanghi industries ltd'
+p2777
+aS'sanghi polyesters ltd'
+p2778
+aS'sanghvi movers ltd'
+p2779
+aS'sanguine media ltd'
+p2780
+aS'sanjay leasing ltd'
+p2781
+aS'sanjivani paranteral ltd'
+p2782
+aS'sanket international ltd'
+p2783
+aS'sankhya infotech ltd'
+p2784
+aS'sanmitra commercial ltd'
+p2785
+aS'sanraa media ltd'
+p2786
+aS'sanrhea technical textiles ltd'
+p2787
+aS'santaram spinners ltd'
+p2788
+aS'santogen exports ltd'
+p2789
+aS'santosh fine-fab ltd'
+p2790
+aS'sanwaria agro oils ltd'
+p2791
+aS'sapan chemicals ltd'
+p2792
+aS'sarang chemicals ltd'
+p2793
+aS'saraswati commercial (india) ltd'
+p2794
+aS'saraswati indl syndicate ltd'
+p2795
+aS'sarda energy &amp; minerals ltd'
+p2796
+aS'sarda papers ltd'
+p2797
+aS'sarda plywood inds ltd'
+p2798
+aS'saregama india ltd'
+p2799
+aS'sarita synthetics &amp; inds ltd'
+p2800
+aS'sark systems india ltd'
+p2801
+aS'sarla performance fibres ltd'
+p2802
+aS'sarthak global ltd'
+p2803
+aS'sarthak industries ltd'
+p2804
+aS'sarup tanneries ltd'
+p2805
+aS'sasken communication technologies ltd'
+p2806
+aS'sat industries ltd'
+p2807
+aS'satellite engineering ltd'
+p2808
+aS'sathavahana ispat ltd'
+p2809
+aS'satkar electronics ltd'
+p2810
+aS'satra properties (india) ltd'
+p2811
+aS'saurashtra cement ltd'
+p2812
+aS'savani financials ltd'
+p2813
+aS'savant infocomm ltd'
+p2814
+aS'saven technologies ltd'
+p2815
+aS'savera industries ltd'
+p2816
+aS'savita oil technologies ltd'
+p2817
+aS'sawaca business machines ltd'
+p2818
+aS'sayaji hotels ltd'
+p2819
+aS'scanet exports ltd'
+p2820
+aS'scanpoint geomatics ltd'
+p2821
+aS'scenario media ltd'
+p2822
+aS'schablona india ltd'
+p2823
+aS'schlafhorst engineering (india) ltd'
+p2824
+aS'schrader duncan ltd'
+p2825
+aS'scintilla software technology ltd'
+p2826
+aS'scooters india ltd'
+p2827
+aS'seagull leafin ltd'
+p2828
+aS'seamec ltd'
+p2829
+aS'seasons textiles ltd'
+p2830
+aS'seax global ventures ltd'
+p2831
+aS'secunderabad healthcare ltd'
+p2832
+aS'sejal architectural glass ltd'
+p2833
+aS'selan exploration technology ltd'
+p2834
+aS'sellaids publications (india) ltd'
+p2835
+aS'sen pet (india) ltd'
+p2836
+aS'senbo industries ltd'
+p2837
+aS'serveall enterprise solutions ltd'
+p2838
+aS'sesa goa ltd'
+p2839
+aS'seshachal technologies ltd'
+p2840
+aS'seshasayee paper &amp; boards ltd'
+p2841
+aS'setco automotive ltd'
+p2842
+aS'shah alloys ltd'
+p2843
+aS'shah foods ltd'
+p2844
+aS'shaily engineering plastics ltd'
+p2845
+aS'shakti met-dor ltd'
+p2846
+aS'shakti press ltd'
+p2847
+aS'shakti pumps (india) ltd'
+p2848
+aS'shalibhadra finance ltd'
+p2849
+aS'shalimar paints ltd'
+p2850
+aS'shalimar productions ltd'
+p2851
+aS'shalimar wires industries ltd'
+p2852
+aS'shamken cotsyn ltd'
+p2853
+aS'shamken multifab ltd'
+p2854
+aS'shamken spinners ltd'
+p2855
+aS'shamrock industrial company ltd'
+p2856
+aS'shantivijay jewels ltd'
+p2857
+aS'sharbon bio'
+p2858
+aS'shardul securities ltd'
+p2859
+aS'sharma east india hospitals &amp; medical research'
+p2860
+aS'sharon bio-medicine ltd'
+p2861
+aS'sharp india ltd'
+p2862
+aS'sharp trading &amp; finance ltd'
+p2863
+aS'sharyans resources ltd'
+p2864
+aS'shasun chemicals &amp; drugs ltd'
+p2865
+aS'shaw wallace &amp; company ltd'
+p2866
+aS'sheetal bio-agro tech ltd'
+p2867
+aS'sheetal diamonds ltd'
+p2868
+aS'shervani industrial syndicate ltd'
+p2869
+aS'shetron ltd'
+p2870
+aS'shikhar consultants ltd'
+p2871
+aS'shilchar technologies ltd'
+p2872
+aS'shilp gravures ltd'
+p2873
+aS'shilpa medicare ltd'
+p2874
+aS'shimoga technologies ltd'
+p2875
+aS'shipping corpn of india ltd'
+p2876
+aS'shirpur gold refinery ltd'
+p2877
+aS'shiva cement ltd'
+p2878
+aS'shiva fertilizers ltd'
+p2879
+aS'shiva texyarn ltd'
+p2880
+aS'shivagrico implements ltd'
+p2881
+aS'shivalik bimetal controls ltd'
+p2882
+aS'shivam autotech ltd'
+p2883
+aS'shonkh technologies international ltd'
+p2884
+aS"shopper's stop ltd"
+p2885
+aS'shree ajit pulp &amp; paper ltd'
+p2886
+aS'shree ambeshwar paper mills ltd'
+p2887
+aS'shree ashtavinayak cine vision ltd'
+p2888
+aS'shree bhawani paper mills ltd'
+p2889
+aS'shree digvijay cement company ltd'
+p2890
+aS'shree ganesh forgings ltd'
+p2891
+aS'shree global tradefin ltd'
+p2892
+aS'shree hari chemicals export ltd'
+p2893
+aS'shree jagdambe paper mills ltd'
+p2894
+aS'shree krishna paper mills &amp; inds ltd'
+p2895
+aS'shree mahaganga sugar mills ltd'
+p2896
+aS'shree nath commercial &amp; finance ltd'
+p2897
+aS'shree pacetronix ltd'
+p2898
+aS'shree rajeshwaranand paper mills ltd'
+p2899
+aS'shree rajivlochan oil extraction ltd'
+p2900
+aS'shree ram urban infrastructure ltd'
+p2901
+aS'shree rama multi-tech ltd'
+p2902
+aS'shree renuka sugars ltd'
+p2903
+aS'shree steel wire ropes ltd'
+p2904
+aS'shree vaani sugars &amp; inds ltd'
+p2905
+aS'shree vindhya paper mills ltd'
+p2906
+aS'shreejal info hubs ltd'
+p2907
+aS'shrenuj &amp; company ltd'
+p2908
+aS'shreyans industries ltd'
+p2909
+aS'shreyas intermediates ltd'
+p2910
+aS'shri bajrang alloys ltd'
+p2911
+aS'shri chlochem ltd'
+p2912
+aS'shri ganesh spinners ltd'
+p2913
+aS'shri jagdamba polymers ltd'
+p2914
+aS'shri krishna devcon ltd'
+p2915
+aS'shri lakshmi cotsyn ltd'
+p2916
+aS'shri shakti lpg ltd'
+p2917
+aS'shricon industries ltd'
+p2918
+aS'shriram asset management company ltd'
+p2919
+aS'shriram city union finance ltd'
+p2920
+aS'shriram epc ltd'
+p2921
+aS'shriram transport finance company ltd'
+p2922
+aS'shristi infrastructure development corpn ltd'
+p2923
+aS'shubham granites ltd'
+p2924
+aS'shukra bullions ltd'
+p2925
+aS'shukra jewellery ltd'
+p2926
+aS'shukun construction ltd'
+p2927
+aS'shyam infosys ltd'
+p2928
+aS'shyam star gems ltd'
+p2929
+aS'shyam telecom ltd'
+p2930
+aS'shyamlal holdings &amp; trading ltd'
+p2931
+aS'sibar auto parts ltd'
+p2932
+aS'sibar media &amp; entertainment ltd'
+p2933
+aS'sibar software services (india) ltd'
+p2934
+aS'sicagen india ltd'
+p2935
+aS'sical logistics ltd'
+p2936
+aS'siddha ventures ltd'
+p2937
+aS'siddhartha tubes ltd'
+p2938
+aS'siddheswari garments ltd'
+p2939
+aS'siemens healthcare diagnostics ltd'
+p2940
+aS'siemens limited'
+p2941
+aS'signet overseas ltd'
+p2942
+aS'sigrun holdings ltd'
+p2943
+aS'sika interplant systems ltd'
+p2944
+aS'silicon valley infotech ltd'
+p2945
+aS'silktex ltd'
+p2946
+aS'silver oak (india) ltd'
+p2947
+aS'silver smith india ltd'
+p2948
+aS'silverline technologies ltd'
+p2949
+aS'simbhaoli sugars ltd'
+p2950
+aS'simplex castings ltd'
+p2951
+aS'simplex infrastructures ltd'
+p2952
+aS'simplex mills co ltd'
+p2953
+aS'simplex papers ltd'
+p2954
+aS'simplex projects ltd'
+p2955
+aS'simplex realty ltd'
+p2956
+aS'simplex trading &amp; agencies ltd'
+p2957
+aS'simran farms ltd'
+p2958
+aS'sinclairs hotels ltd'
+p2959
+aS'singer india ltd'
+p2960
+aS'sinnar bidi udyog ltd'
+p2961
+aS'sintex industries ltd'
+p2962
+aS'sir shadi lal enterprises ltd'
+p2963
+aS'sirdar carbonic gas company ltd'
+p2964
+aS'siris ltd'
+p2965
+aS'sirpur paper mills ltd'
+p2966
+aS'sita enterprises ltd'
+p2967
+aS'sita shree food products ltd'
+p2968
+aS'siyaram silk mills ltd'
+p2969
+aS'sky industries ltd'
+p2970
+aS'skylid telecommunication ltd'
+p2971
+aS'skyline millars ltd'
+p2972
+aS'skypak service specialists ltd'
+p2973
+aS'smartlink network systems ltd'
+p2974
+aS'smruthi organics ltd'
+p2975
+aS'sobha developers ltd'
+p2976
+aS'sobhagya mercantile ltd'
+p2977
+aS'socrus bio sciences ltd'
+p2978
+aS'softbpo global services ltd'
+p2979
+aS'softech infinium solution ltd'
+p2980
+aS'softpro systems ltd'
+p2981
+aS'softsol india ltd'
+p2982
+aS'software technology group international ltd'
+p2983
+aS'soham international ltd'
+p2984
+aS'solar industries (india) ltd'
+p2985
+aS'solectron ems india ltd'
+p2986
+aS'solid stone co ltd'
+p2987
+aS'solix technologies ltd'
+p2988
+aS'solvay pharma india ltd'
+p2989
+aS'som datt finance corpn ltd'
+p2990
+aS'som distilleries &amp; breweries ltd'
+p2991
+aS'soma papers &amp; inds ltd'
+p2992
+aS'somani cement company ltd'
+p2993
+aS'somany ceramics ltd'
+p2994
+aS'somi conveyor beltings ltd'
+p2995
+aS'sona koyo steering systems limited'
+p2996
+aS'sonal adhesives ltd'
+p2997
+aS'sonata software ltd'
+p2998
+aS'soundcraft industries ltd'
+p2999
+aS'south asian enterprises ltd'
+p3000
+aS'south asian petrochem ltd'
+p3001
+aS'south india paper mills ltd'
+p3002
+aS'south indian bank ltd'
+p3003
+aS'southern ispat &amp; energy ltd'
+p3004
+aS'southern online bio technologies ltd'
+p3005
+aS'southern petrochemical inds corpn ltd'
+p3006
+aS'sovereign diamonds ltd'
+p3007
+aS'sowbhagya exports ltd'
+p3008
+aS'span diagnostics ltd'
+p3009
+aS'spanco ltd'
+p3010
+aS'sparc systems ltd'
+p3011
+aS'sparsh b p o services ltd'
+p3012
+aS'spartek ceramics india ltd'
+p3013
+aS'spectacle industries ltd'
+p3014
+aS'spectra industries ltd'
+p3015
+aS'spectrum foods ltd'
+p3016
+aS"spencer's retail"
+p3017
+aS'spenta international ltd'
+p3018
+aS'spice communications ltd'
+p3019
+aS'spice islands apparels ltd'
+p3020
+aS'spice mobiles ltd'
+p3021
+aS'spicejet ltd'
+p3022
+aS'splash media works ltd'
+p3023
+aS'sree jayalakshmi autospin ltd'
+p3024
+aS'sree rayalaseema alkalies &amp; allied chemicals l'
+p3025
+aS'sree rayalaseema hi-strength hypo ltd'
+p3026
+aS'sree sakthi paper mills ltd'
+p3027
+aS'sreechem resins ltd'
+p3028
+aS'sri adhikari brothers television network ltd'
+p3029
+aS'sri jayalakshmi spg mills ltd'
+p3030
+aS'sri vajra granites ltd'
+p3031
+aS'sri vasavi inds ltd'
+p3032
+aS'srichakra cements ltd'
+p3033
+aS'srinivasa hatcheries ltd'
+p3034
+aS'sriven multi-tech ltd'
+p3035
+aS'standard batteries ltd'
+p3036
+aS'standard capital markets ltd'
+p3037
+aS'standard industries ltd'
+p3038
+aS'stanpacks (india) ltd'
+p3039
+aS'stanrose mafatlal lubechem ltd'
+p3040
+aS'star paper mills ltd'
+p3041
+aS'starcom information technology ltd'
+p3042
+aS'starlite components ltd'
+p3043
+aS'state bank of bikaner and jaipur'
+p3044
+aS'state bank of india'
+p3045
+aS'state bank of mysore'
+p3046
+aS'state bank of travancore'
+p3047
+aS'state trading corpn of india ltd'
+p3048
+aS'steel authority of india limited'
+p3049
+aS'steel exchange india ltd'
+p3050
+aS'steel strips infrastructures ltd'
+p3051
+aS'steel strips wheels ltd'
+p3052
+aS'steel tubes of india ltd'
+p3053
+aS'steelcast ltd'
+p3054
+aS'steelco gujarat ltd'
+p3055
+aS'stelco strips ltd'
+p3056
+aS'step two corpn ltd'
+p3057
+aS'sterling biotech ltd'
+p3058
+aS'sterling green woods ltd'
+p3059
+aS'sterling holiday financial services ltd'
+p3060
+aS'sterling international enterprises ltd'
+p3061
+aS'sterling strips ltd'
+p3062
+aS'sterling tools ltd'
+p3063
+aS'sterlite industries (india) ltd'
+p3064
+aS'sterlite technologies ltd'
+p3065
+aS'stewarts &amp; lloyds of india ltd'
+p3066
+aS'stocknet international ltd'
+p3067
+aS'store one retail india ltd'
+p3068
+aS'stovec industries ltd'
+p3069
+aS'stresscrete india ltd'
+p3070
+aS'strides arcolab ltd'
+p3071
+aS'sturdy industries ltd'
+p3072
+aS'su-raj diamonds &amp; jewellery ltd'
+p3073
+aS'suashish diamonds ltd'
+p3074
+aS'suave hotels ltd'
+p3075
+aS'subex ltd'
+p3076
+aS'subhash projects &amp; mktg ltd'
+p3077
+aS'subhash silk mills ltd'
+p3078
+aS'subhkam capital ltd'
+p3079
+aS'subros ltd'
+p3080
+aS'subuthi finance ltd'
+p3081
+aS'subway finance &amp; investment company ltd'
+p3082
+aS'sudal industries ltd'
+p3083
+aS'sudarshan chemical inds ltd'
+p3084
+aS'sudev industries ltd'
+p3085
+aS'sugal &amp; damani share brokers ltd'
+p3086
+aS'sujana metal products ltd'
+p3087
+aS'sujana towers ltd'
+p3088
+aS'sujana universal inds ltd'
+p3089
+aS'sukhjit starch &amp; chemicals ltd'
+p3090
+aS'sumedha fiscal services ltd'
+p3091
+aS'sumeet industries ltd'
+p3092
+aS'sumeru industries ltd'
+p3093
+aS'summit securities ltd'
+p3094
+aS'sun earth ceramics ltd'
+p3095
+aS'sun pharma advanced research company ltd'
+p3096
+aS'sun pharmaceutical inds ltd'
+p3097
+aS'sun pharmaceutical industries limited'
+p3098
+aS'sun polytron inds ltd'
+p3099
+aS'sun source (india) ltd'
+p3100
+aS'sun t v network ltd'
+p3101
+aS'suncity synthetics ltd'
+p3102
+aS'sundaram brake linings ltd'
+p3103
+aS'sundaram finance ltd'
+p3104
+aS'sundaram multi pap ltd'
+p3105
+aS'sundaram-clayton limited'
+p3106
+aS'sunday exports ltd'
+p3107
+aS'sundram fasteners ltd'
+p3108
+aS'sunflag iron &amp; steel company ltd'
+p3109
+aS'sungold capital ltd'
+p3110
+aS'sunil agro foods ltd'
+p3111
+aS'sunil hitech engineers ltd'
+p3112
+aS'sunitee chemicals ltd'
+p3113
+aS'sunraj diamond exports ltd'
+p3114
+aS'sunrise soaps &amp; chemicals ltd'
+p3115
+aS'sunrise universal ltd'
+p3116
+aS'sunrise zinc ltd'
+p3117
+aS'sunshield chemicals ltd'
+p3118
+aS'sunteck realty &amp; infrastructure ltd'
+p3119
+aS'super bakers (india) ltd'
+p3120
+aS'super crop safe ltd'
+p3121
+aS'super forgings &amp; steels ltd'
+p3122
+aS'super sales india ltd'
+p3123
+aS'super syncotex (india) ltd'
+p3124
+aS'super tannery ltd'
+p3125
+aS'superhouse ltd'
+p3126
+aS'supertex industries ltd'
+p3127
+aS'suprajit engineering ltd'
+p3128
+aS'supreme holdings ltd'
+p3129
+aS'supreme industries ltd'
+p3130
+aS'supreme infrastructure india ltd'
+p3131
+aS'supreme petrochem ltd'
+p3132
+aS'supreme tex mart ltd'
+p3133
+aS'supriya pharmaceuticals ltd'
+p3134
+aS'suraj holdings ltd'
+p3135
+aS'suraj stainless ltd'
+p3136
+aS'surana corporation ltd'
+p3137
+aS'surana industries ltd'
+p3138
+aS'surana telecom &amp; power ltd'
+p3139
+aS'surana telecom ltd'
+p3140
+aS'surat textile mills ltd'
+p3141
+aS'surya pharmaceutical ltd'
+p3142
+aS'surya roshni ltd'
+p3143
+aS'suryaamba spinning mills ltd'
+p3144
+aS'suryachakra power corpn ltd'
+p3145
+aS'suryalata spinning mills ltd'
+p3146
+aS'suryanagri fin-lease ltd'
+p3147
+aS'suryavanshi spinning mills ltd'
+p3148
+aS'suryo foods &amp; inds ltd'
+p3149
+aS'suryodaya plastics ltd'
+p3150
+aS'sutlej textiles &amp; inds ltd'
+p3151
+aS'suven life sciences ltd'
+p3152
+aS'suzlon energy limited'
+p3153
+aS'svam softwares ltd'
+p3154
+aS'swan energy ltd'
+p3155
+aS'swaraj engines ltd'
+p3156
+aS'swaraj mazda ltd'
+p3157
+aS'swarna securities ltd'
+p3158
+aS'swasti vinayaka gems corpn ltd'
+p3159
+aS'swasti vinayaka synthetics ltd'
+p3160
+aS'swastika investmart ltd'
+p3161
+aS'swiss glascoat equipments ltd'
+p3162
+aS'switching technologies gunther ltd'
+p3163
+aS'sword &amp; shield pharma ltd'
+p3164
+aS'sybly industries ltd'
+p3165
+aS'sylph technologies ltd'
+p3166
+aS'symantec'
+p3167
+aS'symphony comfort systems ltd'
+p3168
+aS'syncom formulations (india) ltd'
+p3169
+aS'syndicate bank'
+p3170
+aS'syschem (india) ltd'
+p3171
+aS'systematix corporate services ltd'
+p3172
+aS't spiritual world ltd'
+p3173
+aS't&amp;i global ltd'
+p3174
+aS'tcfc finance ltd'
+p3175
+aS'tci finance ltd'
+p3176
+aS'tci industries ltd'
+p3177
+aS'tcm ltd'
+p3178
+aS'tcpl packaging ltd'
+p3179
+aS'til ltd'
+p3180
+aS'tpi india ltd'
+p3181
+aS'tpl plastech ltd'
+p3182
+aS'trc financial services ltd'
+p3183
+aS'trf ltd'
+p3184
+aS'tt ltd'
+p3185
+aS'ttg industries ltd'
+p3186
+aS'ttk healthcare ltd'
+p3187
+aS'ttk prestige ltd'
+p3188
+aS'tv today network'
+p3189
+aS'tvs electronics ltd'
+p3190
+aS'tvs finance &amp; services ltd'
+p3191
+aS'tvs motor company limited'
+p3192
+aS'tvs srichakra ltd'
+p3193
+aS'tai chonbang textile inds ltd'
+p3194
+aS'tai industries ltd'
+p3195
+aS'tainwala chemicals &amp; plastics (india) ltd'
+p3196
+aS'taj gvk hotels &amp; resorts ltd'
+p3197
+aS'take solutions ltd'
+p3198
+aS'talbros automotive components ltd'
+p3199
+aS'tamil nadu industrial explosives ltd'
+p3200
+aS'tamil nadu newsprint &amp; papers ltd'
+p3201
+aS'tamilnadu petroproducts ltd'
+p3202
+aS'tamilnadu telecommunications ltd'
+p3203
+aS'taneja aerospace &amp; aviation ltd'
+p3204
+aS'tanfac industries ltd'
+p3205
+aS'tanla solutions ltd'
+p3206
+aS'tantia constructions ltd'
+p3207
+aS'tarai foods ltd'
+p3208
+aS'tarrif cine &amp; finance ltd'
+p3209
+aS'tashi india ltd'
+p3210
+aS'tasty bite eatables ltd'
+p3211
+aS'tata chemicals limited'
+p3212
+aS'tata coffee ltd'
+p3213
+aS'tata construction &amp; projects ltd'
+p3214
+aS'tata consultancy services'
+p3215
+aS'tata elxsi ltd'
+p3216
+aS'tata investment corpn ltd'
+p3217
+aS'tata metaliks ltd'
+p3218
+aS'tata motors limited'
+p3219
+aS'tata power company limited'
+p3220
+aS'tata sponge iron ltd'
+p3221
+aS'tata steel limited'
+p3222
+aS'tata tea limited'
+p3223
+aS'tata teleservices (maharashtra) ltd'
+p3224
+aS'tatacommunications ltd'
+p3225
+aS'tayo rolls ltd'
+p3226
+aS'techno electric &amp; engg company ltd'
+p3227
+aS'technocraft industries (india) ltd'
+p3228
+aS'techtran polylenses ltd'
+p3229
+aS'teesta agro inds ltd'
+p3230
+aS'telecanor global ltd'
+p3231
+aS'telecom regulatory authority of india'
+p3232
+aS'teledata informatics ltd'
+p3233
+aS'telephone cables ltd'
+p3234
+aS'telephoto entertainments ltd'
+p3235
+aS'telesys software ltd'
+p3236
+aS'television eighteen india ltd'
+p3237
+aS'temptation foods ltd'
+p3238
+aS'terai tea company ltd'
+p3239
+aS'terrygold (india) ltd'
+p3240
+aS'texmaco ltd'
+p3241
+aS'texplast industries ltd'
+p3242
+aS'tezpore tea company ltd'
+p3243
+aS'thakkers developers ltd'
+p3244
+aS'thambbi modern spg mills ltd'
+p3245
+aS'the bombay dyeing and manufacturing company limite'
+p3246
+aS'the india cements limited'
+p3247
+aS'themis medicare ltd'
+p3248
+aS'thermax ltd'
+p3249
+aS'thiru arooran sugars ltd'
+p3250
+aS'thirumalai chemicals ltd'
+p3251
+aS'thomas cook (india) ltd'
+p3252
+aS'tide water oil company (india) ltd'
+p3253
+aS'tilaknagar industries ltd'
+p3254
+aS'time technoplast ltd'
+p3255
+aS'times guaranty ltd'
+p3256
+aS'timex group india ltd'
+p3257
+aS'tinna overseas ltd'
+p3258
+aS'tinplate company of india ltd'
+p3259
+aS'tips industries ltd'
+p3260
+aS'tirupati foam ltd'
+p3261
+aS'tirupati industries (india) ltd'
+p3262
+aS'tirupati sarjan ltd'
+p3263
+aS'tirupati starch &amp; chemicals ltd'
+p3264
+aS'titagarh steels ltd'
+p3265
+aS'titagarh wagons ltd'
+p3266
+aS'titan bio-tech ltd'
+p3267
+aS'titan industries ltd'
+p3268
+aS'titan securities ltd'
+p3269
+aS"today's writing products ltd"
+p3270
+aS'tokyo finance ltd'
+p3271
+aS'tokyo plast international ltd'
+p3272
+aS'torrent cables ltd'
+p3273
+aS'torrent pharmaceuticals limited'
+p3274
+aS'torrent power aec limited'
+p3275
+aS'total exports ltd'
+p3276
+aS'tourism finance corpn of india ltd'
+p3277
+aS'toyama electric ltd'
+p3278
+aS'trade-wings ltd'
+p3279
+aS'trans asia corpn ltd'
+p3280
+aS'trans financial resources ltd'
+p3281
+aS'trans freight containers ltd'
+p3282
+aS'transchem ltd'
+p3283
+aS'transcon research &amp; infotech ltd'
+p3284
+aS'transcorp international ltd'
+p3285
+aS'transformers &amp; rectifiers (india) ltd'
+p3286
+aS'transgene biotek ltd'
+p3287
+aS'transpek finance ltd'
+p3288
+aS'transpek industry ltd'
+p3289
+aS'transport corporation of india ltd'
+p3290
+aS'transwarranty finance ltd'
+p3291
+aS'treadsdirect ltd'
+p3292
+aS'trend electronics ltd'
+p3293
+aS'trent ltd'
+p3294
+aS'tribhuvan housing ltd'
+p3295
+aS'tricom india ltd'
+p3296
+aS'trigyn technologies ltd'
+p3297
+aS'trijal industries ltd'
+p3298
+aS'trillenium technologies ltd'
+p3299
+aS'trinethra infra ventures ltd'
+p3300
+aS'trinity bio-tech ltd'
+p3301
+aS'triochem products ltd'
+p3302
+aS'tripex overseas ltd'
+p3303
+aS'trishakti electronics &amp; inds ltd'
+p3304
+aS'triton corp ltd'
+p3305
+aS'triton valves ltd'
+p3306
+aS'triumph international finance india ltd'
+p3307
+aS'triveni engineering &amp; inds ltd'
+p3308
+aS'triveni glass ltd'
+p3309
+aS'tube investments of india ltd'
+p3310
+aS'tudor india ltd'
+p3311
+aS'tulip finance ltd'
+p3312
+aS'tulip star hotels ltd'
+p3313
+aS'tulip telecom ltd'
+p3314
+aS'tulive developers ltd'
+p3315
+aS'tulsi extrusions ltd'
+p3316
+aS'tulsyan n e c ltd'
+p3317
+aS'tuticorin alkali chemicals &amp; fertilisers ltd'
+p3318
+aS'tutis technologies ltd'
+p3319
+aS'twilight litaka pharma ltd'
+p3320
+aS'twinstar software exports ltd'
+p3321
+aS'tyche industries ltd'
+p3322
+aS'tyroon tea company ltd'
+p3323
+aS'ub engineering ltd'
+p3324
+aS'uco bank'
+p3325
+aS'ug hotels &amp; resorts ltd'
+p3326
+aS'ut ltd'
+p3327
+aS'utv software communications ltd'
+p3328
+aS'uv boards ltd'
+p3329
+aS'ucal fuel systems ltd'
+p3330
+aS'udaipur cement works ltd'
+p3331
+aS'uflex ltd'
+p3332
+aS'ugar sugar works ltd'
+p3333
+aS'ultratech cement limited'
+p3334
+aS'umang dairies ltd'
+p3335
+aS'uni abex alloy products ltd'
+p3336
+aS'unichem laboratories ltd'
+p3337
+aS'uniflex cables ltd'
+p3338
+aS'unimers india ltd'
+p3339
+aS'unimin india ltd'
+p3340
+aS'union bank of india'
+p3341
+aS'union bearings (india) ltd'
+p3342
+aS'uniphos enterprises ltd'
+p3343
+aS'uniply industries ltd'
+p3344
+aS'uniport computers ltd'
+p3345
+aS'uniproducts (india) ltd'
+p3346
+aS'unique organics ltd'
+p3347
+aS'uniroyal marine exports ltd'
+p3348
+aS'unistar multimedia ltd'
+p3349
+aS'unisys softwares &amp; holding inds ltd'
+p3350
+aS'unitech limited'
+p3351
+aS'united breweries (holdings) ltd'
+p3352
+aS'united breweries limited'
+p3353
+aS'united credit ltd'
+p3354
+aS'united interactive ltd'
+p3355
+aS'united phosphorus ltd'
+p3356
+aS'united spirits limited'
+p3357
+aS'unitex designs ltd'
+p3358
+aS'unity infraprojects ltd'
+p3359
+aS'universal arts ltd'
+p3360
+aS'universal cables ltd'
+p3361
+aS'universal credit &amp; securities ltd'
+p3362
+aS'universal office automation ltd'
+p3363
+aS'universal prime aluminium ltd'
+p3364
+aS'universal starch-chem allied ltd'
+p3365
+aS'uniworth international ltd'
+p3366
+aS'uniworth ltd'
+p3367
+aS'uniworth textiles ltd'
+p3368
+aS'unjha formulations ltd'
+p3369
+aS'upper ganges sugar &amp; inds ltd'
+p3370
+aS'upsurge investment &amp; finance ltd'
+p3371
+aS'urja global ltd'
+p3372
+aS'usha (india) ltd'
+p3373
+aS'usha international ltd'
+p3374
+aS'usha martin infotech ltd'
+p3375
+aS'usha martin ltd'
+p3376
+aS'ushakiran finance ltd'
+p3377
+aS'ushdev international ltd'
+p3378
+aS'usher agro ltd'
+p3379
+aS'uttam galva steels ltd'
+p3380
+aS'uttam sugar mills ltd'
+p3381
+aS'v&amp;k softech ltd'
+p3382
+aS'v-guard inds ltd'
+p3383
+aS'vb desai financial services ltd'
+p3384
+aS'vbc ferro alloys ltd'
+p3385
+aS'vbc industries ltd'
+p3386
+aS'vck capital market services ltd'
+p3387
+aS'vip industries ltd'
+p3388
+aS'vjil consulting ltd'
+p3389
+aS'vls finance ltd'
+p3390
+aS'vmf soft tech ltd'
+p3391
+aS'vr woodart ltd'
+p3392
+aS'vst industries ltd'
+p3393
+aS'vst tillers tractors ltd'
+p3394
+aS'vtm ltd'
+p3395
+aS'vxl instrument'
+p3396
+aS'vxl instruments ltd'
+p3397
+aS'vadilal enterprises ltd'
+p3398
+aS'vaghani techno-build ltd'
+p3399
+aS'vaibhav gems ltd'
+p3400
+aS'vajra bearings ltd'
+p3401
+aS'vakrangee softwares ltd'
+p3402
+aS'valecha engineering ltd'
+p3403
+aS'valiant communications ltd'
+p3404
+aS'vallabh steels ltd'
+p3405
+aS'valley abrasives ltd'
+p3406
+aS'valley indiana leisure ltd'
+p3407
+aS'valson industries ltd'
+p3408
+aS'value industries ltd'
+p3409
+aS'vama industries ltd'
+p3410
+aS'vamshi rubber ltd'
+p3411
+aS'vantage corporate services ltd'
+p3412
+aS'vapi paper mills ltd'
+p3413
+aS'vardhaman laboratories ltd'
+p3414
+aS'vardhman acrylics ltd'
+p3415
+aS'vardhman holdings ltd'
+p3416
+aS'vardhman industries ltd'
+p3417
+aS'vardhman polytex ltd'
+p3418
+aS'vardhman textiles limited'
+p3419
+aS'varun industries ltd'
+p3420
+aS'varun shipping company ltd'
+p3421
+aS'vas infrastructure ltd'
+p3422
+aS'vatsa corporations ltd'
+p3423
+aS'vatsa educations ltd'
+p3424
+aS'vatsa music'
+p3425
+aS'vax housing finance corpn ltd'
+p3426
+aS'vedant hotels ltd'
+p3427
+aS'veejay lakshmi engg works ltd'
+p3428
+aS'velan hotels ltd'
+p3429
+aS'velvette international pharma products ltd'
+p3430
+aS'venkat pharma ltd'
+p3431
+aS"venky's (india) ltd"
+p3432
+aS'venlon enterprises ltd'
+p3433
+aS'venmax drugs pharmaceuticals ltd'
+p3434
+aS'ventura textiles ltd'
+p3435
+aS'venus remedies ltd'
+p3436
+aS'venus sugar ltd'
+p3437
+aS'venus universal ltd'
+p3438
+aS'venus ventures ltd'
+p3439
+aS'veritas (india) ltd'
+p3440
+aS'veronica laboratories ltd'
+p3441
+aS'vertex securities ltd'
+p3442
+aS'vertex spinning ltd'
+p3443
+aS'vesuvius india ltd'
+p3444
+aS'viceroy hotels ltd'
+p3445
+aS'victoria enterprises ltd'
+p3446
+aS'victoria mills ltd'
+p3447
+aS'victory paper &amp; boards (india) ltd'
+p3448
+aS'videocon industries ltd'
+p3449
+aS'vidhi dyestuffs manufacturing ltd'
+p3450
+aS'vijay shanthi builders ltd'
+p3451
+aS'vijay solvex ltd'
+p3452
+aS'vijay textiles ltd'
+p3453
+aS'vijaya bank'
+p3454
+aS'vijayeswari textiles ltd'
+p3455
+aS'vikas globalone ltd'
+p3456
+aS'vikas granaries ltd'
+p3457
+aS'vikas wsp ltd'
+p3458
+aS'vikash metal &amp; power ltd'
+p3459
+aS'vikram thermo (india) ltd'
+p3460
+aS'vimal oil &amp; foods ltd'
+p3461
+aS'vimta labs ltd'
+p3462
+aS'vinati organics ltd'
+p3463
+aS'vinay cements ltd'
+p3464
+aS'vindhya telelinks ltd'
+p3465
+aS'vintage cards &amp; creations ltd'
+p3466
+aS'vintage securities ltd'
+p3467
+aS'vintron informatics ltd'
+p3468
+aS'vinyl chemicals india ltd'
+p3469
+aS'vinyoflex ltd'
+p3470
+aS'vippy industries ltd'
+p3471
+aS'vippy spinpro ltd'
+p3472
+aS'vipul dye chem ltd'
+p3473
+aS'vipul ltd'
+p3474
+aS'virat crane inds ltd'
+p3475
+aS'virat industries ltd'
+p3476
+aS'virgo global media ltd'
+p3477
+aS'virgo polymers (india) ltd'
+p3478
+aS'virinchi technologies ltd'
+p3479
+aS'virtualsoft systems ltd'
+p3480
+aS'visa steel ltd'
+p3481
+aS'visagar polytex ltd'
+p3482
+aS'visaka industries ltd'
+p3483
+aS'visesh infotecnics ltd'
+p3484
+aS'vishal cotspin ltd'
+p3485
+aS'vishal exports overseas ltd'
+p3486
+aS'vishal information technologies ltd'
+p3487
+aS'vishal malleables ltd'
+p3488
+aS'vishal retail ltd'
+p3489
+aS'vishnu chemicals ltd'
+p3490
+aS'vishnu sugar mills ltd'
+p3491
+aS'vishvas projects ltd'
+p3492
+aS'vishvprabha trading ltd'
+p3493
+aS'vision corporation ltd'
+p3494
+aS'vision organics ltd'
+p3495
+aS'vision technology india ltd'
+p3496
+aS'visisth mercantile ltd'
+p3497
+aS'vista pharmaceuticals ltd'
+p3498
+aS'visu international ltd'
+p3499
+aS'vivid global industries ltd'
+p3500
+aS'vivimed labs ltd'
+p3501
+aS'vogue textiles ltd'
+p3502
+aS'volant textile mills ltd'
+p3503
+aS'volex finance &amp; industries ltd'
+p3504
+aS'volga air technics ltd'
+p3505
+aS'voltaire leasing &amp; finance ltd'
+p3506
+aS'voltamp transformers ltd'
+p3507
+aS'voltas limited'
+p3508
+aS'vyapar industries ltd'
+p3509
+aS'vybra automet ltd'
+p3510
+aS'vysali pharmaceuticals ltd'
+p3511
+aS'wh brady &amp; company ltd'
+p3512
+aS'wpil ltd'
+p3513
+aS'ws industries (india) ltd'
+p3514
+aS'wabco-tvs india ltd'
+p3515
+aS'wadala commodities ltd'
+p3516
+aS'walchandnagar industries ltd'
+p3517
+aS'wall street finance ltd'
+p3518
+aS'wallfort financial services ltd'
+p3519
+aS'wanbury ltd'
+p3520
+aS'warner multimedia ltd'
+p3521
+aS'warren tea ltd'
+p3522
+aS'wartsila india limited'
+p3523
+aS'washington softwares ltd'
+p3524
+aS'waterbase ltd'
+p3525
+aS'watson software ltd'
+p3526
+aS'websol energy systems ltd'
+p3527
+aS'weizmann ltd'
+p3528
+aS'welcast steels ltd'
+p3529
+aS'welcure drugs &amp; pharmaceuticals ltd'
+p3530
+aS'well pack papers &amp; containers ltd'
+p3531
+aS'wellwin industry ltd'
+p3532
+aS'wellworth overseas ltd'
+p3533
+aS'welspun india limited'
+p3534
+aS'welspun syntex ltd'
+p3535
+aS'welspun-gujarat stahl rohren ltd'
+p3536
+aS'welterman international ltd'
+p3537
+aS'wendt (india) ltd'
+p3538
+aS'west coast paper mills limited'
+p3539
+aS'western india cottons ltd'
+p3540
+aS'western india shipyard ltd'
+p3541
+aS'wheel &amp; axle textiles ltd'
+p3542
+aS'wheels india limited'
+p3543
+aS'whirlpool of india ltd'
+p3544
+aS'white diamond inds ltd'
+p3545
+aS'white house cotton inds ltd'
+p3546
+aS'willard india ltd'
+p3547
+aS'williamson financial services ltd'
+p3548
+aS'williamson magor &amp; company ltd'
+p3549
+aS'wilwayfort india ltd'
+p3550
+aS'wim plast ltd'
+p3551
+aS'winro commercial (india) ltd'
+p3552
+aS'winsome breweries ltd'
+p3553
+aS'winsome textile inds ltd'
+p3554
+aS'winsome yarns ltd'
+p3555
+aS'wintac ltd'
+p3556
+aS'wipro infotech ltd'
+p3557
+aS'wire &amp; wireless (india) ltd'
+p3558
+aS'wires &amp; fabriks (sa) ltd'
+p3559
+aS'wisec global ltd'
+p3560
+aS'wockhardt limited'
+p3561
+aS'women networks ltd'
+p3562
+aS'woolite mercantile company ltd'
+p3563
+aS'wopolin plastics ltd'
+p3564
+aS'worldwide leather exports ltd'
+p3565
+aS'wyeth ltd'
+p3566
+aS'xl telecom &amp; energy ltd'
+p3567
+aS'xo infotech ltd'
+p3568
+aS'xpro india ltd'
+p3569
+aS'yes bank ltd'
+p3570
+aS'yarn syndicate ltd'
+p3571
+aS'yash management &amp; satellite ltd'
+p3572
+aS'yash papers ltd'
+p3573
+aS'yash trading &amp; finance ltd'
+p3574
+aS'yashraj containeurs ltd'
+p3575
+aS'yatish securities ltd'
+p3576
+aS'yogi infra projects ltd'
+p3577
+aS'yokogawa india ltd'
+p3578
+aS'yule financing &amp; leasing company ltd'
+p3579
+aS'zandu pharmaceutical works ltd'
+p3580
+aS'zee entertainment enterprises ltd'
+p3581
+aS'zee news ltd'
+p3582
+aS'zen technologies ltd'
+p3583
+aS'zenith birla (india) ltd'
+p3584
+aS'zenith computers ltd'
+p3585
+aS'zenith exports ltd'
+p3586
+aS'zenith fibres ltd'
+p3587
+aS'zenith health care ltd'
+p3588
+aS'zenith infotech ltd'
+p3589
+aS'zenotech laboratories ltd'
+p3590
+aS'zenu infotec ltd'
+p3591
+aS'zenzy technocrats ltd'
+p3592
+aS'zetatic intercorp ltd'
+p3593
+aS'zicom electronic security systems ltd'
+p3594
+aS'zigma software ltd'
+p3595
+aS'zodiac clothing co ltd'
+p3596
+aS'zodiac-jrd-mkj ltd'
+p3597
+aS'zuari forex ltd'
+p3598
+aS'zuari industries ltd'
+p3599
+aS'zyden gentec ltd'
+p3600
+aS'zydus wellness ltd'
+p3601
+aS'zylog systems ltd'
+p3602
+aS'20 microns ltd'
+p3603
+aS'21st century management services ltd'
+p3604
+aS'3i infotech ltd'
+p3605
+aS'3m india limited'
+p3606
+aS'3m india ltd'
+p3607
+aS'aditi technologies'
+p3608
+aS'infinite computer solutions'
+p3609
+aS'3i infotech'
+p3610
+aS'amazon'
+p3611
+aS'cognizant technology solutions'
+p3612
+aS'hexaware'
+p3613
+aS'hcl technologies'
+p3614
+aS'infosys'
+p3615
+aS'larsen & toubro infotech'
+p3616
+aS'microland'
+p3617
+aS'mindtree'
+p3618
+aS'plivo'
+p3619
+aS'sasken'
+p3620
+aS'thoughtworks'
+p3621
+aS'wipro'
+p3622
+aS'tally solutions'
+p3623
+aS'langoor (company)'
+p3624
+aS'bhubaneswar'
+p3625
+aS'essar'
+p3626
+aS'firstsource'
+p3627
+aS'genpact'
+p3628
+aS'idea cellular'
+p3629
+aS'mahindra satyam'
+p3630
+aS'mindfire solutions'
+p3631
+aS'niit'
+p3632
+aS'reliance'
+p3633
+aS'telcon construction solutions'
+p3634
+aS'chandigarh'
+p3635
+aS'nvish'
+p3636
+aS'adrenalin esystems'
+p3637
+aS'the advisory board company'
+p3638
+aS'birlasoft'
+p3639
+aS'capgemini'
+p3640
+aS'computer sciences corporation(csc)'
+p3641
+aS'lister technologies'
+p3642
+aS'logica'
+p3643
+aS'oracle'
+p3644
+aS'syntel'
+p3645
+aS'ust global'
+p3646
+aS'verizon data services'
+p3647
+aS'zoho corporation'
+p3648
+aS'kla tencor'
+p3649
+aS'robert bosch india'
+p3650
+aS'kayako'
+p3651
+aS'newgen software technologies'
+p3652
+aS'niit technologies'
+p3653
+aS'gandhinagar'
+p3654
+aS'cybage'
+p3655
+aS'reliance industries'
+p3656
+aS'aricent group'
+p3657
+aS'comviva[citation needed]'
+p3658
+aS'micromax mobile'
+p3659
+aS'sapient corporation'
+p3660
+aS'3i infotech limited'
+p3661
+aS'adp'
+p3662
+aS'ca technologies'
+p3663
+aS'capitol records'
+p3664
+aS'cmc limited'
+p3665
+aS'citrix systems'
+p3666
+aS'computer associates'
+p3667
+aS'csc india'
+p3668
+aS'deloitte consulting'
+p3669
+aS'dell'
+p3670
+aS'd e shaw research'
+p3671
+aS'general electric'
+p3672
+aS'ge capital'
+p3673
+aS'google inc'
+p3674
+aS'headstrong'
+p3675
+aS'hsbc software technology centre'
+p3676
+aS'ibm'
+p3677
+aS'infotech enterprises'
+p3678
+aS'intergraph'
+p3679
+aS'maq software'
+p3680
+aS'markettools research pvt ltd'
+p3681
+aS'microsoft corporation'
+p3682
+aS'novartis'
+p3683
+aS'ntt data'
+p3684
+aS'ocimum bio solutions'
+p3685
+aS'opentext corporation'
+p3686
+aS'oracle corporation'
+p3687
+aS'patni computer systems'
+p3688
+aS'parexel'
+p3689
+aS'persistent systems'
+p3690
+aS'polaris financial technology limited'
+p3691
+aS'pramati technologies'
+p3692
+aS'satyam computer services'
+p3693
+aS'ubs'
+p3694
+aS'virtusa'
+p3695
+aS'zensar technologies'
+p3696
+aS'jaipur'
+p3697
+aS'indore'
+p3698
+aS'impetus technologies'
+p3699
+aS'arbitron'
+p3700
+aS'avaya global connect'
+p3701
+aS'cognizant'
+p3702
+aS'ernst & young'
+p3703
+aS'etisalat db telecom'
+p3704
+aS'exl service'
+p3705
+aS'hcl'
+p3706
+aS'ibs software'
+p3707
+aS'mobme'
+p3708
+aS'nest software'
+p3709
+aS'northgate arinso'
+p3710
+aS'outsource partners international'
+p3711
+aS'suntec'
+p3712
+aS'atos'
+p3713
+aS'c-dac'
+p3714
+aS'deloitte'
+p3715
+aS'itc infotech'
+p3716
+aS'ixia'
+p3717
+aS'lexmark'
+p3718
+aS'novell'
+p3719
+aS'pwc'
+p3720
+aS'siemens'
+p3721
+aS'nokia siemens'
+p3722
+aS'sankalp semiconductor'
+p3723
+aS'lucknow'
+p3724
+aS'patna'
+p3725
+aS'madurai'
+p3726
+aS'honeywell'
+p3727
+aS'manesar'
+p3728
+aS'agilent technologies'
+p3729
+aS'mangalore'
+p3730
+aS'aftek'
+p3731
+aS'american megatrends india'
+p3732
+aS'anantara solutions'
+p3733
+aS'aptech'
+p3734
+aS'atom technologies'
+p3735
+aS'blue star infotech'
+p3736
+aS'brahma vision private limited'
+p3737
+aS'cgi group'
+p3738
+aS'cynapse'
+p3739
+aS'datamatics global services'
+p3740
+aS'eclerx'
+p3741
+aS'factset research systems inc'
+p3742
+aS'hexaware technologies'
+p3743
+aS'iken solutions'
+p3744
+aS'infrasoft technologies ltd'
+p3745
+aS'ingram micro'
+p3746
+aS'intec'
+p3747
+aS'jp morgan chase'
+p3748
+aS'lionbridge'
+p3749
+aS'mastek'
+p3750
+aS'melstar information technologies'
+p3751
+aS'microsoft india pl'
+p3752
+aS'ness technologies'
+p3753
+aS'nvidia corporation'
+p3754
+aS'onward technologies'
+p3755
+aS'oracle financial services software (formerly i-fle'
+p3756
+aS'ramco systems'
+p3757
+aS'red hat india'
+p3758
+aS'rediffcom'
+p3759
+aS'sonata software'
+p3760
+aS'sutherland'
+p3761
+aS'tata interactive systems'
+p3762
+aS'tejas networks'
+p3763
+aS'thirdware'
+p3764
+aS'wns global services'
+p3765
+aS'zenith computers'
+p3766
+aS'infosys technologies'
+p3767
+aS'comat technologies'
+p3768
+aS'iflex'
+p3769
+aS'larsen & toubro'
+p3770
+aS'nagpur'
+p3771
+aS'globallogic'
+p3772
+aS'nashik'
+p3773
+aS'adobe systems'
+p3774
+aS'affiliated computer services'
+p3775
+aS'cadence design systems'
+p3776
+aS'csc'
+p3777
+aS'conexant systems'
+p3778
+aS'coware'
+p3779
+aS'fiserv'
+p3780
+aS'hewitt associates'
+p3781
+aS'monsoon hava'
+p3782
+aS'mediatek'
+p3783
+aS'network solutions'
+p3784
+aS'pgms inc'
+p3785
+aS'pitney bowes'
+p3786
+aS'r systems ltd'
+p3787
+aS'safenet inc'
+p3788
+aS'samsung india software center'
+p3789
+aS'sapient corp'
+p3790
+aS'sopra group'
+p3791
+aS'stmicroelectronics'
+p3792
+aS'synopsys'
+p3793
+aS'xansa'
+p3794
+aS'xavient'
+p3795
+aS'puducherry (formerly pondicherry)'
+p3796
+aS'lenovo'
+p3797
+aS'amdocs'
+p3798
+aS'avaya'
+p3799
+aS'bmc software'
+p3800
+aS'barclays capital'
+p3801
+aS'capita'
+p3802
+aS'cybage software'
+p3803
+aS'fabcom'
+p3804
+aS'fujitsu'
+p3805
+aS'fulcrum worldwide'
+p3806
+aS'future group'
+p3807
+aS'geometric limited'
+p3808
+aS'hsbc glt india'
+p3809
+aS'harbinger systems'
+p3810
+aS'nihilent'
+p3811
+aS'nvidia'
+p3812
+aS'quinstreet'
+p3813
+aS'sungard'
+p3814
+aS'sybase'
+p3815
+aS'symphony'
+p3816
+aS'teradata'
+p3817
+aS'tibco software'
+p3818
+aS'tieto'
+p3819
+aS'allianz'
+p3820
+aS'ernst & young global shared services center'
+p3821
+aS'flytxt mobile solutions'
+p3822
+aS'mckinsey & co'
+p3823
+aS'rr donnelley'
+p3824
+aS'suntec business solutions'
+p3825
+aS'toonz india ltd'
+p3826
+aS'zafin'
+p3827
+aS'vadodara'
+p3828
+aS'investis'
+p3829
+aS'visakhapatnam'
+p3830
+aS'hsbc'
+p3831
+aS'symbiosis'
+p3832
+aS'wipro technologies'
+p3833
+a.
