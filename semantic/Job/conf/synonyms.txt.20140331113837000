@@ -1,0 +1,188 @@
+# the asf licenses this file to you under the apache license, version 2.0
+# (the "license"); you may not use this file except in compliance with
+# the license.  you may obtain a copy of the license at
+#
+#     http://www.apache.org/licenses/license-2.0
+#
+# unless required by applicable law or agreed to in writing, software
+# distributed under the license is distributed on an "as is" basis,
+# without warranties or conditions of any kind, either express or implied.
+# see the license for the specific language governing permissions and
+# limitations under the license.
+
+#-----------------------------------------------------------------------
+#some test synonym mappings unlikely to appear in real input text
+
+# some synonym groups specific to this example
+gb,gib,gigabyte,gigabytes
+mb,mib,megabyte,megabytes
+television, televisions, tv, tvs
+#notice we use "gib" instead of "gib" so any worddelimiterfilter coming
+#after us won't split it into two words.
+
+# synonym mappings can be used for spelling correction too
+pixima => pixma
+account manager,relationship manager
+accounts manager => accounts manager, accountant
+accounts officer => accounts officer, accountant
+accounts officer, accounts manager
+accounts executive,accounts assistant
+actuary,acturial
+admin executive,admin assistant
+admin manager,admin officer
+air hostess => air hostess,cabin crew
+apps dba => apps dba,oracle apps dba
+area manager,regional manager,zonal manager,sales manager
+back office executive,back office assistant
+branch head,branch manager
+business consultant,management consultant
+business head,ceo,md,managing director,country head
+ca,chartered accountant
+cfa => cfa,financial analyst
+chief security officer,cso
+cio,it head
+content developer,content writer
+cs,company secretary
+cto,tech head
+disc jockey,dj
+draftsman,draughtsman
+ea,executive assistant
+equity analyst => equity analyst,equity research analyst
+flash developer,flash programmer
+front office executive,receptionist
+gastronomist,gastrologist
+hardware engineer => hardware engineer,computer hardware engineer
+hr executive,hr assistant
+hr manager,hr officer
+icwa => icwa,cost accountant
+industrial engineer,production engineer
+interpretor,translator
+java programmer,java developer
+journalist,correspondent,reporter
+legal manager,legal officer
+liasion officer,liasion manager
+office assistant,office executive,office coordinator
+pa,personal secretary,personal assistant
+production manager,production officer
+purchase executive,purchase assistant
+purchase manager,purchase officer
+safety manager,safety officer
+sas analyst,sas data analyst
+security manager,security officer
+software developer,software engineer,software programmer
+steno,stenographer
+steward,waiter
+store keeper,storekeeper
+store manager,store officer,store incharge
+structural engineer => structural engineer,civil engineering
+sys admin,system admin, system administrator
+travel consultant,travel executive,travel agent
+veterinarian,vet
+cmo,marketing head
+credit officer,credit manager
+engineer trainee => engineer trainee,graduate engineer trainee
+factory head => factory head,plant head
+rj,radio jockey
+sales officer => sales officer,sales manager
+vj,video jockey
+oops, object oriented programming concepts
+ooad, object oriented application design, object oriented analysis design
+ror, ruby on rails
+molding, moulding
+reconcilliation, reconcilation, reconcillation
+v customer, vcustomer
+h.t.media, h t media, h.t. media, ht media, htmedia
+iit, indian institute technology
+nit, rec, national institute technology
+test, testing
+epc, engineering procurement construction, enggn procurement construction
+brand, branding
+.net,dotnet
+asp.net => .net, asp.net, asp, dotnet
+vb.net => .net, vb.net, vb, dotnet
+c#.net => .net, c#.net, c#, dotnet
+ado.net => ado.net, .net, dotnet
+3d max,3ds max,3d studio max
+abinitio => abinitio,ab initio
+accounting,accounts
+ad sales,media sales
+admin,administration
+agriculture,agri
+autocad => autocad,auto cad
+automobile,automotive
+back office => back office,back office operations
+bd,business development
+bpo,call center
+channel sales => channel sales,channel management
+clarifycrm,clarify crm
+consumer durables => consumer durables,consumer goods
+csr,corporate social responsibility
+customer service,customer care,customer support
+d2k => d2k,oracle d2k
+datawarehousing,data warehousing
+ehs => ehs,health safety & environment,hse,environment health & safety
+embedded systems,embedded software
+energy,power
+f&b,food & beverage
+footwear => footwear,foot wear
+health safety & environment,hse,esh,environment health & safety
+hospital administration,hospital management
+hr,human resources
+i-banking,investment banking,ibanking
+industrial engineering,production engineering
+industrial marketing,industrial sales
+internet marketing,online marketing
+ir,industrial relations
+j2ee,java,j2se
+law,legal
+market research,mr
+ms excel,microsoft excel
+ms office,microsoft office
+ms project,microsoft project
+oil & gas,petrochemicals,petro chemicals
+oracle apps,oracle applications
+pl/sql,plsql
+powerbuilder => powerbuilder,power builder
+ppc,production planning & control
+pr,public relations
+pre-sales,presales
+procurement,purchase
+proofreading => proofreading,proof reading
+ptf / apar => ptf / apar,ptf,apar
+qa,qc,quality,quality assurance,quality control
+r&d,research & development
+rpg/400 => rpg/400,rpg iv
+sap b1,sap business one
+solaris => solaris,sun solaris
+sql server => sql server,sqlserver
+systemc,system c
+tax,taxation
+telecom,telecommunication
+telemarketing,telesales
+transact-sql => transact-sql,t-sql
+vbscript => vbscript,vb script
+biotech,biotechnology
+facility => facility,facility management
+microsoft project => microsoft project,ms project
+power builder => power builder,powerbuilder
+security => security,security management
+supply chain,scm,supply chain management
+marketing => marketing,marketer
+fabrication => fabrication,fabricating,fabricate
+intern,internship,trainee
+dialog,dialogue
+implementation,deployment
+infra,infrastructure
+tech,technical
+ops,operations
+engg,engineering
+gm,general manager
+dgm,deputy general manager
+agm,assistant general manager
+vp,vice president
+avp,assistant vice president
+exec,executive
+dy,deputy
+astt,assistant
+sr,senior
+retd,retired

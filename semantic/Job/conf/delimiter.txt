@@ -1,0 +1,16 @@
+c#
+c++
+.net
+pro*c
+vc++
+j#
+asp.net
+vb.net
+c#.net
+j2ee
+j2me
+j2se
+p&ids
+p&id
+ado.net
+

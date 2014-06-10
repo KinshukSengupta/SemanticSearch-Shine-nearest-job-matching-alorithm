@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one or more
+ contributor license agreements.  See the NOTICE file distributed with
+ this work for additional information regarding copyright ownership.
+ The ASF licenses this file to You under the Apache License, Version 2.0
+ (the "License"); you may not use this file except in compliance with
+ the License.  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<schema name="default" version="1.1">
+  <types>
+    <!-- ID field -->
+    <fieldType name="uuid" class="solr.UUIDField" indexed="true"/>
+
+    <fieldtype name="string" class="solr.StrField" sortMissingLast="true" omitNorms="true"/>
+    <fieldType name="boolean" class="solr.BoolField" sortMissingLast="true" omitNorms="true"/>
+    <fieldType name="spell" class="solr.TextField">
+        <analyzer type="query">
+        <tokenizer class="solr.PatternTokenizerFactory" pattern=",|\s" group="-1"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+        </analyzer>
+        <analyzer type="index">
+         <tokenizer class="solr.PatternTokenizerFactory" pattern=",|\s" group="-1"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+        </analyzer>
+        </fieldType>
+
+    <!--
+     Numeric field types that index each value at various levels of precision
+     to accelerate range queries when the number of values between the range
+     endpoints is large. See the javadoc for NumericRangeQuery for internal
+     implementation details.
+
+     Smaller precisionStep values (specified in bits) will lead to more tokens
+     indexed per value, slightly larger index size, and faster range queries.
+     A precisionStep of 0 disables indexing at different precision levels.
+    -->
+    <fieldType name="tint" class="solr.TrieIntField" precisionStep="8" omitNorms="true" positionIncrementGap="0"/>
+    <fieldType name="tfloat" class="solr.TrieFloatField" precisionStep="8" omitNorms="true" positionIncrementGap="0"/>
+    <fieldType name="tlong" class="solr.TrieLongField" precisionStep="8" omitNorms="true" positionIncrementGap="0"/>
+    <fieldType name="tdouble" class="solr.TrieDoubleField" precisionStep="8" omitNorms="true" positionIncrementGap="0"/>
+
+    <fieldType name="date" class="solr.DateField" sortMissingLast="true" omitNorms="true"/>
+
+    <!-- A Trie based date field for faster date range queries and date faceting. -->
+    <fieldType name="tdate" class="solr.TrieDateField" omitNorms="true" precisionStep="6" positionIncrementGap="0"/>
+
+    <fieldType name="textgen" class="solr.TextField" positionIncrementGap="100">      <analyzer type="index">
+        <tokenizer class="solr.KeywordTokenizerFactory"/>
+      </analyzer>
+      <analyzer type="query">
+        <tokenizer class="solr.KeywordTokenizerFactory"/>
+      </analyzer>
+    </fieldType>
+<fieldType name="snippet" class="solr.TextField" positionIncrementGap="100">
+	<analyzer type="index"><charFilter class="solr.HTMLStripCharFilterFactory"/>
+	<tokenizer class="solr.PatternTokenizerFactory" pattern="\)|\(|;|:|,|\s" group="-1"/>
+	<filter class="solr.LowerCaseFilterFactory"/>
+	<filter class="solr.WordDelimiterFilterFactory" protected="delimiter.txt" generateWordParts="1" splitOnNumerics="0" generateNumberParts="1" catenateWords="0" catenateNumbers="0" catenateAll="0" preserveOriginal="1"/>
+	<filter class="solr.SynonymFilterFactory" synonyms="synonyms.txt" expand="true"/>
+	<filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt" enablePositionIncrements="true"/>
+	<filter class="solr.KeywordMarkerFilterFactory" protected="stemmer_protect.txt"/>
+	<filter class="solr.EnglishMinimalStemFilterFactory"/>
+	<filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+	</analyzer>
+	<analyzer type="query">
+	<tokenizer class="solr.WhitespaceTokenizerFactory"/>
+	<!--	<tokenizer class="solr.PatternTokenizerFactory" pattern=";|:|,|\s|\/" group="-1"/>-->
+	<filter class="solr.LowerCaseFilterFactory"/>
+	<filter class="solr.WordDelimiterFilterFactory" protected="delimiter.txt" generateWordParts="1" splitOnNumerics="0" generateNumberParts="1" catenateWords="0" catenateNumbers="0" catenateAll="0"/>
+	<filter class="solr.SynonymFilterFactory" synonyms="synonyms_query.txt"/>
+	<filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt" enablePositionIncrements="true"/>
+	<filter class="solr.KeywordMarkerFilterFactory" protected="stemmer_protect.txt"/>
+	<filter class="solr.EnglishMinimalStemFilterFactory"/>
+	<filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+	</analyzer>
+	</fieldType>
+
+    <fieldType name="functional_areas" class="solr.TextField" positionIncrementGap="100">
+      <analyzer type="index">
+	<tokenizer class="solr.WhitespaceTokenizerFactory"/>
+	<filter class="solr.SynonymFilterFactory" synonyms="synonyms_sub_functional_areas.txt" ignoreCase="true" expand="false"/>
+	<filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwordsfunctionsarea.txt"/>
+	<filter class="solr.LowerCaseFilterFactory"/>
+	<filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
+      <analyzer type="query">
+	<tokenizer class="solr.WhitespaceTokenizerFactory"/>
+	<filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwordsfunctionsarea.txt"/>
+	<filter class="solr.LowerCaseFilterFactory"/>
+	<filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
+    </fieldType>
+
+ <fieldType name="industry" class="solr.TextField" positionIncrementGap="100">
+      <analyzer type="index">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
+      <analyzer type="query">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
+    </fieldType>
+
+    <fieldType name="city" class="solr.TextField" positionIncrementGap="100">
+      <analyzer type="index">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.SynonymFilterFactory" synonyms="synonyms_city.txt" ignoreCase="true" expand="false"/>
+        <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
+      <analyzer type="query">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
+    </fieldType>
+
+    <fieldType name="education" class="solr.TextField" positionIncrementGap="100">
+      <analyzer type="index">
+	<tokenizer class="solr.WhitespaceTokenizerFactory"/>
+	<!-- This file contains synonyms for both academic stream and
+	     institute name -->
+	<filter class="solr.SynonymFilterFactory" synonyms="synonyms_education.txt" ignoreCase="true" expand="false"/>
+	<filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+	<filter class="solr.LowerCaseFilterFactory"/>
+	<filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
+      <analyzer type="query">
+	<tokenizer class="solr.WhitespaceTokenizerFactory"/>
+	<filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+	<filter class="solr.LowerCaseFilterFactory"/>
+	<filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
+    </fieldType>
+
+    <fieldType name="text" class="solr.TextField" positionIncrementGap="100">
+      <analyzer type="index">
+	<tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.SynonymFilterFactory" synonyms="synonyms.txt" ignoreCase="true" expand="true"/>
+        <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
+
+      <analyzer type="query">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.SynonymFilterFactory" synonyms="synonyms.txt" ignoreCase="true" expand="true"/>
+        <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
+    </fieldType>
+
+    <fieldType name="text_ws" class="solr.TextField" positionIncrementGap="100">
+      <analyzer>
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+      </analyzer>
+    </fieldType>
+  </types>
+
+  <fields>   
+    <!-- general -->
+    <!-- Unique ID: recruiter_job.JobId -->
+     <field name="_version_" type="tlong" indexed="true" stored="true"/>
+	<field name="id" type="string" indexed="true" stored="true" multiValued="false" required="true"/>
+    <field name="doc_id" type="uuid" indexed="true" stored="true" multiValued="false" required="true"/>
+
+    <!-- For haystack use -->
+    <field name="django_ct" type="string" indexed="true" stored="true" multiValued="false"/>
+    <field name="django_id" type="string" indexed="true" stored="true" multiValued="false"/>
+
+    <!-- Experience text value: min. -->
+    <field name="jminEt" type="string" indexed="false" stored="true" multiValued="false"/>
+
+    <!-- Experience text value: max. -->
+    <field name="jmaxEt" type="string" indexed="false" stored="true" multiValued="false"/>
+
+    <!-- Experience numeric value: min. -->
+    <field name="jNminEx" type="tint" indexed="true" stored="true" multiValued="false"/>
+
+    <!-- Experience numeric value: max. -->
+    <field name="jNmaxEx" type="tint" indexed="true" stored="true" multiValued="false"/>
+
+    <!-- Experience facet: recruiter_job.{MaxExperience, MinExperience} -->
+    <field name="exp_fct" type="tint" indexed="true" stored="true" multiValued="true"/>
+
+    <!-- paid flag for the job from job_paid -->
+    <field name="jPaid" type="boolean" indexed="true" stored="true" multiValued="false"/>
+
+    <!-- Salary text value: min. -->
+    <field name="jminSt" type="string" indexed="false" stored="true" multiValued="false"/>
+
+    <!-- Salary text value: max. -->
+    <field name="jmaxSt" type="string" indexed="false" stored="true" multiValued="false"/>
+
+    <!-- Salary numeric value: min. -->
+    <field name="jNminsal" type="tint" indexed="true" stored="true" multiValued="false"/>
+
+    <!-- Salary numeric value: max. -->
+    <field name="jNmaxsal" type="tint" indexed="true" stored="true" multiValued="false"/>
+
+    <!-- Salary facet: recruiter_job.{SalaryMax, SalaryMin} -->
+    <field name="sal_fct" type="tint" indexed="true" stored="true" multiValued="true"/>
+
+    <!-- Location facet: recruiter_job.JobId,
+	 recruiter_jobattribute.{AttType=13, AttValue}
+	 lookup_city: city_id, city_desc} -->
+    <field name="jLoc" type="city" termVectors="true" termPositions="true" termOffsets="true" indexed="true" stored="true" multiValued="true"/>
+   <field name="jLocID" type="tint" termVectors="true" termPositions="true" termOffsets="true" indexed="true" stored="true" multiValued="true"/>
+    <!-- Location facet: recruiter_job.JobId,
+	 recruiter_jobattribute.{AttType=13, AttValue}
+	 lookup_city: city_id, city_desc} -->
+    <field name="jLoc_fct" type="textgen" multiValued="true"/>
+
+    <!-- Industry facet: recruiter_job.Industry
+	 lookup_industry.{industry_id, industry_desc} -->
+    <field name="jIND" type="string" indexed="true" stored="true" multiValued="false"/>
+    <field name="jINDID" type="tint" indexed="true" stored="true" multiValued="false"/>
+    <!-- Shift type -->
+    <field name="jNST" type="tint" indexed="true" stored="true" multiValued="true"/>
+
+    <!-- Functional area: current -->
+    <field name="jSFunID" type="tint" indexed="true" stored="true" multiValued="true"/>
+
+    <!-- Functional area facet: Script transformer copies from jSFun/jSFunP -->
+    <field name="jSFun_fct" type="string" indexed="true" stored="true" multiValued="true"/>
+
+    <!-- Skills: -->
+    <field name="jSkill" type="text" termVectors="true" termPositions="true" termOffsets="true" indexed="true" stored="true" multiValued="true"/>
+
+    <!-- Job title ID -->
+    <field name="jJID" type="tint" indexed="true" stored="true" multiValued="false"/>
+
+    <!-- Job title -->
+    <field name="jJT" type="text" termVectors="true" termPositions="true" termOffsets="true" indexed="true" stored="true" multiValued="false"/>
+
+    <!-- Job title -->
+    <field name="jJJJT" type="text" termVectors="true" termPositions="true" termOffsets="true" indexed="true" stored="true" multiValued="false"/>
+
+    <!-- Job Type -->
+    <field name="jNJT" type="tint" indexed="true" stored="true" multiValued="false"/>
+
+    <!-- Job publisher ID -->
+    <field name="jCID" type="tint" indexed="true" stored="true" multiValued="false"/>
+
+    <!-- Job publisher name: recruiter_job.displayname -->
+    <field name="jCName" type="text" termVectors="true" termPositions="true" termOffsets="true" indexed="true" stored="true" multiValued="false"/>
+
+    <!-- Job description -->
+    <field name="jJD" type="text" termVectors="true" termPositions="true" termOffsets="true" indexed="true" stored="true" multiValued="false"/>
+    <!-- Job description: HTML stripped -->
+    <field name="jJDT" type="text" termVectors="true" termPositions="true" termOffsets="true" indexed="true" stored="true" multiValued="false"/>
+
+    <!-- Recruiter Preferences -->
+    <!-- Recruiter preferred industry: Current, recruiter_job.JobId
+	 recruiter_jobattribute.{AttType=5, AttValue}
+	 lookup_industry.{industry_id, industry_desc} -->
+    <field name="jPind" type="string" indexed="true" stored="true" multiValued="true"/>
+     <field name="jPindID" type="string" indexed="true" stored="true" multiValued="true"/>
+
+    <!-- Recruiter preferred industry: Previous -->
+    <field name="jPindP" type="string" indexed="true" stored="true" multiValued="true"/>
+   <field name="jPindPID" type="string" indexed="true" stored="true" multiValued="true"/> 
+    <!-- Desired min. salary: recruiter_job.desired_min_salary -->
+    <field name="jPminSL" type="tint" indexed="true" stored="true" multiValued="false"/>
+
+    <!-- Desired max. salary: recruiter_job.desired_max_salary -->
+    <field name="jPmaxSL" type="tint" indexed="true" stored="true" multiValued="false"/>
+
+    <!-- Included companies: Current, recruiter_job.JobId
+	 recruiter_jobattribute.{AttType=6, AttValue}
+	 lookup_company.{value, desc} -->
+    <field name="jPincC" type="string" indexed="true" stored="true" multiValued="true"/>
+
+    <!-- Included companies: Previous -->    
+    <field name="jPincCP" type="string" indexed="true" stored="true" multiValued="true"/>
+    <field name="jSnipt_search" type="snippet" indexed="true" stored="true"/>
+    <field name="jSnipt_jd" type="snippet" indexed="true" stored="true"/>
+    <!-- Excluded companies: Current, recruiter_job.JobId
+	 recruiter_jobattribute.{AttType=7, AttValue}
+	 lookup_company.{value, desc} -->
+    <field name="jPexcC" type="string" indexed="true" stored="true" multiValued="true"/>
+
+    <!-- Excluded companies: Previous -->    
+    <field name="jPexcCP" type="string" indexed="true" stored="true" multiValued="true"/>
+
+    <!-- Preferred  locations: recruiter_job.JobId
+	 recruiter_jobattribute.{AttType=1, AttValue}
+	 lookup_company.{value, desc} -->    
+    <field name="jPLoc" type="string" indexed="true" stored="true" multiValued="true"/>
+<field name="jPLocID" type="tint" indexed="true" stored="true" multiValued="true"/>
+    <!-- Candidate active since: recruiter_job.ActiveSince -->    
+    <field name="jPAS" type="date" indexed="true" stored="true" multiValued="false"/>
+
+    <!-- Candidate  team size managed: recruiter_job.TeamSizedManaged -->    
+    <field name="jPTSM" type="tint" indexed="true" stored="true" multiValued="false"/>
+
+    <!-- Job published date: recruiter_job.PublishedDate -->    
+    <field name="jPD" type="date" indexed="true" stored="true" multiValued="false"/>
+
+    <!-- Recruiter account type: backoffice_company.account_type -->    
+    <field name="rct_type" type="tint" indexed="true" stored="true" multiValued="false"/>
+
+    <!-- Job last tuning date: recruiter_job.LastTuningDate -->    
+    <field name="jLTD" type="date" indexed="true" stored="true" multiValued="false"/>
+
+    <!-- Job application count -->
+    <field name="APLCNT" type="tint" indexed="true" stored="true" multiValued="false"/>
+
+    <!-- Is anonymous company: recruiter_job.isanonymouscompany -->
+    <field name="jAC" type="boolean" indexed="true" stored="true" multivalued="false"/>  
+
+    <!-- Is job live: recruiter_job.jobstatus = 3 ==> live, 5 ==> expired -->
+    <field name="jLive" type="boolean" indexed="true" stored="true" multivalued="false"/>  
+
+    <!-- Hide salary: recruiter_job.hidesalaryfromcandidates -->
+    <field name="jHSal" type="boolean" indexed="true" stored="true" multivalued="false"/>  
+
+    <!-- Only female candidate: recruiter_job.affirmative -->
+    <field name="jAff" type="boolean" indexed="true" stored="true" multivalued="false"/>  
+
+    <!-- Highest qualification level: recruiter_job.highest_qlevel -->
+    <field name="jHQL" type="tint" indexed="true" stored="true" multivalued="false"/>  
+
+    <!-- Redirect URL: recruiter_job.externalapplyurl -->
+    <field name="jURL" type="string" indexed="true" stored="true" multivalued="false"/>  
+
+    <!-- Combo field for various educational fields -->
+    <field name="jED" type="education" indexed="true" stored="true" multiValued="true"/>
+
+    <!-- Expiry date: recruiter_job.expirydate -->
+    <field name="jExpD" type="date" indexed="true" stored="true" multiValued="false"/>
+
+    <!-- Quality score: recruiter_job.QualityScore -->
+    <field name="jQS" type="tint" indexed="true" stored="true" multiValued="false"/>
+
+    <!-- Keywords: recruiter_jobattribute: AttType = 3 and groupid=400 -->
+    <field name="jKeyW" type="text" termVectors="true" termPositions="true" termOffsets="true" indexed="true" stored="true" multiValued="true"/>
+
+    <!-- Company logo URL: backoffice_companyaccount.CompanyLogoURL -->
+    <field name="jCL" type="string" indexed="true" stored="true" multivalued="false"/>  
+
+    <!-- Search result snippet: Transformer builds from jJT, jminSt, jmaxSt,
+	 jminEt, jmaxEt, jCName, jLoc, jJD, jSkill 
+	 Also used for  both "Recent Matches", and "Other Matches"
+	 FIXME: Does not include div.search_listingright. Would require
+                front-end changes.
+	 FIXME: Does not include the two div.share_links because they are
+                after div.search_listingright with all float:left. Would
+                need absolute positioning
+
+	 Not used for now, because of highlighting
+    <field name="jSR" type="string" indexed="false" stored="true" multiValued="false" /> -->
+
+    <!-- Full text search field -->
+     <field name="textspell" type="spell" indexed="true" stored="false" multiValued="true"/>
+    <field name="text" type="text" indexed="true" stored="false" multiValued="true"/>
+  </fields>
+
+  <!-- FIXME: This should really be JobTitleId filled in by DIH. Temporary
+       work-around for bug in Django front-end code -->
+  <copyField source="id" dest="jJID"/>
+
+  <!-- Full text search field: Copy from jCName, jJT, jLoc, jJD, jSkill  -->
+  <copyField source="jCName" dest="text" />
+  <copyField source="jJT" dest="text" />
+  <copyField source="jLoc" dest="text" />
+  <copyField source="jJDT" dest="text" />
+  <copyField source="jSkill" dest="text" />
+  <copyField source="id" dest="text"/>
+  <copyField source="jIND" dest="text"/>
+  <copyField source="jSFun_fct" dest="text"/>
+  <copyField source="jED" dest="text"/>
+  <copyField source="jCName" dest="textspell" />
+  <copyField source="jJT" dest="textspell" />
+  <copyField source="jLoc" dest="textspell" />
+  <copyField source="jSkill" dest="textspell" />
+
+
+  <!-- field to use to determine and enforce document uniqueness. -->
+  <uniqueKey>id</uniqueKey>
+
+  <!-- field for the QueryParser to use when an explicit fieldname is absent -->
+  <defaultSearchField>text</defaultSearchField>
+
+  <!-- SolrQueryParser configuration: defaultOperator="AND|OR" -->
+  <solrQueryParser defaultOperator="OR"/>
+
+  <!-- Similarity class for Jobs 
+  <similarity class="com.firefly.search.lucene.JobSimilarity"/>-->
+</schema>

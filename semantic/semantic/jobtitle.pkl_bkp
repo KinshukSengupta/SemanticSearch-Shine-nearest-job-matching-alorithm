@@ -1,0 +1,714 @@
+(lp1
+S'web designer'
+p2
+aS'sr programmer'
+p3
+aS'actuarial analyst'
+p4
+aS'executive'
+p5
+aS'software developer'
+p6
+aS'cto'
+p7
+aS'analyst'
+p8
+aS'senior programmer'
+p9
+aS'archaeologist'
+p10
+aS'area systems coordinator'
+p11
+aS'immigration officer'
+p12
+aS'attorney clerk'
+p13
+aS'audience analyst'
+p14
+aS'law officer'
+p15
+aS'auditor'
+p16
+aS'behavioral scientist'
+p17
+aS'cto'
+p18
+aS'ceo'
+p19
+aS'biologist'
+p20
+aS'budget analyst'
+p21
+aS'budget specialist'
+p22
+aS'business administration'
+p23
+aS'officer'
+p24
+aS'chemical engineer'
+p25
+aS'chemist'
+p26
+aS'citizen services specialist'
+p27
+aS'civil engineer'
+p28
+aS'civil penalties specialist'
+p29
+aS'coo'
+p30
+aS'engineer'
+p31
+aS'communications specialist'
+p32
+aS'community and intergovernmental'
+p33
+aS'program specialist'
+p34
+aS'community planner'
+p35
+aS'chief executive officer'
+p36
+aS'specialist'
+p37
+aS'chief technology officer'
+p38
+aS'compliance specialist'
+p39
+aS'computer engineer'
+p40
+aS'computer programmer'
+p41
+aS'computer scientist'
+p42
+aS'computer specialist'
+p43
+aS'consumer safety officer'
+p44
+aS'contract specialist'
+p45
+aS'sr programmer'
+p46
+aS'management specialist'
+p47
+aS'corporate management analyst'
+p48
+aS'regional manager'
+p49
+aS'criminal enforcement analyst'
+p50
+aS'criminal investigator'
+p51
+aS'customer account manager'
+p52
+aS'chief operative officer'
+p53
+aS'chief experience officer'
+p54
+aS'desk officer'
+p55
+aS'disaster operations specialist'
+p56
+aS'disbursing specialist'
+p57
+aS'ecologist'
+p58
+aS'economist'
+p59
+aS'sr developer'
+p60
+aS'education specialist'
+p61
+aS'electrical engineer'
+p62
+aS'electronics engineer'
+p63
+aS'emergency management specialist'
+p64
+aS'employee and management'
+p65
+aS'development specialist'
+p66
+aS'employee development specialist'
+p67
+aS'employee relations specialist'
+p68
+aS'senior programmer'
+p69
+aS'energy program specialist'
+p70
+aS'engineer'
+p71
+aS'environmental engineer'
+p72
+aS'environmental planning and policy'
+p73
+aS'environmental protection specialist'
+p74
+aS'environmental specialist'
+p75
+aS'epidemiologist'
+p76
+aS'development lead'
+p77
+aS'lead'
+p78
+aS'engineering manager'
+p79
+aS'software engineer'
+p80
+aS'generalist'
+p81
+aS'area sales manager'
+p82
+aS'executive analyst'
+p83
+aS'facilities analyst'
+p84
+aS'facility specialist'
+p85
+aS'federal retirement benefits'
+p86
+aS'field management assistant'
+p87
+aS'field office supervisor'
+p88
+aS'financial management specialist'
+p89
+aS'financial legislative specialist'
+p90
+aS'financial specialist'
+p91
+aS'financial systems analyst'
+p92
+aS'financial transactions examination'
+p93
+aS'food safety coordinator'
+p94
+aS'food technologist'
+p95
+aS'foreign affairs officer'
+p96
+aS'foreign affairs specialist'
+p97
+aS'foreign assets control intelligence'
+p98
+aS'foreign assets control terrorist'
+p99
+aS'program analyst'
+p100
+aS'functional area analyst'
+p101
+aS'general engineer'
+p102
+aS'head-engineering'
+p103
+aS'geographical information systems/'
+p104
+aS'computer aided'
+p105
+aS'geophysicist'
+p106
+aS'grants program specialist'
+p107
+aS'grants specialist'
+p108
+aS'hazard mitigation specialist'
+p109
+aS'hazardous waste generator'
+p110
+aS'initiative specialist'
+p111
+aS'health communications specialist'
+p112
+aS'health educator'
+p113
+aS'health insurance specialist'
+p114
+aS'health scientist'
+p115
+aS'health systems specialist'
+p116
+aS'hospital finance associate'
+p117
+aS'housing program specialist'
+p118
+aS'housing project manager'
+p119
+aS'human resources advisor'
+p120
+aS'consultant'
+p121
+aS'human resources consultant'
+p122
+aS'human resources development'
+p123
+aS'human resources evaluator'
+p124
+aS'human resources representative'
+p125
+aS'human resources specialist'
+p126
+aS'hydraulic engineer'
+p127
+aS'immigration officer'
+p128
+aS'import policy analyst'
+p129
+aS'industrial hygienist'
+p130
+aS'information management specialist'
+p131
+aS'information research specialist'
+p132
+aS'information resource management'
+p133
+aS'information technology policy'
+p134
+aS'information technology security'
+p135
+aS'assistant'
+p136
+aS'information technology specialist'
+p137
+aS'inspector'
+p138
+aS'instructional systems design'
+p139
+aS'instructions methods specialist'
+p140
+aS'insurance marketing specialist'
+p141
+aS'insurance specialist'
+p142
+aS'intelligence analyst'
+p143
+aS'intelligence operations specialist'
+p144
+aS'intelligence research specialist'
+p145
+aS'intelligence specialist'
+p146
+aS'internal program specialist'
+p147
+aS'internal revenue agent'
+p148
+aS'international affairs specialist'
+p149
+aS'international aviation operations'
+p150
+aS'international cooperation specialist'
+p151
+aS'international economist'
+p152
+aS'international project manager'
+p153
+aS'international relations specialist'
+p154
+aS'international trade litigation'
+p155
+aS'electronic database c'
+p156
+aS'international trade specialist'
+p157
+aS'international transportation'
+p158
+aS'investigator'
+p159
+aS'junior foreign affairs officer'
+p160
+aS'labor relations specialist'
+p161
+aS'learning specialist'
+p162
+aS'legislative assistant'
+p163
+aS'legislative analyst'
+p164
+aS'legislative specialist'
+p165
+aS'lender approval analyst'
+p166
+aS'lender monitoring analyst'
+p167
+aS'licensing examining specialist/offices'
+p168
+aS'logistics management specialist'
+p169
+aS'managed care specialist'
+p170
+aS'management analyst'
+p171
+aS'management and budget analyst'
+p172
+aS'management and program analyst'
+p173
+aS'management intern'
+p174
+aS'management support analyst'
+p175
+aS'management support specialist'
+p176
+aS'manpower analyst'
+p177
+aS'manpower development specialist'
+p178
+aS'marketing analyst'
+p179
+aS'marketing specialist'
+p180
+aS'mass communications producer'
+p181
+aS'mathematical statistician'
+p182
+aS'media relations assistant'
+p183
+aS'meteorologist'
+p184
+aS'microbiologist'
+p185
+aS'mitigation program specialist'
+p186
+aS'national security training technology'
+p187
+aS'project manager'
+p188
+aS'natural resources specialist'
+p189
+aS'naval architect'
+p190
+aS'operations officer'
+p191
+aS'operations planner'
+p192
+aS'operations research analyst'
+p193
+aS'operations supervisor'
+p194
+aS'other'
+p195
+aS'outdoor recreation planner'
+p196
+aS'paralegal specialist'
+p197
+aS'passport/visa specialist'
+p198
+aS'personnel management specialist'
+p199
+aS'personnel staffing and'
+p200
+aS'classification specialist'
+p201
+aS'petroleum engineer'
+p202
+aS'physical science officer'
+p203
+aS'physical scientist, general'
+p204
+aS'physical security specialist'
+p205
+aS'policy advisor to the director'
+p206
+aS'policy analyst'
+p207
+aS'policy and procedure analyzt'
+p208
+aS'policy and regulatory analyst'
+p209
+aS'policy coordinator'
+p210
+aS'policy/program analyst'
+p211
+aS'technical head'
+p212
+aS'position classification specialist'
+p213
+aS'presidential management fellow'
+p214
+aS'procurement analyst'
+p215
+aS'procurement specialist'
+p216
+aS'technical lead'
+p217
+aS'program administrator'
+p218
+aS'program and policy analyst'
+p219
+aS'tech lead'
+p220
+aS'team leader'
+p221
+aS'program examiner'
+p222
+aS'program manager'
+p223
+aS'program operations specialist'
+p224
+aS'program support specialist'
+p225
+aS'program/public health analyst'
+p226
+aS'project analyst'
+p227
+aS'technical leader'
+p228
+aS'psychologist (general)'
+p229
+aS'public affairs assistant'
+p230
+aS'public affairs intern'
+p231
+aS'public affairs specialist'
+p232
+aS'public health advisor'
+p233
+aS'public health analyst'
+p234
+aS'public health specialist'
+p235
+aS'public liaison/outreach specialist'
+p236
+aS'public policy analyst'
+p237
+aS'quantitative analyst'
+p238
+aS'real estate appraiser'
+p239
+aS'realty specialist'
+p240
+aS'regional management analyst'
+p241
+aS'regional technician'
+p242
+aS'regulatory analyst'
+p243
+aS'regulatory specialist'
+p244
+aS'research analyst'
+p245
+aS'restructuring analyst'
+p246
+aS'risk analyst'
+p247
+aS'safety and occupational health'
+p248
+aS'manager'
+p249
+aS'safety engineer/industrial hygienist'
+p250
+aS'science program analyst'
+p251
+aS'securities compliance examiner'
+p252
+aS'security specialist'
+p253
+aS'senior management information'
+p254
+aS'social insurance analyst'
+p255
+aS'social insurance policy specia'
+p256
+aS'list'
+p257
+aS'social insurance specialist'
+p258
+aS'social science analyst'
+p259
+aS'social science research analyst'
+p260
+aS'social scientist'
+p261
+aS'south asia desk officer'
+p262
+aS'special assistant'
+p263
+aS'special assistant for foreign policy'
+p264
+aS'strategy'
+p265
+aS'special assistant to the associate'
+p266
+aS'director'
+p267
+aS'special assistant to the chief'
+p268
+aS'information office'
+p269
+aS'special assistant to the chief, fbi'
+p270
+aS'national security'
+p271
+aS'special assistant to the director'
+p272
+aS'special emphasis program manager'
+p273
+aS'special projects analyst'
+p274
+aS'staff associate'
+p275
+aS'statistician'
+p276
+aS'supply systems analyst'
+p277
+aS'survey or mathematical statistician'
+p278
+aS'survey statistician'
+p279
+aS'systems accountant'
+p280
+aS'systems analyst'
+p281
+aS'tax law specialist'
+p282
+aS'team leader'
+p283
+aS'technical writer/editor'
+p284
+aS'telecommunications policy analyst'
+p285
+aS'telecommunications specialist'
+p286
+aS'traffic management specialist'
+p287
+aS'training and technical assistant'
+p288
+aS'training specialist'
+p289
+aS'transportation analyst'
+p290
+aS'transportation industry analyst'
+p291
+aS'transportation program specialist'
+p292
+aS'urban development specialist'
+p293
+aS'usability researcher'
+p294
+aS"veterans' employment specialist"
+p295
+aS'video production specialist'
+p296
+aS'visa specialist'
+p297
+aS'work incentives coordinator'
+p298
+aS"worker's compensation specialist"
+p299
+aS'workforce development specialist'
+p300
+aS'hr generalist'
+p301
+aS'writer'
+p302
+aS'writer/editor'
+p303
+aS'member technical staff'
+p304
+aS'application development engineer'
+p305
+aS'application developer'
+p306
+aS'developer'
+p307
+aS'yahoo engineer'
+p308
+aS'development engineer'
+p309
+aS'sales engineer'
+p310
+aS'sales executive'
+p311
+aS'tele sales executive'
+p312
+aS'cca'
+p313
+aS'ccs'
+p314
+aS'tech support engineer'
+p315
+aS'technical support engineer'
+p316
+aS'research scientist'
+p317
+aS'research engineer'
+p318
+aS'sr research engineer'
+p319
+aS'senior engineer'
+p320
+aS'senior software engineer'
+p321
+aS'senior systems engineer'
+p322
+aS'senior system engineer'
+p323
+aS'technical lead'
+p324
+aS'tech lead'
+p325
+aS'technical leader'
+p326
+aS'team leader-technology'
+p327
+aS'asm'
+p328
+aS'area sales manager'
+p329
+aS'relationship manager'
+p330
+aS'brand manager'
+p331
+aS'management trainee'
+p332
+aS'software developement engineer'
+p333
+aS'python developer'
+p334
+aS'java developer'
+p335
+aS'java development engineer'
+p336
+aS'python development engineer'
+p337
+aS'php developer'
+p338
+aS'ui developer'
+p339
+aS'ui/ux developer'
+p340
+aS'ux developer'
+p341
+aS'open source developer'
+p342
+aS'open source executive'
+p343
+aS'assistant manager'
+p344
+aS'kam'
+p345
+aS'key account manager'
+p346
+aS'credit analyst'
+p347
+aS'business analyst'
+p348
+aS'product manager'
+p349
+aS'data engineer'
+p350
+aS'big data engineer'
+p351
+aS'big data research engineer'
+p352
+aS'hadoop engineer'
+p353
+aS'hadoop administrator'
+p354
+aS'product engineer'
+p355
+aS'product development engineer'
+p356
+aS'programmer'
+p357
+a.

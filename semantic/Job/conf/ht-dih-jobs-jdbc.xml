@@ -1,0 +1,161 @@
+<dataConfig>
+  <script><![CDATA[
+      function privacy(row) {
+	  var jAC = row.get( 'jAC' );
+	  if( jAC == '1' ) {
+	      row.put( 'jCName', '[Company Hidden]' );
+          }
+          return row;
+      }
+      function isLiveJob(row) {
+	  var status = row.get( 'jobstatus' );
+	  if( status == '3' || status == '9' ) {
+	      row.put( 'jLive', 1 );
+          } else {
+	      row.put( 'jLive', 0 );
+          } 
+          return row;
+      }
+	function republish(row){
+        var jpd=row.get('PublishedDate');
+        var rjpd=row.get('RepublishedDate');
+        if (rjpd==null || rjpd=='None' || rjpd==""){
+                row.put('jPD',jpd);
+                }
+        else{
+                row.put('jPD',rjpd);
+        }
+        return (row);  
+        } 
+	
+	function showvalues(row)
+	{
+	java.lang.System.out.println("[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]]]");
+	java.lang.System.out.println(row);
+	java.lang.System.out.println("                             ");
+	return(row);
+	}
+  ]]></script>
+
+  <function name="escapeSqlNull" class="com.firefly.search.solr.handler.escapeSqlNullEvaluator"/>
+  <dataSource type="com.firefly.search.solr.handler.JobsLookupJdbcDataSource" name="jdbc" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://172.22.67.37/SumoPlus040712" user="sumoplus" password="sumoplus" autoCommit="false" onError="skip" />
+  <document>
+    <entity name="job" dataSource="jdbc" pk="JobId" transformer="HTMLStripTransformer,script:isLiveJob,script:privacy,script:republish" query="select jobid as id, UUID() as doc_id, COALESCE( jobtype, 0 ) as JobType, salarymax as SalaryMax, salarymin as SalaryMin, maxexperience as MaxExperience, minexperience as MinExperience, companyid_id as jCID, COALESCE( CAST( jobtitle as CHAR ), jobtitle, '' ) as JobTitle, COALESCE( jobtitleid, -1 ) as JobTitleId, COALESCE( description, '' ) as description,COALESCE( description, '' ) as description1, COALESCE( industry, -1 ) as Industry, COALESCE( desired_min_salary, -1 ) as jPminSL, COALESCE( desired_max_salary, -1 ) as jPmaxSL, activesince as jPAS, COALESCE( teamsizedmanaged, -1 ) as jPTSM, COALESCE( publisheddate, NOW() ) as PublishedDate,republisheddate as RepublishedDate, lasttuningdate as jLTD, COALESCE( isanonymouscompany, 0) as jAC, hidesalaryfromcandidates as jHSal, COALESCE( affirmative, 0 ) as JAff, COALESCE( highest_qlevel, 0 ) as jHQL, jobstatus, externalapplyurl as jURL, expirydate as jExpD, QualityScore as jQS, displayname as jCName from recruiter_job force index (idx_JobStatus) where jobstatus=3 or jobstatus=5 or jobstatus=9" deltaImportQuery="select jobid as id, UUID() as doc_id, COALESCE( jobtype, 0 ) as JobType, salarymax as SalaryMax, salarymin as SalaryMin, maxexperience as MaxExperience, minexperience as MinExperience, companyid_id as jCID, COALESCE( CAST( jobtitle as CHAR ), jobtitle, '' ) as JobTitle, COALESCE( jobtitleid, -1 ) as JobTitleId, COALESCE( description, '' ) as description,COALESCE( description, '' ) as description1, COALESCE( industry, -1 ) as Industry, COALESCE( desired_min_salary, -1 ) as jPminSL, COALESCE( desired_max_salary, -1 ) as jPmaxSL, activesince as jPAS, COALESCE( teamsizedmanaged, -1 ) as jPTSM, COALESCE( publisheddate, NOW() ) as PublishedDate,republisheddate as RepublishedDate ,lasttuningdate as jLTD, COALESCE( isanonymouscompany, 0) as jAC, hidesalaryfromcandidates as jHSal, COALESCE( affirmative, 0 ) as JAff, COALESCE( highest_qlevel, 0 ) as jHQL, jobstatus, externalapplyurl as jURL, expirydate as jExpD, displayname as jCName from recruiter_job where (jobstatus=3 OR jobstatus=5 OR jobstatus=9) and jobid='${dataimporter.delta.id}'" deltaQuery="select jobid as id from recruiter_job where (jobstatus=3 OR jobstatus=9) and ( (COALESCE(publisheddate, STR_TO_DATE( '1970,1,1', '%Y,%m,%d' ) ) &gt;= '${dataimporter.last_index_time}' ) or (COALESCE(republisheddate, STR_TO_DATE( '1970,1,1', '%Y,%m,%d' ) ) &gt;= '${dataimporter.last_index_time}' ) or (COALESCE(lastmodified, STR_TO_DATE( '1970,1,1', '%Y,%m,%d' ) ) &gt;= '${dataimporter.last_index_time}' ))">
+
+      <field column="doc_id" name="doc_id" />
+      <field column="JobType" name="jNJT"/>
+      <field column="SalaryMin" name="jNminsal"/>
+      <field column="SalaryMax" name="jNmaxsal"/>
+      <field column="MinExperience" name="jNminEx"/>
+      <field column="MaxExperience" name="jNmaxEx"/>
+      <field column="jCID" name="jCID"/>
+      <field column="description" name="jJD"/>
+      <field column="description1" name="jJDT" stripHTML="true"/>
+      <!--<field column="jPD" name="jPD"/>-->
+      <field column="jLTD" name="jLTD"/>
+      <field column="jPminSL" name="jPminSL"/>
+      <field column="jPmaxSL" name="jPmaxSL"/>
+      <field column="jPAS" name="jPAS"/>
+      <field column="jPTSM" name="jPTSM"/>
+      <field column="jAC" name="jAC"/>
+      <field column="jHSal" name="jHSal"/>
+      <field column="jURL" name="jURL"/>
+      <field column="jAff" name="jAff"/>
+      <field column="jHQL" name="jHQL"/>
+      <field column="ExpD" name="jExpD"/>
+      <field column="jQS" name="jQS"/>
+      <field column="jCName" name="jCName"/>
+
+      <!-- We must be sure that no selects up to the innermost nested
+	   one fail. This is assured by the following:
+	   * The selection for jCName always succeeds
+	   * A group_concat always succeeds, returning NULL if needed
+	   * The Industries select can have a NULL, so IFNULL is used
+	-->
+      <entity name="paid" dataSource="jdbc" query="select flag as jPaid from job_paid where cid=${job.jCID} UNION select 0 as jPaid limit 1">
+        <field column="jPaid" name="jPaid"/>
+      </entity>
+
+
+      <entity name="company" dataSource="jdbc" query="select CAST( account_type as CHAR ) as rct_type, CompanyLogoURL as jCL from backoffice_companyaccount where id=${job.jCID} UNION select NULL as rct_type, NULL as jCL limit 1">
+	<field column="rct_type" name="rct_type"/>
+	<field column="jCL" name="jCL"/>
+
+	<entity name="functional_areas" dataSource="jdbc" query="select group_concat( COALESCE( CAST( AttValue as CHAR ), '' ) SEPARATOR '@||@') as FunctionalAreas from recruiter_jobattribute where AttType=12 and JobId_id=${job.id} UNION select NULL as FunctionalAreas limit 1">
+
+	  <entity name="skills" dataSource="jdbc" query="select group_concat( COALESCE( COALESCE( CAST( AttValue as CHAR ), '' ), AttValueCustom, '' ) SEPARATOR '@||@') as Skills from recruiter_jobattribute where AttType=3 and JobId_id=${job.id} UNION select NULL as Skills limit 1">
+
+	    <entity name="locations" dataSource="jdbc" query="select group_concat( COALESCE( CAST( AttValue as CHAR ), '' ) SEPARATOR '@||@') as Locations from recruiter_jobattribute where AttType=13 and JobId_id=${job.id} UNION select NULL as Locations limit 1"> 
+
+	      <entity name="industries" dataSource="jdbc" query="select COALESCE( industry_desc, '' ) as Industries from lookup_industry where industry_id=${job.Industry} UNION select NULL as Industries limit 1">
+		<field column="Industries" name="jIND"/>
+
+		<entity name="shift_type" dataSource="jdbc" query="select group_concat( COALESCE( CAST( AttValue as CHAR ), '0' ) SEPARATOR '@||@') as ShiftType  from recruiter_jobattribute where AttType=4 and JobId_id=${job.id} UNION select NULL as ShiftType limit 1">
+
+                  <entity name="inc_companies" dataSource="jdbc" query="select group_concat( COALESCE( CAST( AttValue as CHAR ), '' ) SEPARATOR '@||@') as IncCompanies from recruiter_jobattribute where AttType=6 and (matchingcriterion=1 or matchingcriterion=3) and JobId_id=${job.id}  UNION select NULL as IncCompanies limit 1">
+
+                    <entity name="inc_companies_prev" dataSource="jdbc" query="select group_concat( COALESCE( CAST( AttValue as CHAR ), '' ) SEPARATOR '@||@') as IncCompanies from recruiter_jobattribute where AttType=6 and (matchingcriterion=2 or matchingcriterion=3) and JobId_id=${job.id}  UNION select NULL as IncCompanies limit 1">
+
+                      <entity name="exc_companies" dataSource="jdbc" query="select group_concat( COALESCE( CAST( AttValue as CHAR ), '' ) SEPARATOR '@||@') as ExcCompanies from recruiter_jobattribute where AttType=7 and (matchingcriterion=1 or matchingcriterion=3) and JobId_id=${job.id} UNION select NULL as ExcCompanies limit 1">
+
+                        <entity name="exc_companies_prev" dataSource="jdbc" query="select group_concat( COALESCE( CAST( AttValue as CHAR ), '' ) SEPARATOR '@||@') as ExcCompanies from recruiter_jobattribute where AttType=7 and (matchingcriterion=2 or matchingcriterion=3) and JobId_id=${job.id} UNION select NULL as ExcCompanies limit 1">
+
+                          <entity name="pref_industries" dataSource="jdbc" query="select group_concat( COALESCE( CAST( AttValue as CHAR ), 'Any' ) SEPARATOR '@||@') as PrefIndustries from recruiter_jobattribute where AttType=5 and (matchingcriterion=1 or matchingcriterion=3) and JobId_id=${job.id} UNION select NULL as PrefIndustries limit 1">
+
+                            <entity name="pref_industries_prev" dataSource="jdbc" query="select group_concat( COALESCE( CAST( AttValue as CHAR ), '' ) SEPARATOR '@||@') as PrefIndustries from recruiter_jobattribute where AttType=5 and (matchingcriterion=2 or matchingcriterion=3) and JobId_id=${job.id} UNION select NULL as PrefIndustries limit 1 ">
+
+			      <entity name="education" dataSource="jdbc" query="select group_concat( COALESCE( CAST( studyfieldid as CHAR ), '' ) SEPARATOR '@||@') as StudyFieldId, group_concat( COALESCE( CAST( AcademicSchool as CHAR ), '' ) SEPARATOR '@||@') as AcademicSchoolId, group_concat( COALESCE( CAST( EducationLevel as CHAR ), '' ) SEPARATOR '@||@') as EducationLevelId, group_concat( COALESCE( CAST( CourseType as CHAR ), '' ) SEPARATOR '@||@') as CourseTypeId from (recruiter_jobeducation left join recruiter_jobeducationinstitute ON recruiter_jobeducationinstitute.jobeducationid_id=JobEducationId) left join recruiter_jobeducationfield ON recruiter_jobeducationfield.jobeducationid_id=JobEducationId where JobId_id=${job.id} UNION select NULL as StudyFieldId, NULL as AcademicSchooId, NULL as EducationLevelId, NULL as CourseTypeId limit 1">
+				<entity name="keywords" dataSource="jdbc" query="select AttValueCustom as jKeyW from recruiter_jobattribute where AttType=3 and groupid=400 and JobId_id=${job.id} UNION select NULL as jKeyW limit 1">
+				  <field column="jKeyW" name="jKeyW"/>
+
+				  <entity name="aplcnt" dataSource="jdbc" query="select ctr as APLCNT from CandidateMatchCounts where JobId=${job.id} UNION select 0 as APLCNT limit 1">
+				    <field column="APLCNT" name="APLCNT"/>
+ <entity name="pref_locations" dataSource="jdbc" transformer="com.firefly.search.solr.handler.JobsNumericTransformer,HTMLStripTransformer,script:showvalues" query="select group_concat( COALESCE( CAST( AttValue as CHAR ), 'Any' ) SEPARATOR '@||@' ) as PrefLocations, '${dataimporter.functions.escapeSqlNull( job.jCName )}' as jCName, ${job.id} as JobId, '${dataimporter.functions.escapeSqlNull( job.JobTitle )}' as JobTitle, '${dataimporter.functions.escapeSqlNull( job.JobTitleId )}' as JobTitleId, '${dataimporter.functions.escapeSqlNull( job.description )}' as description, '${dataimporter.functions.escapeSqlNull( job.SalaryMin )}' as SalaryMin, '${dataimporter.functions.escapeSqlNull( job.SalaryMax )}' as SalaryMax, '${dataimporter.functions.escapeSqlNull( job.MinExperience )}' as MinExperience, '${dataimporter.functions.escapeSqlNull( job.jCID )}' as jCID, '${dataimporter.functions.escapeSqlNull( job.PublishedDate )}' as PublishedDate, '${dataimporter.functions.escapeSqlNull( job.MaxExperience )}' as MaxExperience, '${dataimporter.functions.escapeSqlNull( functional_areas.FunctionalAreas )}' as FunctionalAreas, '${dataimporter.functions.escapeSqlNull( functional_areas_prev.FunctionalAreas )}' as FunctionalAreasPrev, '${dataimporter.functions.escapeSqlNull( skills.Skills )}' as Skills, '${dataimporter.functions.escapeSqlNull( locations.Locations )}' as Locations, '${dataimporter.functions.escapeSqlNull( industries.Industries )}' as Industries, '${dataimporter.functions.escapeSqlNull( shift_type.ShiftType )}' as ShiftType, '${dataimporter.functions.escapeSqlNull( inc_companies.IncCompanies )}' as IncCompanies, '${dataimporter.functions.escapeSqlNull( inc_companies_prev.IncCompanies )}' as IncCompaniesPrev, '${dataimporter.functions.escapeSqlNull( exc_companies.ExcCompanies )}' as ExcCompanies, '${dataimporter.functions.escapeSqlNull( exc_companies_prev.ExcCompanies )}' as ExcCompaniesPrev, '${dataimporter.functions.escapeSqlNull( pref_industries.PrefIndustries )}' as PrefIndustries, '${dataimporter.functions.escapeSqlNull( pref_industries_prev.PrefIndustries )}' as PrefIndustriesPrev, '${dataimporter.functions.escapeSqlNull(education.EducationLevelId)}' as EducationLevelId, '${dataimporter.functions.escapeSqlNull(education.StudyFieldId)}' as StudyFieldId, '${dataimporter.functions.escapeSqlNull(education.AcademicSchoolId)}' as AcademicSchoolId, '${dataimporter.functions.escapeSqlNull(education.CourseTypeId)}' as CourseTypeId from recruiter_jobattribute where AttType=1 and JobId_id=${job.id} UNION select NULL as PrefLocations, NULL as jCName, ${job.id} as JobId, NULL as JobTitle, NULL as JobTitleId, NULL as description, NULL as SalaryMin, NULL as SalaryMax, NULL as MinExperience, NULL as jCID, NULL as PublishedDate, NULL as MaxExperience, NULL as FunctionalAreas, NULL as FunctionalAreasPrev, NULL as Skills, NULL as Locations, NULL as Industries, NULL as ShiftType, NULL as IncCompanies, NULL as IncCompaniesPrev, NULL as ExcCompanies, NULL as ExcCompaniesPrev, NULL as PrefIndustries, NULL as PrefIndustriesPrev, NULL as EducationLevelId, NULL as StudyFieldId, NULL as AcademicSchoolId, NULL as CourseTypeId limit 1">
+
+				      <field column="PrefLocations"/>
+				      <field column="jCName"/>
+				      <field column="JobTitle"/>
+				      <field column="JobTitleId"/>
+				      <field column="description"/>
+				      <field column="SalaryMin"/>
+				      <field column="SalaryMax"/>
+				      <field column="MinExperience"/>
+				      <field column="jCID"/>
+				      <field column="PublishedDate"/>
+				      <field column="MaxExperience"/>
+				      <field column="FunctionalAreas"/>
+				      <field column="FunctionalAreasPrev"/>
+				      <field column="Skills"/>
+				      <field column="Locations"/>
+				      <field column="Industries"/>
+				      <field column="ShiftType"/>
+				      <field column="IncCompanies"/>
+				      <field column="IncCompaniesPrev"/>
+				      <field column="ExcCompanies"/>
+				      <field column="ExcCompaniesPrev"/>
+				      <field column="PrefIndustries"/>
+				      <field column="PrefIndustriesPrev"/>
+				      <field column="EducationLevelId" name="jQL"/>
+				      <field column="StudyFieldId"/>
+				      <field column="AcademicSchoolId"/>
+				      <field column="CourseTypeId"/>
+				      <field column="text" name="text" stripHTML="true"/>
+				    </entity>
+				  </entity>
+				</entity>
+			      </entity>
+			    </entity>
+			  </entity>
+			</entity>
+		      </entity>
+		    </entity>
+		  </entity>
+		</entity>
+	      </entity>
+	    </entity>
+	  </entity>
+	</entity>
+      </entity>
+    </entity>
+  </document>
+</dataConfig>

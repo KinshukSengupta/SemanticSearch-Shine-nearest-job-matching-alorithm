@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema name="default" version="1.1">
+  <types>
+    <!-- ID field -->
+    <fieldType name="uuid" class="solr.UUIDField" indexed="true"/>
+
+    <!-- A general unstemmed text field - good if one does not know the language of the field -->
+    <fieldType name="textgen" class="solr.TextField" positionIncrementGap="100"/>
+
+    <fieldtype name="string" class="solr.StrField" sortMissingLast="true" omitNorms="true"/>
+    <fieldType name="boolean" class="solr.BoolField" sortMissingLast="true" omitNorms="true"/>
+    <!--
+     Numeric field types that index each value at various levels of precision
+     to accelerate range queries when the number of values between the range
+     endpoints is large. See the javadoc for NumericRangeQuery for internal
+     implementation details.
+
+     Smaller precisionStep values (specified in bits) will lead to more tokens
+     indexed per value, slightly larger index size, and faster range queries.
+     A precisionStep of 0 disables indexing at different precision levels.
+    -->
+    <fieldType name="int" class="solr.IntField" />
+    <fieldType name="tint" class="solr.TrieIntField" precisionStep="8" omitNorms="true" positionIncrementGap="0"/>
+    <fieldType name="tfloat" class="solr.TrieFloatField" precisionStep="8" omitNorms="true" positionIncrementGap="0"/>
+    <fieldType name="tlong" class="solr.TrieLongField" precisionStep="8" omitNorms="true" positionIncrementGap="0"/>
+    <fieldType name="tdouble" class="solr.TrieDoubleField" precisionStep="8" omitNorms="true" positionIncrementGap="0"/>
+
+    <fieldType name="date" class="solr.DateField" sortMissingLast="true" omitNorms="true"/>
+
+    <!-- A Trie based date field for faster date range queries and date faceting. -->
+    <fieldType name="tdate" class="solr.TrieDateField" omitNorms="true" precisionStep="6" positionIncrementGap="0"/>
+    
+    <!-- Snippet Field for display and highlighting -->
+    <fieldType name="snippet" class="solr.TextField" positionIncrementGap="100">
+      <analyzer type="index">
+        <charFilter class="solr.HTMLStripCharFilterFactory"/>
+        <tokenizer class="solr.PatternTokenizerFactory" pattern="\)|\(|;|:|,|\s" group="-1"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+	     <filter class="solr.WordDelimiterFilterFactory" protected="delimiter.txt" generateWordParts="1" splitOnNumerics="0" generateNumberParts="1" catenateWords="0" catenateNumbers="0" catenateAll="0" preserveOriginal="1"/>
+       <filter class="solr.SynonymFilterFactory" synonyms="synonyms.txt" expand="true"/>
+       <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt" enablePositionIncrements="true"/>
+        <filter class="solr.KeywordMarkerFilterFactory" protected="stemmer_protect.txt" />
+        <filter class="solr.EnglishMinimalStemFilterFactory"/>
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
+      <analyzer type="query">        
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+       <filter class="solr.WordDelimiterFilterFactory" protected="delimiter.txt" generateWordParts="1" splitOnNumerics="0" generateNumberParts="1" catenateWords="0" catenateNumbers="0" catenateAll="0"/>
+       <filter class="solr.SynonymFilterFactory" synonyms="synonyms_query.txt"/>
+       <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt" enablePositionIncrements="true"/>
+        <filter class="solr.KeywordMarkerFilterFactory" protected="stemmer_protect.txt" />
+        <filter class="solr.EnglishMinimalStemFilterFactory"/>
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
+    </fieldType>
+
+    <fieldType name="text_gen" class="solr.TextField" positionIncrementGap="100">
+      <analyzer type="index">
+        <tokenizer class="solr.PatternTokenizerFactory" pattern="\)|\(|;|:|,|\s" group="-1"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.WordDelimiterFilterFactory" protected="delimiter.txt" generateWordParts="1" splitOnNumerics="0" generateNumberParts="1" catenateWords="1" catenateNumbers="1" catenateAll="0" preserveOriginal="1"/>
+       <filter class="solr.SynonymFilterFactory" synonyms="synonyms.txt" expand="true"/>
+       <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt" enablePositionIncrements="true"/>
+        <filter class="solr.KeywordMarkerFilterFactory" protected="stemmer_protect.txt" />
+        <filter class="solr.EnglishMinimalStemFilterFactory"/>
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
+
+      <analyzer type="query">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.SynonymFilterFactory" synonyms="synonyms_query.txt"/>
+        <filter class="solr.WordDelimiterFilterFactory" protected="delimiter.txt" generateWordParts="1" splitOnNumerics="0" generateNumberParts="1" catenateWords="1" catenateNumbers="1" catenateAll="0"/>
+        <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+        <filter class="solr.KeywordMarkerFilterFactory" protected="stemmer_protect.txt" />
+        <filter class="solr.EnglishMinimalStemFilterFactory"/>
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
+    </fieldType>    
+
+    <fieldType name="textres" class="solr.TextField" positionIncrementGap="100">
+      <analyzer type="index">
+        <charFilter class="solr.HTMLStripCharFilterFactory"/>
+        <tokenizer class="solr.PatternTokenizerFactory" pattern="\)|\(|;|:|,|\s" group="-1"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.WordDelimiterFilterFactory" protected="delimiter.txt" generateWordParts="1" splitOnNumerics="0" generateNumberParts="1" catenateWords="1" catenateNumbers="1" catenateAll="0" preserveOriginal="1"/>
+       <filter class="solr.SynonymFilterFactory" synonyms="synonyms.txt" expand="true"/>
+       <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt" enablePositionIncrements="true"/>
+        <filter class="solr.KeywordMarkerFilterFactory" protected="stemmer_protect.txt" />
+        <filter class="solr.EnglishMinimalStemFilterFactory"/>
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
+
+      <analyzer type="query">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.SynonymFilterFactory" synonyms="synonyms_query.txt"/>
+        <filter class="solr.WordDelimiterFilterFactory" protected="delimiter.txt" generateWordParts="1" splitOnNumerics="0" generateNumberParts="1" catenateWords="1" catenateNumbers="1" catenateAll="0"/>
+        <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+        <filter class="solr.KeywordMarkerFilterFactory" protected="stemmer_protect.txt" />
+        <filter class="solr.EnglishMinimalStemFilterFactory"/>
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
+    </fieldType>
+    
+    <fieldType name="text_lower" class="solr.TextField" >
+      <analyzer type="index">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+      </analyzer>
+    
+      <analyzer type="query">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+      </analyzer>
+    </fieldType>
+
+<!--<fieldType name="text_ws_l" class="solr.TextField" >
+      <analyzer type="index">
+    <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+    <filter class="solr.LowerCaseFilterFactory"/>
+      </analyzer>
+      <analyzer type="query">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+
+        <filter class="solr.LowerCaseFilterFactory"/>
+      </analyzer>
+</fieldType>
+-->
+
+    <!-- Education Combo Field for Education filtering -->
+    <fieldType name="sed" class="solr.TextField" >
+      <analyzer type="query">
+	<tokenizer class="solr.WhitespaceTokenizerFactory"/>
+      </analyzer>   
+      
+      <analyzer type="index">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+	<filter class="solr.SynonymFilterFactory" synonyms="synonyms_education_id.txt" ignoreCase="true" expand="false"/>
+      </analyzer>
+    </fieldType>
+
+
+    <fieldType name="city" class="solr.TextField" positionIncrementGap="100">
+      <analyzer type="index">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+	<filter class="solr.LowerCaseFilterFactory"/>                   
+        <filter class="solr.SynonymFilterFactory" synonyms="synonyms_city.txt" ignoreCase="true" expand="false"/>
+        
+        <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>        
+        <filter class="solr.EnglishMinimalStemFilterFactory"/>        
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
+
+      <analyzer type="query">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.LowerCaseFilterFactory"/>           
+        <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+        <filter class="solr.EnglishMinimalStemFilterFactory"/>
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
+    </fieldType>
+
+    <fieldType name="education" class="solr.TextField" positionIncrementGap="100">
+      <analyzer type="index">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.LowerCaseFilterFactory"/>           
+        <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+        <filter class="solr.SynonymFilterFactory" synonyms="synonyms_education.txt" ignoreCase="true" expand="false"/>
+        <filter class="solr.WordDelimiterFilterFactory" protected="delimiter.txt" generateWordParts="1" generateNumberParts="1" catenateWords="1" catenateNumbers="1" catenateAll="0"/>	        
+        <filter class="solr.EnglishMinimalStemFilterFactory"/>        
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
+
+      <analyzer type="query">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.LowerCaseFilterFactory"/>           
+        <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+        <filter class="solr.WordDelimiterFilterFactory" protected="delimiter.txt" generateWordParts="1" generateNumberParts="1" catenateWords="1" catenateNumbers="1" catenateAll="0"/>        
+        <filter class="solr.EnglishMinimalStemFilterFactory"/>
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
+    </fieldType>
+
+    <fieldType name="functionalarea" class="solr.TextField" positionIncrementGap="100">
+      <analyzer type="index">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.LowerCaseFilterFactory"/>           
+        <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+        <filter class="solr.SynonymFilterFactory" synonyms="synonyms_functionalArea.txt" ignoreCase="true" expand="false"/>
+        <filter class="solr.WordDelimiterFilterFactory" protected="delimiter.txt" generateWordParts="1" generateNumberParts="1" catenateWords="1" catenateNumbers="1" catenateAll="0"/>	        
+        <filter class="solr.EnglishMinimalStemFilterFactory"/>        
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
+
+      <analyzer type="query">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.LowerCaseFilterFactory"/>           
+        <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+        <filter class="solr.WordDelimiterFilterFactory" protected="delimiter.txt" generateWordParts="1" generateNumberParts="1" catenateWords="1" catenateNumbers="1" catenateAll="0"/>	        
+        <filter class="solr.EnglishMinimalStemFilterFactory"/>
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
+    </fieldType>
+
+    <fieldType name="intsynl" class="solr.TextField" >
+      <analyzer type="query">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+	<filter class="solr.SynonymFilterFactory" synonyms="synonyms_location_id_query.txt" ignoreCase="true" expand="false"/>
+      </analyzer>
+
+      <analyzer type="index">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.SynonymFilterFactory" synonyms="synonyms_location_id.txt" ignoreCase="true" expand="false"/>
+      </analyzer>
+    </fieldType>     
+
+    <fieldType name="intsynf" class="solr.TextField" >
+      <analyzer type="query">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+      </analyzer>
+
+      <analyzer type="index">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.SynonymFilterFactory" synonyms="synonyms_functionalArea_id.txt" ignoreCase="true" expand="false"/>
+      </analyzer>
+    </fieldType>     
+
+  </types>
+
+  <fields>   
+    <!-- mongo id -->
+    <field name="id" type="string" indexed="true" stored="true" multiValued="false" required="true"/>
+    <!-- hash id for display in url -->
+    <field name="doc_id" type="string" indexed="true" stored="true" multiValued="false" required="true"/>
+    <!-- Quality Score for boosting -->
+    <field name="sQS" type="tint" indexed="true" stored="false" multiValued="false"/>
+    <!-- Email Address (exp_personnel.eMail) -->
+    <field name="sEm" type="text_lower" indexed="true" stored="true" multiValued="false"/>
+    <!-- CellPhone Number (exp_personnel.CellPhone) -->
+    <field name="sCP" type="string" indexed="true" stored="true" multiValued="false"/>
+    <!-- Full Name (exp_personnel.FullName) -->
+    <field name="sFLN" type="text_lower" indexed="true" stored="true" multiValued="false"/>
+    <!-- Last Login Date (exp_personnel.Lastlogin) -->
+    <field name="sLH" type="tdate" indexed="true" stored="true" multiValued="false"/>
+    <!-- Registration Date (exp_personnel.CreatedDate) -->
+    <field name="sRD" type="tdate" indexed="true" stored="true" multiValued="false"/>
+    <!-- Last Profile Update Date (exp_personnel.LastModified) -->
+    <field name="sLM" type="tdate" indexed="true" stored="true" multiValued="false"/>
+    <!-- Email Verified Flag (exp_personnel.IsEmailVerified) -->
+    <field name="sEV" type="boolean" indexed="true" stored="true" multiValued="false"/>
+    <!--  CellPhone Verified Flag -->
+    <field name="sCPV" type="boolean" indexed="true" stored="true" multiValued="false"/>   
+    <!-- Email Alert Status (exp_CandidateStatic.EmailAlertStatus) -->
+    <field name="sEAS" type="tint" indexed="true" stored="true" multiValued="false"/>
+    <!--Mobile Alert Status (exp_candidateStatic.SmsAlertFlag) -->
+    <field name="sMAS" type="boolean" indexed="true" stored="true" multiValued="false"/>
+    
+    <!-- Current Location Text for search & display -->
+    <field name="sCL" type="city" indexed="true" stored="true" multiValued="false"/>
+    <!-- Current Location Numeric for filtering (exp_persAttributes.Type=1 (TYPE_CITY)) -->
+    <field name="sCLID" type="intsynl" indexed="true" stored="true" multiValued="false"/>    
+    <!-- Preferred Locations Numeric for filtering (exp_persAttributes.Type=8 (TYPE_PREF_LOCATION)) -->
+    <field name="sPLID" type="int" indexed="true" stored="true" multiValued="true"/>
+    <!-- Current Location Numeric for faceting (exp_persAttributes.Type=1 (TYPE_CITY)) -->
+    <field name="sFCLID" type="string" indexed="true" stored="false" multiValued="false"/>
+    
+    <!-- Skills (exp_persAttributes.Type=3 (TYPE_SKILL)) -->
+    <field name="sS" type="text_gen" indexed="true" stored="true" multiValued="true"  omitNorms="true"/>
+    
+    <!-- Current Industry Text for search & display (exp_persposition.Industry) -->
+    <field name="sCIT" type="text_gen" indexed="true" stored="true" multiValued="false"  omitNorms="true"/>
+    <!-- Current Industry Numeric for filtering & faceting (exp_persposition.Industry) -->
+    <field name="sCITID" type="int" indexed="true" stored="true" multiValued="false"/>
+    <!-- Previous Industries Numeric for filtering (exp_persposition.Industry) -->
+    <field name="sITID" type="int" indexed="true" stored="false" multiValued="true"/>
+    
+    <!-- Current JobTitle Text for searching & display (exp_persPositions.JobTitleText) -->
+    <field name="sCTT" type="text_gen" indexed="true" stored="true" multiValued="false"  omitNorms="true"/>
+    
+    <!-- Current FunctionalArea Text for search & display (exp_persAttributes.Type=10 (TYPE_PREF_FIELD)) -->
+    <field name="sCFA" type="functionalarea" indexed="true" stored="true" multiValued="false"/>
+    <!-- Current FunctionalArea Numeric for filtering (exp_persAttributes.Type=10 (TYPE_PREF_FIELD)) -->
+    <field name="sCFAID" type="intsynf" indexed="true" stored="true" multiValued="false"/>
+    <!-- Previous FunctionalAreas Numeric for filtering (exp_persAttributes.Type=1 (TYPE_CITY)) -->
+    <field name="sFAID" type="intsynf" indexed="true" stored="false" multiValued="true"/>
+    <!-- Current FunctionalArea Numeric for faceting (exp_persAttributes.Type=10 (TYPE_PREF_FIELD)) -->
+    <field name="sFCFAID" type="string" indexed="true" stored="false" multiValued="false"/>
+    
+    <!-- Annual Salary Text for display (exp_personnel.salary) -->
+    <field name="sAS" type="string" indexed="false" stored="true" multiValued="false"/>
+    <!-- Annual Salary Numeric for filtering (exp_personnel.salary) -->
+    <field name="sASID" type="tint" indexed="true" stored="true" multiValued="false"/>
+    
+    <!-- TeamSize Numeric for filtering & display (exp_personnel.responsibilityLevel) -->
+    <field name="sTSID" type="tint" indexed="true" stored="true" multiValued="false"/>
+    
+    <!-- Current Company Text for search & display (exp_persposition.companyname) -->
+    <field name="sCC" type="text_gen" indexed="true" stored="true" multiValued="false"  omitNorms="true"/>
+    <!-- Previous Companies Text for filtering (exp_persposition.companyname) -->
+    <field name="sC" type="text_gen" indexed="true" stored="false" multiValued="true"  omitNorms="true"/>
+    
+    <!-- Overall Experience Numeric for display &filtering (exp_persposition.Experience) -->
+    <field name="sEx" type="string" indexed="false" stored="true" multiValued="false"/>
+    <field name="sNEx" type="tint" indexed="true" stored="true" multiValued="false"/>
+    <!-- Current Job Experience Numeric (exp_persposition.Experience) -->
+    <field name="sCJEx" type="string" indexed="true" stored="true" multiValued="false"/>
+   <field name="sCJExm" type="string" indexed="true" stored="true" multiValued="false"/>
+ 
+    <!-- Highest QualificationLevel Text for search & display (exp_perseducations.educationLevel) -->
+    <field name="sHQL" type="string" indexed="true" stored="true" multiValued="false"/>
+    <!-- Highest EducationStream Text for search & display (exp_perseducations.studyfield) -->
+    <field name="sHES" type="education" indexed="true" stored="true" multiValued="false"/>
+    <!-- Highest Institute Text for search & display (exp_perseducations.institutename) -->
+    <field name="sHEIN" type="education" indexed="true" stored="true" multiValued="false"/>
+    <!-- Highest CourseType Text for search & display (exp_perseducations.coursetype) -->
+    <field name="sHECT" type="string" indexed="true" stored="true" multiValued="false"/>
+    <!-- Highest EducationStream Numeric for faceting -->
+    <field name="sHESID" type="int" indexed="true" stored="false" multiValued="false"/>
+    <!-- Highest QualificationLevel Numeric for faceting -->
+    <field name="sHQLID" type="int" indexed="true" stored="false" multiValued="false"/> 
+    <!-- Education Combo field for filtering education combinations -->
+    <field name="sED" type="sed" indexed="true" stored="false" multiValued="true" omitNorms="true"/>
+
+    <!--CandidatePreferences.PrefIndustry -->
+    <field name="sPIT" type="tint" indexed="true" stored="false" multiValued="true"/>
+    <!--CandidatePreferences.PreferedFunctional Area -->
+    <field name="sPFA" type="tint" indexed="true" stored="false" multiValued="true"/>
+    <!--CandidatePreferences.PreferedShiftType -->
+    <field name="sPST" type="tint" indexed="true" stored="false" multiValued="true"/>
+    <!--CandidatePreferences.PreferedJobType -->
+    <field name="sPJT" type="tint" indexed="true" stored="false" multiValued="true"/>
+    <!--CandidatePreferences.MinSalary -->
+    <field name="sPNS" type="tint" indexed="true" stored="false" multiValued="false"/>
+    <!--CandidatePreferences.MaxSalary -->
+    <field name="sPXS" type="tint" indexed="true" stored="false" multiValued="false"/>
+    
+    <!-- Resume ID -->
+    <field name="sRIE" type="string" indexed="false" stored="true" multiValued="false"/>
+    <!-- Resume filename extension -->
+    <field name="sRT" type="textres" indexed="true" stored="true" multiValued="false" termOffsets="true" termPostions="true" termVectors="true"  omitNorms="true"/>
+    <!-- exp_personnel.Gender. Missing means "not specified" -->
+    <field name="sGM" type="tint" indexed="true" stored="true" multiValued="false"/>
+    
+    <!-- HTML snippets for profile page -->
+    <!-- Profile snippet: Header. Both left/right portions -->
+    <field name="sSPH" type="snippet" indexed="false" stored="true" multiValued="false" omitNorms="true"/>
+    <!-- Profile snippet: Experience -->
+    <field name="sSPE" type="snippet" indexed="false" stored="true" multiValued="false"  omitNorms="true"/>
+    <!-- Profile snippet: Professional summary current -->
+    <field name="sSPC" type="snippet" indexed="false" stored="true" multiValued="false"  omitNorms="true"/>
+    <!-- Profile snippet: Professional summary current Private -->
+    <field name="sSPCp" type="snippet" indexed="false" stored="true" multiValued="false"  omitNorms="true"/>
+    <!-- Profile snippet: Professional summary other -->
+    <field name="sSP" type="snippet" indexed="false" stored="true" multiValued="false"  omitNorms="true"/>
+    <!-- Profile snippet: Professional summary other Private -->
+    <field name="sSPp" type="snippet" indexed="false" stored="true" multiValued="false"  omitNorms="true"/>
+    <!-- Profile snippet: Education highest -->
+    <field name="sSEH" type="snippet" indexed="false" stored="true" multiValued="false"  omitNorms="true"/>
+    <!-- Profile snippet: Education other -->
+    <field name="sSE" type="snippet" indexed="false" stored="true" multiValued="false"  omitNorms="true"/>
+    <!-- Profile snippet: Skills -->
+    <field name="sSS" type="snippet" indexed="false" stored="true" multiValued="false"  omitNorms="true"/>
+    <!-- Search result snippet -->
+    <field name="sSR" type="snippet" indexed="true" stored="true" multiValued="false" termVectors="true" termPositions="true" termOffsets="true"/>
+     <!-- Search result snippet -->
+    <field name="sSRp" type="snippet" indexed="true" stored="true" multiValued="false" termVectors="true" termPositions="true" termOffsets="true"/>
+   <field name="sSPD" type="snippet" indexed="true" stored="true" multiValued="false" termVectors="true" termPositions="true" termOffsets="true"/>
+    
+    <!-- Full-text search field: Name of "text" is default in Haystack -->
+    <field name="text" type="text_gen" indexed="true" stored="false" multiValued="true"  omitNorms="true"/>
+    
+    <!-- CandidateStatic.PrivacyStatus-->
+    <field name="sPS" type="boolean" indexed="true" stored="true" multiValued="false"/>
+    <field name="sAJID" type="tint" indexed="true" stored="false" multiValued="true"/>
+    <field name="sANJID" type="tint" indexed="true" stored="false" multiValued="true"/>
+    <!-- DB Cuts -->
+    <field name="sPDBL" type="tint" indexed="true" stored="false" multiValued="false"/>
+    <field name="sPDBI" type="tint" indexed="true" stored="false" multiValued="false"/>
+
+    <!-- Spam status: CandidateStatic.SpamStatus -->
+    <field name="sPSS" type="tint" indexed="true" stored="true" multiValued="false"/>
+
+    <!-- Bounce status: CandidateStatic.BounceStatus -->
+    <field name="sPBS" type="tint" indexed="true" stored="true" multiValued="false"/>
+
+    <!-- Blocked recruiter -->
+    <field name="sBR" type="string" indexed="true" stored="true" multiValued="true"/>
+    <!-- Recruiter Privacy status: CandidateStatic.RecruiterPrivacy Status -->
+    <field name="sRPS" type="tint" indexed="true" stored="true" multiValued="false"/>
+    <!-- For copy purpose only-->
+    <field name="sFA" type="functionalarea" indexed="false" stored="false" multiValued="true"/>
+    <field name="sTT" type="text_gen" indexed="false" stored="false" multiValued="true"/>
+    <field name="sIT" type="text_gen" indexed="false" stored="false" multiValued="true"/>
+    <!--System Variable-->
+    <field name="_version_" type="tlong" indexed="true" stored="true"/>
+  </fields>
+
+  <!-- Candidate Personal Information -->
+  <copyField source="sFLN" dest="text"/>
+  <copyField source="sEm" dest="text"/>
+  <copyField source="sCP" dest="text"/>
+  <copyField source="sAS" dest="text"/>
+  <copyField source="sS" dest="text"/>
+  <copyField source="sCL" dest="text"/>
+  <copyField source="sRT" dest="text"/>
+  
+  <!-- Candidate Job Information -->
+  <copyField source="sCC" dest="text"/>
+  <copyField source="sCIT" dest="text"/>
+  <copyField source="sCFA" dest="text"/>
+  <copyField source="sCTT" dest="text"/>
+  <copyField source="sC" dest="text"/>
+  <copyField source="sIT" dest="text"/>
+  <copyField source="sFA" dest="text"/>
+  <copyField source="sTT" dest="text"/>
+
+  <!-- Candidate Education Information -->
+  <copyField source="sHQL" dest="text"/>
+  <copyField source="sHEIN" dest="text"/>
+  <copyField source="sHES" dest="text"/>  
+  
+  <copyField source="sCFAID" dest="sFCFAID"/>
+  <copyField source="sCLID" dest="sFCLID"/>
+  
+  <!-- field to use to determine and enforce document uniqueness. -->
+  <uniqueKey>id</uniqueKey>
+
+  <!-- field for the QueryParser to use when an explicit fieldname is absent.
+    This should normally be set to the full-text search field. -->
+  <defaultSearchField>text</defaultSearchField>
+
+  <!-- SolrQueryParser configuration: defaultOperator="AND|OR" -->
+  <solrQueryParser defaultOperator="OR"/>
+
+  <!-- Similarity class to remove length norm and term frequency--> 
+  <similarity class="com.srijan.search.lucene.NoLengthNormAndTfSimilarity"/>
+</schema>
+
+
+

@@ -1,0 +1,12 @@
+Currently looking for Java/J2EE Developer for our UAE operations with the following skill set and terms and conditions:
+Skill Set required:
+• 4+ years of software development experience.
+• Expert in Java/J2EE based developments.
+• Experience in Java Server Faces (JSF) / Facelets / Single Page Application development AJAX component frameworks, Spring Frameworks, ORM Frameworks (Java Persistence API/JPA, Hibernate, TopLink), Java Message Service (JMS), HTML, JavaScript, Cascading Style Sheets (CSS), Testing Frameworks (JUnit, Selenium etc), Application Servers (JBoss) .
+• Expertise in Eclipse, SQL Developer.
+• Good knowledge on Oracle DB 9.
+Certifications: SCJP
+Educational Qualification: Bachelor’s degree in Computer Science or related field
+Domain: Bank
+Terms and conditions: 
+Joining time frame: Immediate.
