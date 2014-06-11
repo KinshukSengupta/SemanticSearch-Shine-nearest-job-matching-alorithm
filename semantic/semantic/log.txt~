@@ -1,0 +1,15 @@
+INFO:root:2014-06-11 05:33:08.116816->java developer in noida
+INFO:root:2014-06-11 05:33:24.712493->python/django developer in new delhi 
+INFO:root:2014-06-11 05:33:44.717388->python django developer with 1-2 yrs of experience
+INFO:root:2014-06-11 05:33:58.635713->area sales manager in delhi
+INFO:root:2014-06-11 05:34:27.997164->looking for marketing executive in gurgaon for a startup
+INFO:root:2014-06-11 05:38:33.445284->java/j2ee engineer
+INFO:root:2014-06-11 05:38:50.428251->j2ee job in gurgaon
+INFO:root:2014-06-11 05:55:49.866295->brand manager job in delhi
+INFO:root:2014-06-11 05:56:22.561011->oracle/sap administration job in pune
+WARNING:py.warnings:/home/kdev/semantic/semantic/views.py:100: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  if e in identity_skills and tokens[j+1] in job_title:
+
+INFO:root:2014-06-11 05:57:04.925390-> windows-wmware job in banglore
+INFO:root:2014-06-11 05:57:17.564116->windows/wmware job in banglore
+INFO:root:2014-06-11 05:58:18.901519->windows vmware

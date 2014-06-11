@@ -7,7 +7,8 @@ def skills():
 
 def company():
     return pickle.load(open("company_corpora.pkl","rb"))
-     
+def suggestion_lst():
+    return pickle.load(open("suggest.pkl","rb"))      
 def location():
     return pickle.load(open("location_corpora.pkl","rb"))
 

@@ -9,7 +9,12 @@ from django.http import HttpResponse
 import datetime
 from knowledgebase import *
 from django.template import RequestContext, Context
-from spellchecker import correct
+from suggester import correct
+import logging
+from datetime import datetime
+import numbers
+logging.basicConfig(filename='/var/log/semantic_query.log',level=logging.INFO)
+
 
 def autocheck(request):
     return HttpResponse(json.dumps(correct(request.GET['term'])), content_type="application/json")
@@ -55,7 +60,6 @@ def cfg_lexical_rule(tokens,job_title,identity_skills,company,location,logical_o
     math_def =['<','>','&','!','>=','<=','<>','!=']
     spl_def = ['!','@','#','$','%','^','&','*','(',')','|']
     sal_def = ['more','greater','less','not less','higher','salary']
-    import numbers
     for i in xrange(len(part_of_speech)):
         if len(part_of_speech[i][0]) < 4:
 	    try:
@@ -75,7 +79,8 @@ def cfg_lexical_rule(tokens,job_title,identity_skills,company,location,logical_o
 	    except Exception,e:
 		pass
     for j in xrange(len(tokens)):
-	key = tokens[j]
+	key = tokens[j].encode(encoding='UTF-8',errors='strict')
+
 	if '/' in key and ' ' not in key:
             elem = key.split("/")
             for e in elem:
@@ -117,6 +122,8 @@ def cfg_lexical_rule(tokens,job_title,identity_skills,company,location,logical_o
 def main(query,job_title,identity_skills,company,location,logical_operators):
     stopwords = stopword()
     query = remove_special_chars(query)
+    log_string = str(datetime.now()) + "->"+ query
+    logging.info(log_string)
     tokens = [q for q in query.split() if q not in stopwords]
     tokens = tokens + get_bigram(query,stopwords) + get_trigram(query,stopwords)
     result = cfg_lexical_rule(tokens,job_title,identity_skills,company,location,logical_operators)

@@ -1,0 +1,152 @@
+(lp1
+S'java developer'
+p2
+aS'developer noida,pune'
+p3
+aS'java developer noida,pune'
+p4
+aS'python/django developer'
+p5
+aS'developer new'
+p6
+aS'new delhi'
+p7
+aS'python/django developer in'
+p8
+aS'developer in new'
+p9
+aS'in new delhi'
+p10
+aS'python django'
+p11
+aS'django developer'
+p12
+aS'developer 1-2'
+p13
+aS'1-2 yrs'
+p14
+aS'yrs experience'
+p15
+aS'python django developer'
+p16
+aS'django developer with'
+p17
+aS'developer with 1-2'
+p18
+aS'with 1-2 yrs'
+p19
+aS'1-2 yrs of'
+p20
+aS'yrs of experience'
+p21
+aS'area sales'
+p22
+aS'sales manager'
+p23
+aS'manager delhi'
+p24
+aS'area sales manager'
+p25
+aS'sales manager in'
+p26
+aS'manager in delhi'
+p27
+aS'marketing executive'
+p28
+aS'executive gurgaon'
+p29
+aS'gurgaon startup'
+p30
+aS'looking for marketing'
+p31
+aS'for marketing executive'
+p32
+aS'marketing executive in'
+p33
+aS'executive in gurgaon'
+p34
+aS'in gurgaon for'
+p35
+aS'gurgaon for startup'
+p36
+aS'java/j2ee engineer'
+p37
+aS'j2ee job'
+p38
+aS'job gurgaon'
+p39
+aS'j2ee job in'
+p40
+aS'job in gurgaon'
+p41
+aS'brand manager'
+p42
+aS'manager job'
+p43
+aS'job delhi'
+p44
+aS'brand manager job'
+p45
+aS'manager job in'
+p46
+aS'job in delhi'
+p47
+aS'oracle/sap administration'
+p48
+aS'administration job'
+p49
+aS'job pune'
+p50
+aS'oracle/sap administration job'
+p51
+aS'administration job in'
+p52
+aS'job in pune'
+p53
+aS'windows-wmware job'
+p54
+aS'job banglore'
+p55
+aS'windows-wmware job in'
+p56
+aS'job in banglore'
+p57
+aS'windows/wmware job'
+p58
+aS'job banglore'
+p59
+aS'windows/wmware job in'
+p60
+aS'job in banglore'
+p61
+aS'windows vmware'
+p62
+aS'java developer'
+p63
+aS'developer yrs'
+p64
+aS'yrs experience'
+p65
+aS'experience salary'
+p66
+aS'salary 20000'
+p67
+aS'20000 /month'
+p68
+aS'java developer with'
+p69
+aS'developer with yrs'
+p70
+aS'with yrs of'
+p71
+aS'yrs of experience'
+p72
+aS'of experience and'
+p73
+aS'experience and salary'
+p74
+aS'and salary 20000'
+p75
+aS'salary 20000 /month'
+p76
+a.
